@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Group xmlns="http://hl7.org/fhir">
+  <id value="u87a34de3feaagux8xz"/>
+  <meta>
+    <lastUpdated value="2021-04-01T03:04:12.348-04:00"/>
+    <profile value="http://alr.cms.gov/ig/StructureDefinition/alr-Group"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Contract Validity Period</b>: 2020-04-01 --&gt; 2021-03-31</p><p><b>active</b>: true</p><p><b>type</b>: person</p><p><b>actual</b>: true</p><p><b>name</b>: General Example of ALR Group</p><p><b>managingEntity</b>: <a href="Organization/123">Sample Organization</a></p><h3>Members</h3><table class="grid"><tr><td>-</td><td><b>Extension</b></td><td><b>Entity</b></td></tr><tr><td>*</td><td>, , , , , , , , </td><td><a href="Patient/123">Patient/123</a></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-contractValidityPeriod">
+    <valuePeriod>
+      <start value="2020-04-01"/>
+      <end value="2021-03-31"/>
+    </valuePeriod>
+  </extension>
+  <active value="true"/>
+  <type value="person"/>
+  <actual value="true"/>
+  <name value="General Example of ALR Group"/>
+  <managingEntity>
+    <reference value="Organization/123"/>
+    <display value="Sample Organization"/>
+  </managingEntity>
+  <member>
+    <extension url="http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-changeType">
+      <valueCode value="dropped"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-coverageReference">
+      <valueReference>
+        <reference value="Coverage/123"/>
+      </valueReference>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-attributedProvider">
+      <valueReference>
+        <reference value="Practitioner/XYZ"/>
+      </valueReference>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-changeReason">
+      <extension url="reasonCode">
+        <valueCoding>
+          <system value="http://cms.gov/ig/valueset-changeReason"/>
+          <code value="GHP_EXCLUDED"/>
+          <display value="Beneficiary had at least one month of Part-A only or Part-B only coverage"/>
+        </valueCoding>
+      </extension>
+      <extension url="reasonCode">
+        <valueCoding>
+          <system value="http://cms.gov/ig/valueset-changeReason"/>
+          <code value="MISSING_ID_EXCLUDED"/>
+          <display value="Beneficiary identifier is missing"/>
+        </valueCoding>
+      </extension>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentFlag">
+      <valueBoolean value="true"/>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentStep">
+      <valueInteger value="3"/>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-prevAssignedBeneficiaryFlag">
+      <valueBoolean value="true"/>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-newlyAssignedBeneficiaryFlag">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag">
+      <valueBoolean value="false"/>
+    </extension>
+    <entity>
+      <reference value="Patient/123"/>
+    </entity>
+  </member>
+</Group>

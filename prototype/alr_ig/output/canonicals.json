@@ -1,0 +1,79 @@
+[
+  {
+    "id": "cms.gov.us.alr",
+    "type": "ImplementationGuide",
+    "url": "http://alr.cms.gov/ig/ImplementationGuide/cms.gov.us.alr",
+    "version": "0.1.0",
+    "name": "AssignmentListIG"
+  },
+  {
+    "id": "alr-Coverage",
+    "type": "StructureDefinition",
+    "url": "http://alr.cms.gov/ig/StructureDefinition/alr-Coverage",
+    "version": "0.1.0",
+    "name": "ALRCoverage"
+  },
+  {
+    "id": "alr-Group",
+    "type": "StructureDefinition",
+    "url": "http://alr.cms.gov/ig/StructureDefinition/alr-Group",
+    "version": "0.1.0",
+    "name": "ALRGroup"
+  },
+  {
+    "id": "alr-Patient",
+    "type": "StructureDefinition",
+    "url": "http://alr.cms.gov/ig/StructureDefinition/alr-Patient",
+    "version": "0.1.0",
+    "name": "ALRPatient"
+  },
+  {
+    "id": "ext-changeReason",
+    "type": "StructureDefinition",
+    "url": "http://alr.cms.gov/ig/StructureDefinition/ext-changeReason",
+    "version": "0.1.0",
+    "name": "ChangeReason"
+  },
+  {
+    "id": "ext-claimsBasedAssignmentFlag",
+    "type": "StructureDefinition",
+    "url": "http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentFlag",
+    "version": "0.1.0",
+    "name": "ClaimsBasedAssignmentFlag"
+  },
+  {
+    "id": "ext-claimsBasedAssignmentStep",
+    "type": "StructureDefinition",
+    "url": "http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentStep",
+    "version": "0.1.0",
+    "name": "ClaimsBasedAssignmentStep"
+  },
+  {
+    "id": "ext-enrollmentPeriod",
+    "type": "StructureDefinition",
+    "url": "http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentPeriod",
+    "version": "0.1.0",
+    "name": "EnrollmentPeriod"
+  },
+  {
+    "id": "ext-newlyAssignedBeneficiaryFlag",
+    "type": "StructureDefinition",
+    "url": "http://alr.cms.gov/ig/StructureDefinition/ext-newlyAssignedBeneficiaryFlag",
+    "version": "0.1.0",
+    "name": "NewlyAssignedBeneficiaryFlag"
+  },
+  {
+    "id": "ext-prevAssignedBeneficiaryFlag",
+    "type": "StructureDefinition",
+    "url": "http://alr.cms.gov/ig/StructureDefinition/ext-prevAssignedBeneficiaryFlag",
+    "version": "0.1.0",
+    "name": "PrevAssignedBeneficiaryFlag"
+  },
+  {
+    "id": "ext-voluntaryAlignmentFlag",
+    "type": "StructureDefinition",
+    "url": "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag",
+    "version": "0.1.0",
+    "name": "VoluntaryAlignmentFlag"
+  }
+]

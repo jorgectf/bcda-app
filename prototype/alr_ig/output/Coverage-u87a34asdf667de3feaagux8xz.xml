@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Coverage xmlns="http://hl7.org/fhir">
+  <id value="u87a34asdf667de3feaagux8xz"/>
+  <meta>
+    <profile value="http://alr.cms.gov/ig/StructureDefinition/alr-Coverage"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><blockquote><p><b>ALR Enrollment Period</b></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: 2020-01-01 --&gt; 2020-06-30</p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: 2020-10-01 --&gt; 2020-12-31</p></blockquote><p><b>status</b>: active</p><p><b>subscriberId</b>: -19999000381</p><p><b>beneficiary</b>: <a href="Patient/123">Patient/123</a></p><p><b>period</b>: 2020-01-01 --&gt; 2020-12-31</p><p><b>payor</b>: <a href="Organization/123">Organization/123</a></p></div>
+  </text>
+  <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentPeriod">
+    <extension url="period">
+      <valuePeriod>
+        <start value="2020-01-01"/>
+        <end value="2020-06-30"/>
+      </valuePeriod>
+    </extension>
+    <extension url="period">
+      <valuePeriod>
+        <start value="2020-10-01"/>
+        <end value="2020-12-31"/>
+      </valuePeriod>
+    </extension>
+  </extension>
+  <status value="active"/>
+  <subscriberId value="-19999000381"/>
+  <beneficiary>
+    <reference value="Patient/123"/>
+  </beneficiary>
+  <period>
+    <start value="2020-01-01"/>
+    <end value="2020-12-31"/>
+  </period>
+  <payor>
+    <reference value="Organization/123"/>
+  </payor>
+</Coverage>

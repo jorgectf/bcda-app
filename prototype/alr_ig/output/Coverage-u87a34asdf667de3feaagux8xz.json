@@ -1,0 +1,48 @@
+{
+  "resourceType": "Coverage",
+  "id": "u87a34asdf667de3feaagux8xz",
+  "meta": {
+    "profile": [
+      "http://alr.cms.gov/ig/StructureDefinition/alr-Coverage"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><blockquote><p><b>ALR Enrollment Period</b></p><h3>Urls</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: 2020-01-01 --&gt; 2020-06-30</p><h3>Urls</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: 2020-10-01 --&gt; 2020-12-31</p></blockquote><p><b>status</b>: active</p><p><b>subscriberId</b>: -19999000381</p><p><b>beneficiary</b>: <a href=\"Patient/123\">Patient/123</a></p><p><b>period</b>: 2020-01-01 --&gt; 2020-12-31</p><p><b>payor</b>: <a href=\"Organization/123\">Organization/123</a></p></div>"
+  },
+  "extension": [
+    {
+      "extension": [
+        {
+          "url": "period",
+          "valuePeriod": {
+            "start": "2020-01-01",
+            "end": "2020-06-30"
+          }
+        },
+        {
+          "url": "period",
+          "valuePeriod": {
+            "start": "2020-10-01",
+            "end": "2020-12-31"
+          }
+        }
+      ],
+      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentPeriod"
+    }
+  ],
+  "status": "active",
+  "subscriberId": "-19999000381",
+  "beneficiary": {
+    "reference": "Patient/123"
+  },
+  "period": {
+    "start": "2020-01-01",
+    "end": "2020-12-31"
+  },
+  "payor": [
+    {
+      "reference": "Organization/123"
+    }
+  ]
+}

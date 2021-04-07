@@ -1,0 +1,470 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- broken links = 95, errors = 6, warn = 4, info = 2 -->
+<head>
+  <title>AssignmentListIG : Validation Results</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+  </script>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Validation Results for AssignmentListIG</h1>
+ <p>Generated Mon Apr 05 14:19:19 MDT 2021, FHIR version 4.0.1 for cms.gov.us.alr#0.1.0 (canonical = <a href="http://alr.cms.gov/ig">http://alr.cms.gov/ig</a> (<a href="http://alr.cms.gov/ig/history.html">history</a>)). See <a href="/users/william/github/assignmentlistig/output/qa.html">Full QA Report</a></p>
+<table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.1.65</span></td></tr>
+ <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = cms.gov.us.alr, Canonical = http://alr.cms.gov/ig</td></tr>
+ <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
+ <tr><td>Version Check:</td><td>0.1.0: <span stlye="color: marron; font-weight: bold">no package-list.json - the guide is not ready for publishing</span></td></tr>
+ <tr><td>Supressed Messages:</td><td>No Suppressed Issues
+</td></tr>
+ <tr><td>Dependency Checks:</td><td><div><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The NPM Package Id">Package</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of the package">Version</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of FHIR that the package is based on">FHIR Release</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Canonical URL">Canonical</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Web Reference Base">Web Base</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Comments about this entry">Comment</span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/Users/william/GitHub/AssignmentListIG/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAL0lEQVR42u3XsQ0AQAgCQHdl/xn8jxvYWB3JlTR0VJLa+OltBwAAYP6EEQAAgCsPVYVAgIJrA/sAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> cms.gov.us.alr</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0.1.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.0.1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://alr.cms.gov/ig</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/Users/william/GitHub/AssignmentListIG/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAL0lEQVR42u3XsQ0AQAgCQHdl/xn8jxvYWB3JlTR0VJLa+OltBwAAYP6EEQAAgCsPVYVAgIJrA/sAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzI3XJ6V3QAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+2RsQ0AIAzDav7/2VzQwoCY4iWbZSmo1QGoUgNMghvWaIejPQW/CrrNCylIwcOCDYfLNRcNer4SAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: #F7F7F7; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.us.core</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">3.1.1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.0.1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/us/core</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/us/core/STU3.1.1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/Users/william/GitHub/AssignmentListIG/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALElEQVR42u3QwQkAMAwDsezq/WdIO4XJQwa9DTdJpulv258AAMANIgAAADUPYAVAgAJ//usAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzME+lXFigAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+3OsRUAIAjEUOL+O8cJABttJM11/x1qZAGqRBEVcNIqdWj1efDqQbb3HwwwwEfABmQUHSPM9dtDAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.us.davinci-atr</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1.0.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.0.1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/us/davinci-atr</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/us/davinci-atr/STU1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/Users/william/GitHub/AssignmentListIG/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALElEQVR42u3QwQkAMAwDsezq/WdIO4XJQwa9DTdJpulv258AAMANIgAAADUPYAVAgAJ//usAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIZgEiYEgAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAIElEQVQ4y2P8//8/AyWAiYFCMGrAqAGjBowaMGoAAgAALL0DKYQ0DPIAAAAASUVORK5CYII=" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzI3XJ6V3QAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+2RsQ0AIAzDav7/2VzQwoCY4iWbZSmo1QGoUgNMghvWaIejPQW/CrrNCylIwcOCDYfLNRcNer4SAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: #F7F7F7; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.us.core</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">3.1.0</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.0.1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/us/core</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/us/core/STU3.1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/Users/william/GitHub/AssignmentListIG/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAL0lEQVR42u3WsQkAQAgDQHfN/jO8Fs7wIFzg+pAqlaQumbxrnQEAgP3zRgAAAH5paoVAgEFM+GgAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIZgEiYEgAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAIElEQVQ4y2P8//8/AyWAiYFCMGrAqAGjBowaMGoAAgAALL0DKYQ0DPIAAAAASUVORK5CYII=" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzME+lXFigAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+3OsRUAIAjEUOL+O8cJABttJM11/x1qZAGqRBEVcNIqdWj1efDqQbb3HwwwwEfABmQUHSPM9dtDAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.us.davinci-pdex-plan-net</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1.0.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.0.1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/us/davinci-pdex-plan-net</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/us/davinci-pdex-plan-net/STU1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/Users/william/GitHub/AssignmentListIG/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAI0lEQVR42u3QIQEAAAACIL/6/4MvTAQOkLYBAAB4kAAAANwMad9AqkRjgNAAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIZgEiYEgAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAIElEQVQ4y2P8//8/AyWAiYFCMGrAqAGjBowaMGoAAgAALL0DKYQ0DPIAAAAASUVORK5CYII=" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIZgEiYEgAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAIElEQVQ4y2P8//8/AyWAiYFCMGrAqAGjBowaMGoAAgAALL0DKYQ0DPIAAAAASUVORK5CYII=" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzME+lXFigAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+3OsRUAIAjEUOL+O8cJABttJM11/x1qZAGqRBEVcNIqdWj1efDqQbb3HwwwwEfABmQUHSPM9dtDAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: #F7F7F7; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.us.core</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">3.1.0</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.0.1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/us/core</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/us/core/STU3.1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">see above</td></tr>
+</table><para>Templates: fhir.base.template#current</para></div></td></tr>
+ <tr><td>HL7 Publication Rules:</td><td>Code = n/a. n/a - not an HL7.org or FHIR.org implementation guide
+</td></tr>
+ <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://alr.cms.gov/ig (Problem #1 with package-list.json at http://alr.cms.gov/ig: alr.cms.gov)</td></tr>
+ <tr><td>Summary:</td><td> broken links = 95, errors = 6, warn = 4, info = 2</td></tr>
+</table>
+ <table class="grid">
+   <tr>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>95</b></td><td><b>3</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_william_GitHub_AssignmentListIG_fsh-generated_resources_coverage-u87a34asdf667de3feaagux8xz"><b>/Users/william/GitHub/AssignmentListIG/fsh-generated/resources/coverage-u87a34asdf667de3feaagux8xz</b></a></td><td><b>2</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_william_GitHub_AssignmentListIG_fsh-generated_resources_group-u87a34de3feaagux8xz"><b>/Users/william/GitHub/AssignmentListIG/fsh-generated/resources/group-u87a34de3feaagux8xz</b></a></td><td><b>4</b></td><td><b>0</b></td><td><b>3</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_william_GitHub_AssignmentListIG_fsh-generated_resources_patient-pfX87a34de3feaagux8xz"><b>/Users/william/GitHub/AssignmentListIG/fsh-generated/resources/patient-pfX87a34de3feaagux8xz</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="internal"> </a>
+<h2><a href="">n/a</a></h2>
+ <table class="grid">
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Patient/pfX87a34de3feaagux8xz.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Coverage/u87a34asdf667de3feaagux8xz.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Group/u87a34de3feaagux8xz.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Coverage-u87a34asdf667de3feaagux8xz.change.history.html#ec6a814e-a86e-4ee4-9bcf-8797fba4d3de">Coverage-u87a34asdf667de3feaagux8xz.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Coverage-u87a34asdf667de3feaagux8xz.html#29166f63-63c7-4469-87f4-a8b79f9ff886">Coverage-u87a34asdf667de3feaagux8xz.html#/html/body/div/div/div/div/div/div/p/a at Line 155, column 486</a></b></td><td><b>error</b></td><td><b>The link 'Patient/123' for &quot;Patient/123&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Coverage-u87a34asdf667de3feaagux8xz.html#cf2f82dd-4959-4080-a8a5-ad24a89ebc54">Coverage-u87a34asdf667de3feaagux8xz.html#/html/body/div/div/div/div/div/div/p/a at Line 155, column 594</a></b></td><td><b>error</b></td><td><b>The link 'Organization/123' for &quot;Organization/123&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Coverage-u87a34asdf667de3feaagux8xz.html#df44af22-7bf7-4a72-81aa-818604fc3db0">Coverage-u87a34asdf667de3feaagux8xz.html#/html/body/div/div/div/p/a at Line 182, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Coverage-u87a34asdf667de3feaagux8xz.json.html#7fbf4aa2-e091-4ff1-b64a-070bf52d99dd">Coverage-u87a34asdf667de3feaagux8xz.json.html#/html/body/div/div/div/p/a at Line 232, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Coverage-u87a34asdf667de3feaagux8xz.ttl.html#84c80fdf-878d-4f3a-93c6-68fddc211fcc">Coverage-u87a34asdf667de3feaagux8xz.ttl.html#/html/body/div/div/div/p/a at Line 240, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Coverage-u87a34asdf667de3feaagux8xz.xml.html#6f2972f8-7b11-47d4-9e6e-4ead9c1a4cd8">Coverage-u87a34asdf667de3feaagux8xz.xml.html#/html/body/div/div/div/p/a at Line 222, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Group-u87a34de3feaagux8xz.change.history.html#bfc15869-dcec-47b4-9aa4-570e0a1da239">Group-u87a34de3feaagux8xz.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Group-u87a34de3feaagux8xz.html#bf90952a-796c-49d7-8193-a25c1d273436">Group-u87a34de3feaagux8xz.html#/html/body/div/div/div/div/div/div/p/a at Line 155, column 299</a></b></td><td><b>error</b></td><td><b>The link 'Organization/123' for &quot;Sample Organization&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Group-u87a34de3feaagux8xz.html#76a0d789-8776-48e0-97d5-4a5da4f57a7a">Group-u87a34de3feaagux8xz.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 155, column 498</a></b></td><td><b>error</b></td><td><b>The link 'Patient/123' for &quot;Patient/123&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Group-u87a34de3feaagux8xz.html#134da2aa-5775-420f-b591-1ee5199cbf9d">Group-u87a34de3feaagux8xz.html#/html/body/div/div/div/p/a at Line 182, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Group-u87a34de3feaagux8xz.json.html#f2a9df61-d5a2-4453-b42c-37793f1edaf1">Group-u87a34de3feaagux8xz.json.html#/html/body/div/div/div/p/a at Line 281, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Group-u87a34de3feaagux8xz.ttl.html#aaaf452e-ff9f-49cd-84be-6daf6673d25c">Group-u87a34de3feaagux8xz.ttl.html#/html/body/div/div/div/p/a at Line 275, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Group-u87a34de3feaagux8xz.xml.html#9d0574bf-2b5a-45ee-bfa4-761805724ce0">Group-u87a34de3feaagux8xz.xml.html#/html/body/div/div/div/p/a at Line 269, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Patient-pfX87a34de3feaagux8xz.change.history.html#258e794f-59cd-44b2-9c1d-39d88d63b720">Patient-pfX87a34de3feaagux8xz.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Patient-pfX87a34de3feaagux8xz.html#91567c7c-f0af-4b33-b8d7-ecd1ad02684d">Patient-pfX87a34de3feaagux8xz.html#/html/body/div/div/div/p/a at Line 182, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Patient-pfX87a34de3feaagux8xz.json.html#0b7f67c0-cff6-4146-b4f2-c70b85ec369b">Patient-pfX87a34de3feaagux8xz.json.html#/html/body/div/div/div/p/a at Line 233, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Patient-pfX87a34de3feaagux8xz.ttl.html#30113385-4c02-40ca-b99d-6154742809d1">Patient-pfX87a34de3feaagux8xz.ttl.html#/html/body/div/div/div/p/a at Line 243, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Patient-pfX87a34de3feaagux8xz.xml.html#4c106abc-da3e-4f28-8cf4-5547659153b6">Patient-pfX87a34de3feaagux8xz.xml.html#/html/body/div/div/div/p/a at Line 219, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Coverage-definitions.html#a1149f72-9e0e-4320-880a-5e01cc8601f3">StructureDefinition-alr-Coverage-definitions.html#/html/body/div/div/div/p/a at Line 1116, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Coverage-examples.html#2bd8f065-193b-44fb-8751-69645e5792c0">StructureDefinition-alr-Coverage-examples.html#/html/body/div/div/div/p/a at Line 250, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Coverage-mappings.html#2befff2e-d101-4d99-85a1-6cf75ccd3087">StructureDefinition-alr-Coverage-mappings.html#/html/body/div/div/div/p/a at Line 379, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Coverage.html#c7fb0bb9-0f2c-4b0a-bb31-5ae96aa8cd40">StructureDefinition-alr-Coverage.html#/html/body/div/div/div/p/a at Line 894, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Coverage.profile.history.html#6735bf8a-02eb-400d-a935-c8f0e8e8a371">StructureDefinition-alr-Coverage.profile.history.html#/html/body/div/div/div/p/a at Line 228, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Coverage.profile.json.html#4946d25a-2952-4617-bdc7-8675c7330661">StructureDefinition-alr-Coverage.profile.json.html#/html/body/div/div/div/p/a at Line 4293, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Coverage.profile.ttl.html#99d9eecb-2bb6-42b3-b217-f1af81687a56">StructureDefinition-alr-Coverage.profile.ttl.html#/html/body/div/div/div/p/a at Line 3727, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Coverage.profile.xml.html#8a9746ba-c665-4125-a5ad-dfe8b717a065">StructureDefinition-alr-Coverage.profile.xml.html#/html/body/div/div/div/p/a at Line 3847, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Group-definitions.html#e9355ebf-04f2-43c1-8944-c8c038273175">StructureDefinition-alr-Group-definitions.html#/html/body/div/div/div/p/a at Line 1200, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Group-examples.html#5d8406b3-31d4-4c7d-a925-e062b212a593">StructureDefinition-alr-Group-examples.html#/html/body/div/div/div/p/a at Line 250, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Group-mappings.html#66da3b02-1162-428d-a05a-d76682abbe81">StructureDefinition-alr-Group-mappings.html#/html/body/div/div/div/p/a at Line 330, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Group.html#18b7bc88-914a-4245-bb62-e8305df72d09">StructureDefinition-alr-Group.html#/html/body/div/div/div/p/a at Line 1088, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Group.profile.history.html#458e6992-318f-4923-a812-05ccdf04bada">StructureDefinition-alr-Group.profile.history.html#/html/body/div/div/div/p/a at Line 228, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Group.profile.json.html#9698ab9e-8d3d-498b-be64-40140fcba9f0">StructureDefinition-alr-Group.profile.json.html#/html/body/div/div/div/p/a at Line 4815, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Group.profile.ttl.html#366fb4d5-14a6-4d04-8a68-f50d75093947">StructureDefinition-alr-Group.profile.ttl.html#/html/body/div/div/div/p/a at Line 4170, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Group.profile.xml.html#10d74124-6ccf-4fc0-9a4e-2f6c4e560cc3">StructureDefinition-alr-Group.profile.xml.html#/html/body/div/div/div/p/a at Line 4264, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Patient-definitions.html#e2e370bb-de7a-4723-ad19-f9e41586b67f">StructureDefinition-alr-Patient-definitions.html#/html/body/div/div/div/p/a at Line 2127, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Patient-examples.html#646b6bc2-c747-4433-b8ae-ffa83b5280f1">StructureDefinition-alr-Patient-examples.html#/html/body/div/div/div/p/a at Line 250, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Patient-mappings.html#571f0e2f-6d91-4412-b653-e77b416f5a6f">StructureDefinition-alr-Patient-mappings.html#/html/body/div/div/div/p/a at Line 638, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Patient.html#15d12218-2868-4fb4-b01c-77b6eb6062b3">StructureDefinition-alr-Patient.html#/html/body/div/div/div/p/a at Line 1590, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Patient.profile.history.html#627289b4-ee63-47fe-86e7-15d93e70425e">StructureDefinition-alr-Patient.profile.history.html#/html/body/div/div/div/p/a at Line 228, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Patient.profile.json.html#0f4bc052-2abc-47e5-b9f5-12e0afbb5fdd">StructureDefinition-alr-Patient.profile.json.html#/html/body/div/div/div/p/a at Line 9268, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Patient.profile.ttl.html#02331cb3-6aa4-447a-9c6f-55741bbbec4c">StructureDefinition-alr-Patient.profile.ttl.html#/html/body/div/div/div/p/a at Line 7818, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-alr-Patient.profile.xml.html#f051f5f0-f5b6-4c57-b9ab-7425dde059fd">StructureDefinition-alr-Patient.profile.xml.html#/html/body/div/div/div/p/a at Line 8234, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-changeReason-definitions.html#9553436a-7749-4835-a130-981e2e2d9a36">StructureDefinition-ext-changeReason-definitions.html#/html/body/div/div/div/p/a at Line 305, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-changeReason-mappings.html#33437c7a-e1e9-4859-8101-77ea2f486ea4">StructureDefinition-ext-changeReason-mappings.html#/html/body/div/div/div/p/a at Line 239, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-changeReason.html#923a53fa-daf7-4ec3-8f67-bc82993ee8b4">StructureDefinition-ext-changeReason.html#/html/body/div/div/div/p/a at Line 488, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-changeReason.profile.history.html#410c2534-5e85-412a-aa41-5e64e1189d6f">StructureDefinition-ext-changeReason.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-changeReason.profile.json.html#6b96e1d6-f54b-45de-b218-eaf8288f1f4b">StructureDefinition-ext-changeReason.profile.json.html#/html/body/div/div/div/p/a at Line 863, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-changeReason.profile.ttl.html#fb4bb296-cf6b-423c-8fe8-95d829c7cfd7">StructureDefinition-ext-changeReason.profile.ttl.html#/html/body/div/div/div/p/a at Line 757, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-changeReason.profile.xml.html#3b3a49ac-8efe-4875-98a4-09f298951da1">StructureDefinition-ext-changeReason.profile.xml.html#/html/body/div/div/div/p/a at Line 791, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-claimsBasedAssignmentFlag-definitions.html#a835c1ac-ef8b-4516-b0c3-56df616408a2">StructureDefinition-ext-claimsBasedAssignmentFlag-definitions.html#/html/body/div/div/div/p/a at Line 265, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-claimsBasedAssignmentFlag-mappings.html#3dd50e6f-7b3a-44a9-bd99-dc46cdb921ef">StructureDefinition-ext-claimsBasedAssignmentFlag-mappings.html#/html/body/div/div/div/p/a at Line 235, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-claimsBasedAssignmentFlag.html#0412973c-19ef-47a5-9a3e-7732e7ad8065">StructureDefinition-ext-claimsBasedAssignmentFlag.html#/html/body/div/div/div/p/a at Line 460, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-claimsBasedAssignmentFlag.profile.history.html#462bd3d9-b6d8-43eb-917f-cc7e8b2edcc2">StructureDefinition-ext-claimsBasedAssignmentFlag.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-claimsBasedAssignmentFlag.profile.json.html#9aceee46-c81d-46ed-818e-a9c9ad4b1feb">StructureDefinition-ext-claimsBasedAssignmentFlag.profile.json.html#/html/body/div/div/div/p/a at Line 493, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-claimsBasedAssignmentFlag.profile.ttl.html#f3847d69-3f88-42cd-b0c0-8dcf934cf839">StructureDefinition-ext-claimsBasedAssignmentFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 471, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-claimsBasedAssignmentFlag.profile.xml.html#25160642-f669-4ff1-b98e-f9669e935c68">StructureDefinition-ext-claimsBasedAssignmentFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 455, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-claimsBasedAssignmentStep-definitions.html#fec9e971-8152-4667-8863-11ed54436af2">StructureDefinition-ext-claimsBasedAssignmentStep-definitions.html#/html/body/div/div/div/p/a at Line 265, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-claimsBasedAssignmentStep-mappings.html#75327ebe-3065-4160-8cb3-fbdcfbc504fc">StructureDefinition-ext-claimsBasedAssignmentStep-mappings.html#/html/body/div/div/div/p/a at Line 235, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-claimsBasedAssignmentStep.html#5a325f07-5eaf-4621-b542-0df48d22acb9">StructureDefinition-ext-claimsBasedAssignmentStep.html#/html/body/div/div/div/p/a at Line 460, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-claimsBasedAssignmentStep.profile.history.html#468e4f92-f3d0-42d0-a3f1-cf7235d27115">StructureDefinition-ext-claimsBasedAssignmentStep.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-claimsBasedAssignmentStep.profile.json.html#94501780-b0fd-4339-8c43-6f99ff0329fd">StructureDefinition-ext-claimsBasedAssignmentStep.profile.json.html#/html/body/div/div/div/p/a at Line 493, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-claimsBasedAssignmentStep.profile.ttl.html#86896545-4a1c-4aa5-8b35-6213bec6fce8">StructureDefinition-ext-claimsBasedAssignmentStep.profile.ttl.html#/html/body/div/div/div/p/a at Line 471, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-claimsBasedAssignmentStep.profile.xml.html#dffd48ef-4c8d-4629-b8d8-b8cc9ffce131">StructureDefinition-ext-claimsBasedAssignmentStep.profile.xml.html#/html/body/div/div/div/p/a at Line 455, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-enrollmentPeriod-definitions.html#67f83a42-92ba-41fb-95fa-9896c7a8bd38">StructureDefinition-ext-enrollmentPeriod-definitions.html#/html/body/div/div/div/p/a at Line 305, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-enrollmentPeriod-mappings.html#a003d795-4c39-49a5-9236-6e0f52ee7dd8">StructureDefinition-ext-enrollmentPeriod-mappings.html#/html/body/div/div/div/p/a at Line 239, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-enrollmentPeriod.html#99f477f1-8738-4548-9907-9b1626e78951">StructureDefinition-ext-enrollmentPeriod.html#/html/body/div/div/div/p/a at Line 488, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-enrollmentPeriod.profile.history.html#0edb57c2-33af-4222-a60f-b99618536c53">StructureDefinition-ext-enrollmentPeriod.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-enrollmentPeriod.profile.json.html#ff39795a-e75e-4aff-9a45-8de01aa0b55b">StructureDefinition-ext-enrollmentPeriod.profile.json.html#/html/body/div/div/div/p/a at Line 863, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-enrollmentPeriod.profile.ttl.html#7bf7dfba-faa8-4b0d-9a40-e56933c5e65e">StructureDefinition-ext-enrollmentPeriod.profile.ttl.html#/html/body/div/div/div/p/a at Line 757, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-enrollmentPeriod.profile.xml.html#bad1ce6e-249f-4f45-8f83-940fc5750010">StructureDefinition-ext-enrollmentPeriod.profile.xml.html#/html/body/div/div/div/p/a at Line 791, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-newlyAssignedBeneficiaryFlag-definitions.html#eaea1cc5-e5a1-4b21-bd04-b260dc23d038">StructureDefinition-ext-newlyAssignedBeneficiaryFlag-definitions.html#/html/body/div/div/div/p/a at Line 265, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-newlyAssignedBeneficiaryFlag-mappings.html#f16006b6-1ce3-4bea-9d9d-c9da0868756c">StructureDefinition-ext-newlyAssignedBeneficiaryFlag-mappings.html#/html/body/div/div/div/p/a at Line 235, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-newlyAssignedBeneficiaryFlag.html#621725a4-0660-4339-aa85-6835e9574aa5">StructureDefinition-ext-newlyAssignedBeneficiaryFlag.html#/html/body/div/div/div/p/a at Line 460, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-newlyAssignedBeneficiaryFlag.profile.history.html#3aaa2608-28a9-4a15-a43d-7e9222277747">StructureDefinition-ext-newlyAssignedBeneficiaryFlag.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-newlyAssignedBeneficiaryFlag.profile.json.html#3e64c17a-bfaa-4317-b701-d3e4165e8ea4">StructureDefinition-ext-newlyAssignedBeneficiaryFlag.profile.json.html#/html/body/div/div/div/p/a at Line 493, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-newlyAssignedBeneficiaryFlag.profile.ttl.html#93d0bc9b-e068-4cc1-a309-d0baeed50317">StructureDefinition-ext-newlyAssignedBeneficiaryFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 471, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-newlyAssignedBeneficiaryFlag.profile.xml.html#9c409072-7f2f-40ca-bea4-4e4846e8c06e">StructureDefinition-ext-newlyAssignedBeneficiaryFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 455, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-prevAssignedBeneficiaryFlag-definitions.html#d6b7cf3c-1133-4083-83aa-2b49e693372f">StructureDefinition-ext-prevAssignedBeneficiaryFlag-definitions.html#/html/body/div/div/div/p/a at Line 265, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-prevAssignedBeneficiaryFlag-mappings.html#e4d6d9cf-41e1-4f78-9b15-fbb27b9b3e60">StructureDefinition-ext-prevAssignedBeneficiaryFlag-mappings.html#/html/body/div/div/div/p/a at Line 235, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-prevAssignedBeneficiaryFlag.html#5bc64997-fac8-4a9b-ab23-df8ee0f8eec9">StructureDefinition-ext-prevAssignedBeneficiaryFlag.html#/html/body/div/div/div/p/a at Line 460, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-prevAssignedBeneficiaryFlag.profile.history.html#6fca6312-d7cf-4095-93e4-97bce8f72157">StructureDefinition-ext-prevAssignedBeneficiaryFlag.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-prevAssignedBeneficiaryFlag.profile.json.html#e99e8063-65e8-48dd-b813-d6120b456e49">StructureDefinition-ext-prevAssignedBeneficiaryFlag.profile.json.html#/html/body/div/div/div/p/a at Line 493, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-prevAssignedBeneficiaryFlag.profile.ttl.html#6d31e266-a02b-4991-b2c3-4e496fce9a0a">StructureDefinition-ext-prevAssignedBeneficiaryFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 471, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-prevAssignedBeneficiaryFlag.profile.xml.html#ada0f36d-f74a-42ec-a6c0-44d69d16af56">StructureDefinition-ext-prevAssignedBeneficiaryFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 455, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-voluntaryAlignmentFlag-definitions.html#5ca95530-d962-4858-a068-aea7377354ce">StructureDefinition-ext-voluntaryAlignmentFlag-definitions.html#/html/body/div/div/div/p/a at Line 265, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-voluntaryAlignmentFlag-mappings.html#e60b80ad-c6a2-4223-a3c6-552b79765f9b">StructureDefinition-ext-voluntaryAlignmentFlag-mappings.html#/html/body/div/div/div/p/a at Line 235, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-voluntaryAlignmentFlag.html#39a7188a-c2c3-46e2-8378-4b6cd9ec6ec7">StructureDefinition-ext-voluntaryAlignmentFlag.html#/html/body/div/div/div/p/a at Line 460, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-voluntaryAlignmentFlag.profile.history.html#502f74c2-3a44-43b5-b94a-06061d3d08a7">StructureDefinition-ext-voluntaryAlignmentFlag.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-voluntaryAlignmentFlag.profile.json.html#c2f9daa7-487c-4e11-bed2-5be0b6f31dd5">StructureDefinition-ext-voluntaryAlignmentFlag.profile.json.html#/html/body/div/div/div/p/a at Line 493, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-voluntaryAlignmentFlag.profile.ttl.html#85348ec0-3d88-41df-9a3b-171ca629bcc4">StructureDefinition-ext-voluntaryAlignmentFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 471, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ext-voluntaryAlignmentFlag.profile.xml.html#3378c9c4-16db-4905-b346-b0dc76153656">StructureDefinition-ext-voluntaryAlignmentFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 455, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="artifacts.html#0370b5b0-e688-4060-9c6b-74a22fdb4046">artifacts.html#/html/body/div/div/div/p/a at Line 298, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="index.html#c242e289-3818-4c84-b7b7-7b09e6c4550f">index.html#/html/body/div/div/div/p/a at Line 157, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="toc.html#c8284912-50f2-4228-9915-bcbc38bdaf07">toc.html#/html/body/div/div/div/p/a at Line 133, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_william_GitHub_AssignmentListIG_fsh-generated_resources_coverage-u87a34asdf667de3feaagux8xz"> </a>
+<h2><a href="Coverage-u87a34asdf667de3feaagux8xz.html">/Users/william/GitHub/AssignmentListIG/fsh-generated/resources/Coverage-u87a34asdf667de3feaagux8xz.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Coverage/u87a34asdf667de3feaagux8xz: Coverage (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://alr.cms.gov/ig/StructureDefinition/alr-Coverage</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Coverage/u87a34asdf667de3feaagux8xz: Coverage.beneficiary (l34/c4)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource 'Patient/123'</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Coverage/u87a34asdf667de3feaagux8xz: Coverage.payor[0] (l40/c6)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource 'Organization/123'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_william_GitHub_AssignmentListIG_fsh-generated_resources_group-u87a34de3feaagux8xz"> </a>
+<h2><a href="Group-u87a34de3feaagux8xz.html">/Users/william/GitHub/AssignmentListIG/fsh-generated/resources/Group-u87a34de3feaagux8xz.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Group/u87a34de3feaagux8xz: Group (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://alr.cms.gov/ig/StructureDefinition/alr-Group</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Group/u87a34de3feaagux8xz: Group.managingEntity (l90/c37)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource 'Organization/123'</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Group/u87a34de3feaagux8xz: Group.member[0].extension[1].value.ofType(Reference) (l32/c12)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource 'Coverage/123'</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Group/u87a34de3feaagux8xz: Group.member[0].extension[2].value.ofType(Reference) (l38/c12)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource 'Practitioner/XYZ'</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Group/u87a34de3feaagux8xz: Group.member[0].extension[3].extension[0].value.ofType(Coding) (l45/c40)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://cms.gov/ig/valueset-changeReason' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Group/u87a34de3feaagux8xz: Group.member[0].extension[3].extension[1].value.ofType(Coding) (l53/c47)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://cms.gov/ig/valueset-changeReason' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Group/u87a34de3feaagux8xz: Group.member[0].entity (l84/c8)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource 'Patient/123'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_william_GitHub_AssignmentListIG_fsh-generated_resources_patient-pfX87a34de3feaagux8xz"> </a>
+<h2><a href="Patient-pfX87a34de3feaagux8xz.html">/Users/william/GitHub/AssignmentListIG/fsh-generated/resources/Patient-pfX87a34de3feaagux8xz.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Patient/pfX87a34de3feaagux8xz: Patient (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://alr.cms.gov/ig/StructureDefinition/alr-Patient</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Patient/pfX87a34de3feaagux8xz: Patient.identifier[0].type.coding[0] (l19/c12)</b></td><td><b>warning</b></td><td title="Terminology_PassThrough_TX_Message"><b>Display Name for http://terminology.hl7.org/CodeSystem/v2-0203#MC should be one of 'Patient's Medicare number, Rentnernummer' instead of 'Medicare Beneficiary Id' for 'http://terminology.hl7.org/CodeSystem/v2-0203#MC'</b></td>
+   </tr>
+</table>
+<a name="suppressed"> </a>
+<p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
+<p>No suppressed messsages</p><a name="sorted"> </a>
+<p><b>Errors sorted by type</b></p>
+<hr/>
+<a name="Reference_REF_CantResolve"> </a>
+<h2>Reference_REF_CantResolve</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="Coverage-u87a34asdf667de3feaagux8xz.html">/Users/william/GitHub/AssignmentListIG/fsh-generated/resources/Coverage-u87a34asdf667de3feaagux8xz.json</a></td><td><b>Unable to resolve resource 'Patient/123'</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Coverage-u87a34asdf667de3feaagux8xz.html">/Users/william/GitHub/AssignmentListIG/fsh-generated/resources/Coverage-u87a34asdf667de3feaagux8xz.json</a></td><td><b>Unable to resolve resource 'Organization/123'</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Group-u87a34de3feaagux8xz.html">/Users/william/GitHub/AssignmentListIG/fsh-generated/resources/Group-u87a34de3feaagux8xz.json</a></td><td><b>Unable to resolve resource 'Organization/123'</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Group-u87a34de3feaagux8xz.html">/Users/william/GitHub/AssignmentListIG/fsh-generated/resources/Group-u87a34de3feaagux8xz.json</a></td><td><b>Unable to resolve resource 'Coverage/123'</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Group-u87a34de3feaagux8xz.html">/Users/william/GitHub/AssignmentListIG/fsh-generated/resources/Group-u87a34de3feaagux8xz.json</a></td><td><b>Unable to resolve resource 'Practitioner/XYZ'</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Group-u87a34de3feaagux8xz.html">/Users/william/GitHub/AssignmentListIG/fsh-generated/resources/Group-u87a34de3feaagux8xz.json</a></td><td><b>Unable to resolve resource 'Patient/123'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_PassThrough_TX_Message"> </a>
+<h2>Terminology_PassThrough_TX_Message</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="Patient-pfX87a34de3feaagux8xz.html">/Users/william/GitHub/AssignmentListIG/fsh-generated/resources/Patient-pfX87a34de3feaagux8xz.json</a></td><td><b>Display Name for http://terminology.hl7.org/CodeSystem/v2-0203#MC should be one of 'Patient's Medicare number, Rentnernummer' instead of 'Medicare Beneficiary Id' for 'http://terminology.hl7.org/CodeSystem/v2-0203#MC'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_TX_System_NotKnown"> </a>
+<h2>Terminology_TX_System_NotKnown</h2>
+ <table class="grid">
+   <tr style="background-color: #fffff2">
+     <td><a href="Group-u87a34de3feaagux8xz.html">/Users/william/GitHub/AssignmentListIG/fsh-generated/resources/Group-u87a34de3feaagux8xz.json</a></td><td><b>Code System URI 'http://cms.gov/ig/valueset-changeReason' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Group-u87a34de3feaagux8xz.html">/Users/william/GitHub/AssignmentListIG/fsh-generated/resources/Group-u87a34de3feaagux8xz.json</a></td><td><b>Code System URI 'http://cms.gov/ig/valueset-changeReason' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+</body>
+</html>

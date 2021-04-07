@@ -1,0 +1,97 @@
+{
+  "resourceType": "Group",
+  "id": "u87a34de3feaagux8xz",
+  "meta": {
+    "lastUpdated": "2021-04-01T03:04:12.348-04:00",
+    "profile": [
+      "http://alr.cms.gov/ig/StructureDefinition/alr-Group"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Contract Validity Period</b>: 2020-04-01 --&gt; 2021-03-31</p><p><b>active</b>: true</p><p><b>type</b>: person</p><p><b>actual</b>: true</p><p><b>name</b>: General Example of ALR Group</p><p><b>managingEntity</b>: <a href=\"Organization/123\">Sample Organization</a></p><h3>Members</h3><table class=\"grid\"><tr><td>-</td><td><b>Extension</b></td><td><b>Entity</b></td></tr><tr><td>*</td><td>, , , , , , , , </td><td><a href=\"Patient/123\">Patient/123</a></td></tr></table></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-contractValidityPeriod",
+      "valuePeriod": {
+        "start": "2020-04-01",
+        "end": "2021-03-31"
+      }
+    }
+  ],
+  "active": true,
+  "type": "person",
+  "actual": true,
+  "name": "General Example of ALR Group",
+  "managingEntity": {
+    "reference": "Organization/123",
+    "display": "Sample Organization"
+  },
+  "member": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-changeType",
+          "valueCode": "dropped"
+        },
+        {
+          "url": "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-coverageReference",
+          "valueReference": {
+            "reference": "Coverage/123"
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-attributedProvider",
+          "valueReference": {
+            "reference": "Practitioner/XYZ"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "reasonCode",
+              "valueCoding": {
+                "system": "http://cms.gov/ig/valueset-changeReason",
+                "code": "GHP_EXCLUDED",
+                "display": "Beneficiary had at least one month of Part-A only or Part-B only coverage"
+              }
+            },
+            {
+              "url": "reasonCode",
+              "valueCoding": {
+                "system": "http://cms.gov/ig/valueset-changeReason",
+                "code": "MISSING_ID_EXCLUDED",
+                "display": "Beneficiary identifier is missing"
+              }
+            }
+          ],
+          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-changeReason"
+        },
+        {
+          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentFlag",
+          "valueBoolean": true
+        },
+        {
+          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentStep",
+          "valueInteger": 3
+        },
+        {
+          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-prevAssignedBeneficiaryFlag",
+          "valueBoolean": true
+        },
+        {
+          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-newlyAssignedBeneficiaryFlag",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag",
+          "valueBoolean": false
+        }
+      ],
+      "entity": {
+        "reference": "Patient/123"
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://alr.cms.gov/ig/Group/u87a34de3feaagux8xz> a fhir:Group;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "u87a34de3feaagux8xz"];
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2021-04-01T03:04:12.348-04:00"^^xsd:dateTime ];
+     fhir:Meta.profile [
+       fhir:value "http://alr.cms.gov/ig/StructureDefinition/alr-Group";
+       fhir:index 0;
+       fhir:link <http://alr.cms.gov/ig/StructureDefinition/alr-Group>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Contract Validity Period</b>: 2020-04-01 --&gt; 2021-03-31</p><p><b>active</b>: true</p><p><b>type</b>: person</p><p><b>actual</b>: true</p><p><b>name</b>: General Example of ALR Group</p><p><b>managingEntity</b>: <a href=\"Organization/123\">Sample Organization</a></p><h3>Members</h3><table class=\"grid\"><tr><td>-</td><td><b>Extension</b></td><td><b>Entity</b></td></tr><tr><td>*</td><td>, , , , , , , , </td><td><a href=\"Patient/123\">Patient/123</a></td></tr></table></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-contractValidityPeriod" ];
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2020-04-01"^^xsd:date ];
+       fhir:Period.end [ fhir:value "2021-03-31"^^xsd:date ]
+     ]
+  ];
+  fhir:Group.active [ fhir:value "true"^^xsd:boolean];
+  fhir:Group.type [ fhir:value "person"];
+  fhir:Group.actual [ fhir:value "true"^^xsd:boolean];
+  fhir:Group.name [ fhir:value "General Example of ALR Group"];
+  fhir:Group.managingEntity [
+     fhir:link <http://alr.cms.gov/ig/Organization/123>;
+     fhir:Reference.reference [ fhir:value "Organization/123" ];
+     fhir:Reference.display [ fhir:value "Sample Organization" ]
+  ];
+  fhir:Group.member [
+     fhir:index 0;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-changeType" ];
+       fhir:Extension.valueCode [ fhir:value "dropped" ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-coverageReference" ];
+       fhir:Extension.valueReference [
+         fhir:link <http://alr.cms.gov/ig/Coverage/123>;
+         fhir:Reference.reference [ fhir:value "Coverage/123" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-attributedProvider" ];
+       fhir:Extension.valueReference [
+         fhir:link <http://alr.cms.gov/ig/Practitioner/XYZ>;
+         fhir:Reference.reference [ fhir:value "Practitioner/XYZ" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "reasonCode" ];
+         fhir:Extension.valueCoding [
+           fhir:Coding.system [ fhir:value "http://cms.gov/ig/valueset-changeReason" ];
+           fhir:Coding.code [ fhir:value "GHP_EXCLUDED" ];
+           fhir:Coding.display [ fhir:value "Beneficiary had at least one month of Part-A only or Part-B only coverage" ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "reasonCode" ];
+         fhir:Extension.valueCoding [
+           fhir:Coding.system [ fhir:value "http://cms.gov/ig/valueset-changeReason" ];
+           fhir:Coding.code [ fhir:value "MISSING_ID_EXCLUDED" ];
+           fhir:Coding.display [ fhir:value "Beneficiary identifier is missing" ]
+         ]
+       ];
+       fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-changeReason" ]
+     ], [
+       fhir:index 4;
+       fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentFlag" ];
+       fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 5;
+       fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentStep" ];
+       fhir:Extension.valueInteger [ fhir:value "3"^^xsd:integer ]
+     ], [
+       fhir:index 6;
+       fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-prevAssignedBeneficiaryFlag" ];
+       fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 7;
+       fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-newlyAssignedBeneficiaryFlag" ];
+       fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 8;
+       fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag" ];
+       fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ];
+     fhir:Group.member.entity [
+       fhir:link <http://alr.cms.gov/ig/Patient/123>;
+       fhir:Reference.reference [ fhir:value "Patient/123" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://alr.cms.gov/ig/Group/u87a34de3feaagux8xz.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,159 @@
+﻿AssignmentListIG : Validation Results
+=========================================
+
+err = 6, warn = 4, info = 2
+IG Publisher Version: 1.1.65
+Generated Mon Apr 05 14:19:19 MDT 2021. FHIR version 4.0.1 for cms.gov.us.alr#0.1.0 (canonical = http://alr.cms.gov/ig)
+
+ Build Errors : 95 / 3 / 0
+ /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/ImplementationGuide-cms.gov.us.alr : 0 / 0 / 1
+ /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/coverage-u87a34asdf667de3feaagux8xz : 2 / 0 / 1
+ /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/group-u87a34de3feaagux8xz : 4 / 0 / 3
+ /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/patient-pfX87a34de3feaagux8xz : 0 / 1 / 1
+ /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/structuredefinition-alr-Coverage : 0 / 0 / 1
+ /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/structuredefinition-alr-Group : 0 / 0 / 1
+ /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/structuredefinition-alr-Patient : 0 / 0 / 1
+ /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/structuredefinition-ext-changeReason : 0 / 0 / 1
+ /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/structuredefinition-ext-claimsBasedAssignmentFlag : 0 / 0 / 1
+ /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/structuredefinition-ext-claimsBasedAssignmentStep : 0 / 0 / 1
+ /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/structuredefinition-ext-enrollmentPeriod : 0 / 0 / 1
+ /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/structuredefinition-ext-newlyAssignedBeneficiaryFlag : 0 / 0 / 1
+ /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/structuredefinition-ext-prevAssignedBeneficiaryFlag : 0 / 0 / 1
+ /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/structuredefinition-ext-voluntaryAlignmentFlag : 0 / 0 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/pfX87a34de3feaagux8xz.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Coverage/u87a34asdf667de3feaagux8xz.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Group/u87a34de3feaagux8xz.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /Users/william/GitHub/AssignmentListIG/output/Coverage-u87a34asdf667de3feaagux8xz.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/Coverage-u87a34asdf667de3feaagux8xz.html#/html/body/div/div/div/div/div/div/p/a at Line 155, column 486: The link 'Patient/123' for "Patient/123" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/Coverage-u87a34asdf667de3feaagux8xz.html#/html/body/div/div/div/div/div/div/p/a at Line 155, column 594: The link 'Organization/123' for "Organization/123" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/Coverage-u87a34asdf667de3feaagux8xz.html#/html/body/div/div/div/p/a at Line 182, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/Coverage-u87a34asdf667de3feaagux8xz.json.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/Coverage-u87a34asdf667de3feaagux8xz.ttl.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/Coverage-u87a34asdf667de3feaagux8xz.xml.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/Group-u87a34de3feaagux8xz.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/Group-u87a34de3feaagux8xz.html#/html/body/div/div/div/div/div/div/p/a at Line 155, column 299: The link 'Organization/123' for "Sample Organization" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/Group-u87a34de3feaagux8xz.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 155, column 498: The link 'Patient/123' for "Patient/123" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/Group-u87a34de3feaagux8xz.html#/html/body/div/div/div/p/a at Line 182, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/Group-u87a34de3feaagux8xz.json.html#/html/body/div/div/div/p/a at Line 281, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/Group-u87a34de3feaagux8xz.ttl.html#/html/body/div/div/div/p/a at Line 275, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/Group-u87a34de3feaagux8xz.xml.html#/html/body/div/div/div/p/a at Line 269, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/Patient-pfX87a34de3feaagux8xz.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/Patient-pfX87a34de3feaagux8xz.html#/html/body/div/div/div/p/a at Line 182, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/Patient-pfX87a34de3feaagux8xz.json.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/Patient-pfX87a34de3feaagux8xz.ttl.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/Patient-pfX87a34de3feaagux8xz.xml.html#/html/body/div/div/div/p/a at Line 219, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Coverage-definitions.html#/html/body/div/div/div/p/a at Line 1116, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Coverage-examples.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Coverage-mappings.html#/html/body/div/div/div/p/a at Line 379, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Coverage.html#/html/body/div/div/div/p/a at Line 894, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Coverage.profile.history.html#/html/body/div/div/div/p/a at Line 228, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Coverage.profile.json.html#/html/body/div/div/div/p/a at Line 4293, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Coverage.profile.ttl.html#/html/body/div/div/div/p/a at Line 3727, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Coverage.profile.xml.html#/html/body/div/div/div/p/a at Line 3847, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Group-definitions.html#/html/body/div/div/div/p/a at Line 1200, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Group-examples.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Group-mappings.html#/html/body/div/div/div/p/a at Line 330, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Group.html#/html/body/div/div/div/p/a at Line 1088, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Group.profile.history.html#/html/body/div/div/div/p/a at Line 228, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Group.profile.json.html#/html/body/div/div/div/p/a at Line 4815, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Group.profile.ttl.html#/html/body/div/div/div/p/a at Line 4170, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Group.profile.xml.html#/html/body/div/div/div/p/a at Line 4264, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Patient-definitions.html#/html/body/div/div/div/p/a at Line 2127, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Patient-examples.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Patient-mappings.html#/html/body/div/div/div/p/a at Line 638, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Patient.html#/html/body/div/div/div/p/a at Line 1590, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Patient.profile.history.html#/html/body/div/div/div/p/a at Line 228, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Patient.profile.json.html#/html/body/div/div/div/p/a at Line 9268, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Patient.profile.ttl.html#/html/body/div/div/div/p/a at Line 7818, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-alr-Patient.profile.xml.html#/html/body/div/div/div/p/a at Line 8234, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-changeReason-definitions.html#/html/body/div/div/div/p/a at Line 305, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-changeReason-mappings.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-changeReason.html#/html/body/div/div/div/p/a at Line 488, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-changeReason.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-changeReason.profile.json.html#/html/body/div/div/div/p/a at Line 863, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-changeReason.profile.ttl.html#/html/body/div/div/div/p/a at Line 757, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-changeReason.profile.xml.html#/html/body/div/div/div/p/a at Line 791, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-claimsBasedAssignmentFlag-definitions.html#/html/body/div/div/div/p/a at Line 265, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-claimsBasedAssignmentFlag-mappings.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-claimsBasedAssignmentFlag.html#/html/body/div/div/div/p/a at Line 460, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-claimsBasedAssignmentFlag.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-claimsBasedAssignmentFlag.profile.json.html#/html/body/div/div/div/p/a at Line 493, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-claimsBasedAssignmentFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 471, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-claimsBasedAssignmentFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 455, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-claimsBasedAssignmentStep-definitions.html#/html/body/div/div/div/p/a at Line 265, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-claimsBasedAssignmentStep-mappings.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-claimsBasedAssignmentStep.html#/html/body/div/div/div/p/a at Line 460, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-claimsBasedAssignmentStep.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-claimsBasedAssignmentStep.profile.json.html#/html/body/div/div/div/p/a at Line 493, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-claimsBasedAssignmentStep.profile.ttl.html#/html/body/div/div/div/p/a at Line 471, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-claimsBasedAssignmentStep.profile.xml.html#/html/body/div/div/div/p/a at Line 455, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-enrollmentPeriod-definitions.html#/html/body/div/div/div/p/a at Line 305, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-enrollmentPeriod-mappings.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-enrollmentPeriod.html#/html/body/div/div/div/p/a at Line 488, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-enrollmentPeriod.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-enrollmentPeriod.profile.json.html#/html/body/div/div/div/p/a at Line 863, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-enrollmentPeriod.profile.ttl.html#/html/body/div/div/div/p/a at Line 757, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-enrollmentPeriod.profile.xml.html#/html/body/div/div/div/p/a at Line 791, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-newlyAssignedBeneficiaryFlag-definitions.html#/html/body/div/div/div/p/a at Line 265, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-newlyAssignedBeneficiaryFlag-mappings.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-newlyAssignedBeneficiaryFlag.html#/html/body/div/div/div/p/a at Line 460, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-newlyAssignedBeneficiaryFlag.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-newlyAssignedBeneficiaryFlag.profile.json.html#/html/body/div/div/div/p/a at Line 493, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-newlyAssignedBeneficiaryFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 471, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-newlyAssignedBeneficiaryFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 455, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-prevAssignedBeneficiaryFlag-definitions.html#/html/body/div/div/div/p/a at Line 265, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-prevAssignedBeneficiaryFlag-mappings.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-prevAssignedBeneficiaryFlag.html#/html/body/div/div/div/p/a at Line 460, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-prevAssignedBeneficiaryFlag.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-prevAssignedBeneficiaryFlag.profile.json.html#/html/body/div/div/div/p/a at Line 493, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-prevAssignedBeneficiaryFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 471, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-prevAssignedBeneficiaryFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 455, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-voluntaryAlignmentFlag-definitions.html#/html/body/div/div/div/p/a at Line 265, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-voluntaryAlignmentFlag-mappings.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-voluntaryAlignmentFlag.html#/html/body/div/div/div/p/a at Line 460, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-voluntaryAlignmentFlag.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-voluntaryAlignmentFlag.profile.json.html#/html/body/div/div/div/p/a at Line 493, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-voluntaryAlignmentFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 471, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/StructureDefinition-ext-voluntaryAlignmentFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 455, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/artifacts.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/index.html#/html/body/div/div/div/p/a at Line 157, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/william/GitHub/AssignmentListIG/output/toc.html#/html/body/div/div/div/p/a at Line 133, column 28: The link '' for "" cannot be resolved
+== /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/ImplementationGuide-cms.gov.us.alr.json ==
+INFORMATION: ImplementationGuide/cms.gov.us.alr: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+== /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/Coverage-u87a34asdf667de3feaagux8xz.json ==
+INFORMATION: Coverage/u87a34asdf667de3feaagux8xz: Coverage: Validate resource against profile http://alr.cms.gov/ig/StructureDefinition/alr-Coverage
+ERROR: Coverage/u87a34asdf667de3feaagux8xz: Coverage.beneficiary: Unable to resolve resource 'Patient/123'
+ERROR: Coverage/u87a34asdf667de3feaagux8xz: Coverage.payor[0]: Unable to resolve resource 'Organization/123'
+== /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/Group-u87a34de3feaagux8xz.json ==
+INFORMATION: Group/u87a34de3feaagux8xz: Group: Validate resource against profile http://alr.cms.gov/ig/StructureDefinition/alr-Group
+ERROR: Group/u87a34de3feaagux8xz: Group.managingEntity: Unable to resolve resource 'Organization/123'
+ERROR: Group/u87a34de3feaagux8xz: Group.member[0].extension[1].value.ofType(Reference): Unable to resolve resource 'Coverage/123'
+ERROR: Group/u87a34de3feaagux8xz: Group.member[0].extension[2].value.ofType(Reference): Unable to resolve resource 'Practitioner/XYZ'
+INFORMATION: Group/u87a34de3feaagux8xz: Group.member[0].extension[3].extension[0].value.ofType(Coding): Code System URI 'http://cms.gov/ig/valueset-changeReason' is unknown so the code cannot be validated
+INFORMATION: Group/u87a34de3feaagux8xz: Group.member[0].extension[3].extension[1].value.ofType(Coding): Code System URI 'http://cms.gov/ig/valueset-changeReason' is unknown so the code cannot be validated
+ERROR: Group/u87a34de3feaagux8xz: Group.member[0].entity: Unable to resolve resource 'Patient/123'
+== /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/Patient-pfX87a34de3feaagux8xz.json ==
+INFORMATION: Patient/pfX87a34de3feaagux8xz: Patient: Validate resource against profile http://alr.cms.gov/ig/StructureDefinition/alr-Patient
+WARNING: Patient/pfX87a34de3feaagux8xz: Patient.identifier[0].type.coding[0]: Display Name for http://terminology.hl7.org/CodeSystem/v2-0203#MC should be one of 'Patient's Medicare number, Rentnernummer' instead of 'Medicare Beneficiary Id' for 'http://terminology.hl7.org/CodeSystem/v2-0203#MC'
+== /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/StructureDefinition-alr-Coverage.json ==
+INFORMATION: StructureDefinition/alr-Coverage: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/StructureDefinition-alr-Group.json ==
+INFORMATION: StructureDefinition/alr-Group: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/StructureDefinition-alr-Patient.json ==
+INFORMATION: StructureDefinition/alr-Patient: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/StructureDefinition-ext-changeReason.json ==
+INFORMATION: StructureDefinition/ext-changeReason: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/StructureDefinition-ext-claimsBasedAssignmentFlag.json ==
+INFORMATION: StructureDefinition/ext-claimsBasedAssignmentFlag: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/StructureDefinition-ext-claimsBasedAssignmentStep.json ==
+INFORMATION: StructureDefinition/ext-claimsBasedAssignmentStep: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/StructureDefinition-ext-enrollmentPeriod.json ==
+INFORMATION: StructureDefinition/ext-enrollmentPeriod: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/StructureDefinition-ext-newlyAssignedBeneficiaryFlag.json ==
+INFORMATION: StructureDefinition/ext-newlyAssignedBeneficiaryFlag: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/StructureDefinition-ext-prevAssignedBeneficiaryFlag.json ==
+INFORMATION: StructureDefinition/ext-prevAssignedBeneficiaryFlag: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /Users/william/GitHub/AssignmentListIG/fsh-generated/resources/StructureDefinition-ext-voluntaryAlignmentFlag.json ==
+INFORMATION: StructureDefinition/ext-voluntaryAlignmentFlag: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="pfX87a34de3feaagux8xz"/>
+  <meta>
+    <profile value="http://alr.cms.gov/ig/StructureDefinition/alr-Patient"/>
+  </meta>
+  <text>
+    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p>General example of coverage with gaps in enrollment period</p></div>
+  </text>
+  <identifier>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="MC"/>
+        <display value="Medicare Beneficiary Id"/>
+      </coding>
+    </type>
+    <system value="https://bluebutton.cms.gov/resources/variables/bene_id"/>
+    <value value="-19999000008314"/>
+  </identifier>
+  <name>
+    <family value="Doe"/>
+    <given value="John"/>
+  </name>
+  <gender value="male"/>
+  <birthDate value="1957-01-17"/>
+  <deceasedDateTime value="2020-03-18"/>
+  <address>
+    <line value="1000 Main Street"/>
+    <line value="Apt #2"/>
+    <district value="SL County"/>
+    <state value="UT"/>
+  </address>
+</Patient>

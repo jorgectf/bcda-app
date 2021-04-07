@@ -1,0 +1,65 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://alr.cms.gov/ig/Patient/pfX87a34de3feaagux8xz> a fhir:Patient;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "pfX87a34de3feaagux8xz"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://alr.cms.gov/ig/StructureDefinition/alr-Patient";
+       fhir:index 0;
+       fhir:link <http://alr.cms.gov/ig/StructureDefinition/alr-Patient>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "additional" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>General example of coverage with gaps in enrollment period</p></div>"
+  ];
+  fhir:Patient.identifier [
+     fhir:index 0;
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0203" ];
+         fhir:Coding.code [ fhir:value "MC" ];
+         fhir:Coding.display [ fhir:value "Medicare Beneficiary Id" ]
+       ]
+     ];
+     fhir:Identifier.system [ fhir:value "https://bluebutton.cms.gov/resources/variables/bene_id" ];
+     fhir:Identifier.value [ fhir:value "-19999000008314" ]
+  ];
+  fhir:Patient.name [
+     fhir:index 0;
+     fhir:HumanName.family [ fhir:value "Doe" ];
+     fhir:HumanName.given [
+       fhir:value "John";
+       fhir:index 0
+     ]
+  ];
+  fhir:Patient.gender [ fhir:value "male"];
+  fhir:Patient.birthDate [ fhir:value "1957-01-17"^^xsd:date];
+  fhir:Patient.deceasedDateTime [ fhir:value "2020-03-18"^^xsd:date];
+  fhir:Patient.address [
+     fhir:index 0;
+     fhir:Address.line [
+       fhir:value "1000 Main Street";
+       fhir:index 0
+     ], [
+       fhir:value "Apt #2";
+       fhir:index 1
+     ];
+     fhir:Address.district [ fhir:value "SL County" ];
+     fhir:Address.state [ fhir:value "UT" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://alr.cms.gov/ig/Patient/pfX87a34de3feaagux8xz.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
