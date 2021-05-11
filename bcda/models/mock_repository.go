@@ -4,6 +4,7 @@ package models
 
 import (
 	context "context"
+	"fmt"
 	time "time"
 
 	mock "github.com/stretchr/testify/mock"
@@ -351,6 +352,8 @@ func (_m *MockRepository) GetJobsByUpdateTimeAndStatus(ctx context.Context, lowe
 
 // GetLatestCCLFFile provides a mock function with given fields: ctx, cmsID, cclfNum, importStatus, lowerBound, upperBound, fileType
 func (_m *MockRepository) GetLatestCCLFFile(ctx context.Context, cmsID string, cclfNum int, importStatus string, lowerBound time.Time, upperBound time.Time, fileType CCLFFileType) (*CCLFFile, error) {
+	fmt.Println(lowerBound.Date())
+	fmt.Println(upperBound.Date())
 	ret := _m.Called(ctx, cmsID, cclfNum, importStatus, lowerBound, upperBound, fileType)
 
 	var r0 *CCLFFile

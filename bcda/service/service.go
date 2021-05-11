@@ -139,7 +139,9 @@ func (s *service) GetQueJobs(ctx context.Context, conditions RequestConditions) 
 	} else {
 		conditions.fileType = models.FileTypeDefault
 	}
-
+	fmt.Println(conditions.attributionDate.Date())
+	fmt.Println(conditions.optOutDate.Date())
+	fmt.Println(conditions.claimsDate.Date())
 	hasAttributionDate := !conditions.attributionDate.IsZero()
 
 	// for default requests, runouts, or any requests where the Since parameter is
