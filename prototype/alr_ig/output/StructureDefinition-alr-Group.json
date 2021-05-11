@@ -10,7 +10,7 @@
   "name": "ALRGroup",
   "title": "ALR Group Profile",
   "status": "active",
-  "date": "2021-04-05T14:19:01-06:00",
+  "date": "2021-05-11T14:01:16-06:00",
   "description": "ALR Group Profile Desc",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -27,7 +27,7 @@
     {
       "identity": "alr-csv-group",
       "uri": "http://cms.gov/ALR/Datadictionary",
-      "name": "Legacy CSV Assignment List Report"
+      "name": "CMS Assignment List Report"
     }
   ],
   "kind": "resource",
@@ -3985,6 +3985,14 @@
           {
             "identity": "alr-csv-group",
             "map": "GHP_EXCLUDED"
+          },
+          {
+            "identity": "alr-csv-group",
+            "map": "OUTSIDE_US_EXCLUDED"
+          },
+          {
+            "identity": "alr-csv-group",
+            "map": "OTHER_SHARED_SAV_INT"
           }
         ]
       },
@@ -4452,6 +4460,14 @@
           {
             "identity": "alr-csv-group",
             "map": "GHP_EXCLUDED"
+          },
+          {
+            "identity": "alr-csv-group",
+            "map": "OUTSIDE_US_EXCLUDED"
+          },
+          {
+            "identity": "alr-csv-group",
+            "map": "OTHER_SHARED_SAV_INT"
           }
         ]
       },

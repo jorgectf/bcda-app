@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "ALRGroup"];
   fhir:StructureDefinition.title [ fhir:value "ALR Group Profile"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-04-05T14:19:01-06:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-05-11T14:01:16-06:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "ALR Group Profile Desc"];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [
@@ -34,7 +34,7 @@
      fhir:index 2;
      fhir:StructureDefinition.mapping.identity [ fhir:value "alr-csv-group" ];
      fhir:StructureDefinition.mapping.uri [ fhir:value "http://cms.gov/ALR/Datadictionary" ];
-     fhir:StructureDefinition.mapping.name [ fhir:value "Legacy CSV Assignment List Report" ]
+     fhir:StructureDefinition.mapping.name [ fhir:value "CMS Assignment List Report" ]
   ];
   fhir:StructureDefinition.kind [ fhir:value "resource"];
   fhir:StructureDefinition.abstract [ fhir:value "false"^^xsd:boolean];
@@ -4129,6 +4129,14 @@
          fhir:index 3;
          fhir:ElementDefinition.mapping.identity [ fhir:value "alr-csv-group" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "GHP_EXCLUDED" ]
+       ], [
+         fhir:index 4;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "alr-csv-group" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "OUTSIDE_US_EXCLUDED" ]
+       ], [
+         fhir:index 5;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "alr-csv-group" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "OTHER_SHARED_SAV_INT" ]
        ]
      ], [
        fhir:index 86;
@@ -4631,6 +4639,14 @@
          fhir:index 3;
          fhir:ElementDefinition.mapping.identity [ fhir:value "alr-csv-group" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "GHP_EXCLUDED" ]
+       ], [
+         fhir:index 4;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "alr-csv-group" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "OUTSIDE_US_EXCLUDED" ]
+       ], [
+         fhir:index 5;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "alr-csv-group" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "OTHER_SHARED_SAV_INT" ]
        ]
      ], [
        fhir:index 5;

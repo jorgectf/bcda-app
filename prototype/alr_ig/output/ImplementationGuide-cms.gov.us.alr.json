@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "AssignmentListIG",
   "status": "draft",
-  "date": "2021-04-05T14:19:01-06:00",
+  "date": "2021-05-11T14:01:16-06:00",
   "packageId": "cms.gov.us.alr",
   "license": "CC0-1.0",
   "fhirVersion": [
@@ -316,10 +316,38 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/alr-HccRiskFlag"
+        },
+        "name": "ALR HCC Flag Profile",
+        "description": "ALR HCC Flag Profile Desc",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/alr-Patient"
         },
         "name": "ALR Patient Profile",
         "description": "ALR Patient Profile Desc",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/alr-RiskAssessment"
+        },
+        "name": "ALR Risk Assessment Profile",
+        "description": "ALR Risk Assessment Profile Desc",
         "exampleBoolean": false
       },
       {
@@ -424,24 +452,11 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Patient"
-          }
-        ],
-        "reference": {
-          "reference": "Patient/pfX87a34de3feaagux8xz"
-        },
-        "name": "Patient: General Example",
-        "exampleCanonical": "http://alr.cms.gov/ig/StructureDefinition/alr-Patient"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Coverage"
           }
         ],
         "reference": {
-          "reference": "Coverage/u87a34asdf667de3feaagux8xz"
+          "reference": "Coverage/example-id-coverage"
         },
         "name": "Coverage: General Example",
         "exampleCanonical": "http://alr.cms.gov/ig/StructureDefinition/alr-Coverage"
@@ -454,10 +469,88 @@
           }
         ],
         "reference": {
-          "reference": "Group/u87a34de3feaagux8xz"
+          "reference": "Group/example-id-group"
         },
         "name": "Group: General Example",
         "exampleCanonical": "http://alr.cms.gov/ig/StructureDefinition/alr-Group"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/example-id-hcc-risk-flags"
+        },
+        "name": "HCC Risk Flags: General Example",
+        "exampleCanonical": "http://alr.cms.gov/ig/StructureDefinition/alr-HccRiskFlag"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RiskAssessment"
+          }
+        ],
+        "reference": {
+          "reference": "RiskAssessment/example-id-monthly-risk-score"
+        },
+        "name": "Risk Score: CMS-HCC Monthly Risk Score",
+        "exampleCanonical": "http://alr.cms.gov/ig/StructureDefinition/alr-RiskAssessment"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/example-id-patient"
+        },
+        "name": "Patient: General Example",
+        "exampleCanonical": "http://alr.cms.gov/ig/StructureDefinition/alr-Patient"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RiskAssessment"
+          }
+        ],
+        "reference": {
+          "reference": "RiskAssessment/example-id-risk-score-aged-dual"
+        },
+        "name": "Risk Score: CMS-HCC Risk Score for Aged/Dual",
+        "exampleCanonical": "http://alr.cms.gov/ig/StructureDefinition/alr-RiskAssessment"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RiskAssessment"
+          }
+        ],
+        "reference": {
+          "reference": "RiskAssessment/example-id-risk-score-disabled"
+        },
+        "name": "Risk Score: CMS-HCC Risk Score for Disabled",
+        "exampleCanonical": "http://alr.cms.gov/ig/StructureDefinition/alr-RiskAssessment"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RiskAssessment"
+          }
+        ],
+        "reference": {
+          "reference": "RiskAssessment/example-id-risk-score-esrd"
+        },
+        "name": "Risk Score: CMS-HCC Risk Score for ESRD",
+        "exampleCanonical": "http://alr.cms.gov/ig/StructureDefinition/alr-RiskAssessment"
       }
     ],
     "page": {

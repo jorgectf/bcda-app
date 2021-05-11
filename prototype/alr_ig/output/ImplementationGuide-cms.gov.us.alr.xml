@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="AssignmentListIG"/>
   <status value="draft"/>
-  <date value="2021-04-05T14:19:01-06:00"/>
+  <date value="2021-05-11T14:01:16-06:00"/>
   <packageId value="cms.gov.us.alr"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
@@ -203,10 +203,32 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/alr-HccRiskFlag"/>
+      </reference>
+      <name value="ALR HCC Flag Profile"/>
+      <description value="ALR HCC Flag Profile Desc"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/alr-Patient"/>
       </reference>
       <name value="ALR Patient Profile"/>
       <description value="ALR Patient Profile Desc"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/alr-RiskAssessment"/>
+      </reference>
+      <name value="ALR Risk Assessment Profile"/>
+      <description value="ALR Risk Assessment Profile Desc"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -288,20 +310,10 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Patient"/>
-      </extension>
-      <reference>
-        <reference value="Patient/pfX87a34de3feaagux8xz"/>
-      </reference>
-      <name value="Patient: General Example"/>
-      <exampleCanonical value="http://alr.cms.gov/ig/StructureDefinition/alr-Patient"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Coverage"/>
       </extension>
       <reference>
-        <reference value="Coverage/u87a34asdf667de3feaagux8xz"/>
+        <reference value="Coverage/example-id-coverage"/>
       </reference>
       <name value="Coverage: General Example"/>
       <exampleCanonical value="http://alr.cms.gov/ig/StructureDefinition/alr-Coverage"/>
@@ -311,10 +323,70 @@
         <valueString value="Group"/>
       </extension>
       <reference>
-        <reference value="Group/u87a34de3feaagux8xz"/>
+        <reference value="Group/example-id-group"/>
       </reference>
       <name value="Group: General Example"/>
       <exampleCanonical value="http://alr.cms.gov/ig/StructureDefinition/alr-Group"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/example-id-hcc-risk-flags"/>
+      </reference>
+      <name value="HCC Risk Flags: General Example"/>
+      <exampleCanonical value="http://alr.cms.gov/ig/StructureDefinition/alr-HccRiskFlag"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RiskAssessment"/>
+      </extension>
+      <reference>
+        <reference value="RiskAssessment/example-id-monthly-risk-score"/>
+      </reference>
+      <name value="Risk Score: CMS-HCC Monthly Risk Score"/>
+      <exampleCanonical value="http://alr.cms.gov/ig/StructureDefinition/alr-RiskAssessment"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/example-id-patient"/>
+      </reference>
+      <name value="Patient: General Example"/>
+      <exampleCanonical value="http://alr.cms.gov/ig/StructureDefinition/alr-Patient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RiskAssessment"/>
+      </extension>
+      <reference>
+        <reference value="RiskAssessment/example-id-risk-score-aged-dual"/>
+      </reference>
+      <name value="Risk Score: CMS-HCC Risk Score for Aged/Dual"/>
+      <exampleCanonical value="http://alr.cms.gov/ig/StructureDefinition/alr-RiskAssessment"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RiskAssessment"/>
+      </extension>
+      <reference>
+        <reference value="RiskAssessment/example-id-risk-score-disabled"/>
+      </reference>
+      <name value="Risk Score: CMS-HCC Risk Score for Disabled"/>
+      <exampleCanonical value="http://alr.cms.gov/ig/StructureDefinition/alr-RiskAssessment"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RiskAssessment"/>
+      </extension>
+      <reference>
+        <reference value="RiskAssessment/example-id-risk-score-esrd"/>
+      </reference>
+      <name value="Risk Score: CMS-HCC Risk Score for ESRD"/>
+      <exampleCanonical value="http://alr.cms.gov/ig/StructureDefinition/alr-RiskAssessment"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

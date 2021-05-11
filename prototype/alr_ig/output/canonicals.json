@@ -21,11 +21,25 @@
     "name": "ALRGroup"
   },
   {
+    "id": "alr-HccRiskFlag",
+    "type": "StructureDefinition",
+    "url": "http://alr.cms.gov/ig/StructureDefinition/alr-HccRiskFlag",
+    "version": "0.1.0",
+    "name": "ALRHccRiskFlag"
+  },
+  {
     "id": "alr-Patient",
     "type": "StructureDefinition",
     "url": "http://alr.cms.gov/ig/StructureDefinition/alr-Patient",
     "version": "0.1.0",
     "name": "ALRPatient"
+  },
+  {
+    "id": "alr-RiskAssessment",
+    "type": "StructureDefinition",
+    "url": "http://alr.cms.gov/ig/StructureDefinition/alr-RiskAssessment",
+    "version": "0.1.0",
+    "name": "ALRRiskAssessment"
   },
   {
     "id": "ext-changeReason",
