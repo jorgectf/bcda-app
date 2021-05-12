@@ -11,5 +11,5 @@ Source:   ALRHccRiskFlag
 Target:   "http://cms.gov/ALR/Datadictionary"
 Title:    "CMS Assignment List Report"
 Id:       alr-csv-group
-* -> "Observation"
+* -> "ALR Table 1-1"
 * component -> "HCC_COL_N"

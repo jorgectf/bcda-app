@@ -146,6 +146,65 @@
       ]
     },
     {
+      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount",
+      "title": "ALR Service Count",
+      "types": [
+        "Coding",
+        "Identifier",
+        "integer",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
       "url": "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag",
       "title": "ALR Voluntary Alignment",
       "types": [
@@ -204,8 +263,12 @@
     "http://alr.cms.gov/ig/StructureDefinition/ext-prevAssignedBeneficiaryFlag": [
       "Group.member"
     ],
+    "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount": [
+      "Patient"
+    ],
     "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag": [
-      "Group.member"
+      "Group.member",
+      "Patient"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"

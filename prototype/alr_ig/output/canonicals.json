@@ -84,6 +84,13 @@
     "name": "PrevAssignedBeneficiaryFlag"
   },
   {
+    "id": "ext-serviceCount",
+    "type": "StructureDefinition",
+    "url": "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount",
+    "version": "0.1.0",
+    "name": "ServiceCount"
+  },
+  {
     "id": "ext-voluntaryAlignmentFlag",
     "type": "StructureDefinition",
     "url": "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag",

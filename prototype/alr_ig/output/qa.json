@@ -3,10 +3,10 @@
   "name": "AssignmentListIG",
   "package-id": "cms.gov.us.alr",
   "ig-ver": "0.1.0",
-  "date": "Tue, 11 May, 2021 14:01:16 -0600",
-  "errs": 10,
+  "date": "Wed, 12 May, 2021 09:18:12 -0600",
+  "errs": 9,
   "warnings": 8,
-  "hints": 14,
+  "hints": 18,
   "version": "4.0.1",
   "tool": "4.5.0 (3)"
 }

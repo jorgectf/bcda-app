@@ -17,7 +17,7 @@ Source:   ALRGroup
 Target:   "http://cms.gov/ALR/Datadictionary"
 Title:    "CMS Assignment List Report"
 Id:       alr-csv-group
-* -> "Group"
+* -> "ALR Table 1-1"
 * member.extension[changeType].valueCode -> "EXCLUDED"
 * member.extension[ext-changeReason] -> "DECEASED_EXCLUDED"
 * member.extension[ext-changeReason] -> "MISSING_ID_EXCLUDED"

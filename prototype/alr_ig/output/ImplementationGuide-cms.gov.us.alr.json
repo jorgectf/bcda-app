@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "AssignmentListIG",
   "status": "draft",
-  "date": "2021-05-11T14:01:16-06:00",
+  "date": "2021-05-12T09:18:12-06:00",
   "packageId": "cms.gov.us.alr",
   "license": "CC0-1.0",
   "fhirVersion": [
@@ -432,6 +432,20 @@
         },
         "name": "ALR Previously Assigned Beneficiary Flag",
         "description": "ALR Previously Assigned Beneficiary Flag",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ext-serviceCount"
+        },
+        "name": "ALR Service Count",
+        "description": "ALR Service Count Description",
         "exampleBoolean": false
       },
       {

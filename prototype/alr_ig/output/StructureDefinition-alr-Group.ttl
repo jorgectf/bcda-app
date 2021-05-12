@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "ALRGroup"];
   fhir:StructureDefinition.title [ fhir:value "ALR Group Profile"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-05-11T14:01:16-06:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-05-12T09:18:12-06:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "ALR Group Profile Desc"];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [
@@ -149,7 +149,7 @@
        ], [
          fhir:index 2;
          fhir:ElementDefinition.mapping.identity [ fhir:value "alr-csv-group" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "Group" ]
+         fhir:ElementDefinition.mapping.map [ fhir:value "ALR Table 1-1" ]
        ]
      ], [
        fhir:index 1;
@@ -4583,7 +4583,7 @@
        fhir:ElementDefinition.mapping [
          fhir:index 0;
          fhir:ElementDefinition.mapping.identity [ fhir:value "alr-csv-group" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "Group" ]
+         fhir:ElementDefinition.mapping.map [ fhir:value "ALR Table 1-1" ]
        ]
      ], [
        fhir:index 1;

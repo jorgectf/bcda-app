@@ -10,7 +10,7 @@
   "name": "ALRCoverage",
   "title": "ALR Coverage Profile",
   "status": "active",
-  "date": "2021-05-11T14:01:16-06:00",
+  "date": "2021-05-12T09:18:12-06:00",
   "description": "ALR Coverage Profile Desc",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -140,7 +140,7 @@
           },
           {
             "identity": "alr-csv-coverage",
-            "map": "Coverage"
+            "map": "ALR Table 1-1"
           }
         ]
       },
@@ -4508,7 +4508,7 @@
         "mapping": [
           {
             "identity": "alr-csv-coverage",
-            "map": "Coverage"
+            "map": "ALR Table 1-1"
           }
         ]
       },

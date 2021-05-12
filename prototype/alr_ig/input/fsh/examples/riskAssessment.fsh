@@ -35,7 +35,7 @@ Usage:          #example
 * prediction[7].whenPeriod.end = "2020-08-31"
 * prediction[8].probabilityDecimal = 0.0555255
 * prediction[8].whenPeriod.start = "2020-09-01"
-* prediction[8].whenPeriod.end = "2020-09-31"
+* prediction[8].whenPeriod.end = "2020-09-30"
 * prediction[9].probabilityDecimal = 0.067255
 * prediction[9].whenPeriod.start = "2020-10-01"
 * prediction[9].whenPeriod.end = "2020-10-31"

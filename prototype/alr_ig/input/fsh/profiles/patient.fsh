@@ -4,14 +4,16 @@ Parent:         http://hl7.org/fhir/us/davinci-atr/StructureDefinition/atr-patie
 Id:             alr-Patient
 Title:          "ALR Patient Profile"
 Description:    "ALR Patient Profile Desc"
+* extension contains ServiceCount named ext-serviceCount 0..* MS
+* extension contains VoluntaryAlignmentFlag named ext-voluntaryAlignmentFlag 0..1 MS
 
 
 Mapping:  ALRPatientToALRCSV
 Source:   ALRPatient
 Target:   "http://cms.gov/ALR/Datadictionary"
-Title:    "Legacy CSV Assignment List Report"
+Title:    "CMS Assignment List Report"
 Id:       alr-csv-patient
-* -> "Patient"
+* -> "ALR Table 1-1"
 * identifier -> "BENE_MBI_ID"
 * name.given -> "BENE_1ST_NAME"
 * name.family -> "BENE_LAST_NAME"

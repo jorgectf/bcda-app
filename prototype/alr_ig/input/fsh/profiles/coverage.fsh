@@ -23,5 +23,5 @@ Source:   ALRCoverage
 Target:   "http://cms.gov/ALR/Datadictionary"
 Title:    "CMS Assignment List Report"
 Id:       alr-csv-coverage
-* -> "Coverage"
+* -> "ALR Table 1-1"
 * extension[ext-enrollmentPeriod].extension[period] -> "EnrollFlagN"

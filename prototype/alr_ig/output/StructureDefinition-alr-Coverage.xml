@@ -22,7 +22,7 @@
   <name value="ALRCoverage"/>
   <title value="ALR Coverage Profile"/>
   <status value="active"/>
-  <date value="2021-05-11T14:01:16-06:00"/>
+  <date value="2021-05-12T09:18:12-06:00"/>
   <description value="ALR Coverage Profile Desc"/>
   <fhirVersion value="4.0.1"/>
   <mapping>
@@ -141,7 +141,7 @@
       </mapping>
       <mapping>
         <identity value="alr-csv-coverage"/>
-        <map value="Coverage"/>
+        <map value="ALR Table 1-1"/>
       </mapping>
     </element>
     <element id="Coverage.id">
@@ -3728,7 +3728,7 @@
       <path value="Coverage"/>
       <mapping>
         <identity value="alr-csv-coverage"/>
-        <map value="Coverage"/>
+        <map value="ALR Table 1-1"/>
       </mapping>
     </element>
     <element id="Coverage.extension:ext-enrollmentPeriod">

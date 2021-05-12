@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
   fhir:ImplementationGuide.name [ fhir:value "AssignmentListIG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-05-11T14:01:16-06:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-05-12T09:18:12-06:00"^^xsd:dateTime];
   fhir:ImplementationGuide.packageId [ fhir:value "cms.gov.us.alr"];
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
   fhir:ImplementationGuide.fhirVersion [
@@ -434,6 +434,20 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ext-serviceCount" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ALR Service Count" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ALR Service Count Description" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/ext-voluntaryAlignmentFlag" ]
        ];
@@ -441,7 +455,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ALR Voluntary Alignment Desc" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 12;
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -457,7 +471,7 @@
          fhir:link <http://alr.cms.gov/ig/StructureDefinition/alr-Coverage>
        ]
      ], [
-       fhir:index 13;
+       fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -473,7 +487,7 @@
          fhir:link <http://alr.cms.gov/ig/StructureDefinition/alr-Group>
        ]
      ], [
-       fhir:index 14;
+       fhir:index 15;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -489,7 +503,7 @@
          fhir:link <http://alr.cms.gov/ig/StructureDefinition/alr-HccRiskFlag>
        ]
      ], [
-       fhir:index 15;
+       fhir:index 16;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -505,7 +519,7 @@
          fhir:link <http://alr.cms.gov/ig/StructureDefinition/alr-RiskAssessment>
        ]
      ], [
-       fhir:index 16;
+       fhir:index 17;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -521,7 +535,7 @@
          fhir:link <http://alr.cms.gov/ig/StructureDefinition/alr-Patient>
        ]
      ], [
-       fhir:index 17;
+       fhir:index 18;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -537,7 +551,7 @@
          fhir:link <http://alr.cms.gov/ig/StructureDefinition/alr-RiskAssessment>
        ]
      ], [
-       fhir:index 18;
+       fhir:index 19;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -553,7 +567,7 @@
          fhir:link <http://alr.cms.gov/ig/StructureDefinition/alr-RiskAssessment>
        ]
      ], [
-       fhir:index 19;
+       fhir:index 20;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

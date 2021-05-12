@@ -10,7 +10,7 @@
   "name": "ALRGroup",
   "title": "ALR Group Profile",
   "status": "active",
-  "date": "2021-05-11T14:01:16-06:00",
+  "date": "2021-05-12T09:18:12-06:00",
   "description": "ALR Group Profile Desc",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -124,7 +124,7 @@
           },
           {
             "identity": "alr-csv-group",
-            "map": "Group"
+            "map": "ALR Table 1-1"
           }
         ]
       },
@@ -4403,7 +4403,7 @@
         "mapping": [
           {
             "identity": "alr-csv-group",
-            "map": "Group"
+            "map": "ALR Table 1-1"
           }
         ]
       },
