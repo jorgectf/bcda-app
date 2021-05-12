@@ -16,6 +16,8 @@ releaseLabel: ci-build
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  Table of Contents: toc.html
+  Overview: overview.html
   Artifacts: artifacts.html
 dependencies:
   hl7.fhir.us.core: 3.1.1

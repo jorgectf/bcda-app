@@ -1,0 +1,55 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://alr.cms.gov/ig/RiskAssessment/example-id-risk-score-esrd> a fhir:RiskAssessment;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "example-id-risk-score-esrd"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://alr.cms.gov/ig/StructureDefinition/alr-RiskAssessment";
+       fhir:index 0;
+       fhir:link <http://alr.cms.gov/ig/StructureDefinition/alr-RiskAssessment>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: final</p><p><b>code</b>: <span title=\"Codes: {https://bluebutton.cms.gov/resources/variables/alr/esrd-score ESRD_SCORE}\">CMS-HCC Risk Score for ESRD</span></p><p><b>subject</b>: <a href=\"Patient-example-id-patient.html\">General example of coverage with gaps in enrollment periodGenerated Summary: id: example-ccw-id, id: 412be343c343343324f661527671abb5307d5e89031db9a9f, id: example-mbi-patient; John Doe ; gender: male; birthDate: 1957-01-17; deceased: 2020-03-18</a></p><p><b>basis</b>: <a href=\"Observation-example-id-hcc-risk-flags.html\">Generated Summary: <span title=\"Codes: {https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags hccRiskFlags}\">HCC Risk Flags</span></a></p><h3>Predictions</h3><table class=\"grid\"><tr><td>-</td><td><b>Probability[x]</b></td><td><b>When[x]</b></td></tr><tr><td>*</td><td>0.083132</td><td>2020-01-01 --&gt; 2020-12-31</td></tr></table></div>"
+  ];
+  fhir:RiskAssessment.status [ fhir:value "final"];
+  fhir:RiskAssessment.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://bluebutton.cms.gov/resources/variables/alr/esrd-score" ];
+       fhir:Coding.code [ fhir:value "ESRD_SCORE" ];
+       fhir:Coding.display [ fhir:value "CMS-HCC Risk Score for ESRD" ]
+     ]
+  ];
+  fhir:RiskAssessment.subject [
+     fhir:link <http://alr.cms.gov/ig/Patient/example-id-patient>;
+     fhir:Reference.reference [ fhir:value "Patient/example-id-patient" ]
+  ];
+  fhir:RiskAssessment.basis [
+     fhir:index 0;
+     fhir:link <http://alr.cms.gov/ig/Observation/example-id-hcc-risk-flags>;
+     fhir:Reference.reference [ fhir:value "Observation/example-id-hcc-risk-flags" ]
+  ];
+  fhir:RiskAssessment.prediction [
+     fhir:index 0;
+     fhir:RiskAssessment.prediction.probabilityDecimal [ fhir:value "0.083132"^^xsd:decimal ];
+     fhir:RiskAssessment.prediction.whenPeriod [
+       fhir:Period.start [ fhir:value "2020-01-01"^^xsd:date ];
+       fhir:Period.end [ fhir:value "2020-12-31"^^xsd:date ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://alr.cms.gov/ig/RiskAssessment/example-id-risk-score-esrd.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="example-id-patient"/>
+  <meta>
+    <profile value="http://alr.cms.gov/ig/StructureDefinition/alr-Patient"/>
+  </meta>
+  <text>
+    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p>General example of coverage with gaps in enrollment period</p></div>
+  </text>
+  <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount">
+    <extension url="category">
+      <valueCoding>
+        <system value="https://bluebutton.cms.gov/resources/variables/b_em_line_cnt_t"/>
+        <code value="B_EM_LINE_CNT_T"/>
+        <display value="Count of Primary Care Services - ACO Participant TIN"/>
+      </valueCoding>
+    </extension>
+    <extension url="participant">
+      <valueIdentifier>
+        <type>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+            <code value="TAX"/>
+            <display value="Tax ID number"/>
+          </coding>
+        </type>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <value value="example-TIN"/>
+      </valueIdentifier>
+    </extension>
+    <extension url="serviceCount">
+      <valueInteger value="5"/>
+    </extension>
+  </extension>
+  <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount">
+    <extension url="category">
+      <valueCoding>
+        <system value="https://bluebutton.cms.gov/resources/variables/rev-line-cnt"/>
+        <code value="REV_LINE_CNT"/>
+        <display value="Count of Primary Care Services - ACO Participant CCN"/>
+      </valueCoding>
+    </extension>
+    <extension url="participant">
+      <valueIdentifier>
+        <type>
+          <coding>
+            <system value="https://bluebutton.cms.gov/resources/variables/prvdr_num"/>
+            <code value="CCN"/>
+            <display value="CCN Number"/>
+          </coding>
+        </type>
+        <system value="https://bluebutton.cms.gov/resources/variables/prvdr_num"/>
+        <value value="example-CCN"/>
+      </valueIdentifier>
+    </extension>
+    <extension url="serviceCount">
+      <valueInteger value="15"/>
+    </extension>
+  </extension>
+  <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount">
+    <extension url="category">
+      <valueCoding>
+        <system value="https://bluebutton.cms.gov/resources/variables/pcs-count"/>
+        <code value="PCS_COUNT"/>
+        <display value="Top ACO Participant TIN-Individual NPI"/>
+      </valueCoding>
+    </extension>
+    <extension url="participant">
+      <valueIdentifier>
+        <type>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+            <code value="TAX"/>
+            <display value="Tax ID number"/>
+          </coding>
+        </type>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <value value="example-TIN"/>
+      </valueIdentifier>
+    </extension>
+    <extension url="participant">
+      <valueIdentifier>
+        <type>
+          <coding>
+            <system value="http://hl7.org/fhir/sid/us-npi"/>
+            <code value="NPI"/>
+            <display value="NPI Number"/>
+          </coding>
+        </type>
+        <system value="http://hl7.org/fhir/sid/us-npi"/>
+        <value value="example-NPI"/>
+      </valueIdentifier>
+    </extension>
+    <extension url="serviceCount">
+      <valueInteger value="7"/>
+    </extension>
+  </extension>
+  <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag">
+    <valueBoolean value="false"/>
+  </extension>
+  <identifier>
+    <system value="https://bluebutton.cms.gov/resources/variables/bene_id"/>
+    <value value="example-ccw-id"/>
+  </identifier>
+  <identifier>
+    <system value="https://bluebutton.cms.gov/resources/identifier/mbi-hash"/>
+    <value value="412be343c343343324f661527671abb5307d5e89031db9a9f"/>
+  </identifier>
+  <identifier>
+    <system value="http://hl7.org/fhir/sid/us-mbi"/>
+    <value value="example-mbi-patient"/>
+  </identifier>
+  <name>
+    <family value="Doe"/>
+    <given value="John"/>
+  </name>
+  <gender value="male"/>
+  <birthDate value="1957-01-17"/>
+  <deceasedDateTime value="2020-03-18"/>
+  <address>
+    <line value="1000 Main Street"/>
+    <line value="Apt #2"/>
+    <city value="Anytown"/>
+    <district value="SL County"/>
+    <state value="UT"/>
+  </address>
+</Patient>

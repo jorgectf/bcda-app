@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RiskAssessment xmlns="http://hl7.org/fhir">
+  <id value="example-id-risk-score-aged-dual"/>
+  <meta>
+    <profile value="http://alr.cms.gov/ig/StructureDefinition/alr-RiskAssessment"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: final</p><p><b>code</b>: <span title="Codes: {https://bluebutton.cms.gov/resources/variables/alr/aged-dual-score AGED_DUAL_SCORE}">CMS-HCC Risk Score for Aged/Dual</span></p><p><b>subject</b>: <a href="Patient-example-id-patient.html">General example of coverage with gaps in enrollment periodGenerated Summary: id: example-ccw-id, id: 412be343c343343324f661527671abb5307d5e89031db9a9f, id: example-mbi-patient; John Doe ; gender: male; birthDate: 1957-01-17; deceased: 2020-03-18</a></p><p><b>basis</b>: <a href="Observation-example-id-hcc-risk-flags.html">Generated Summary: <span title="Codes: {https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags hccRiskFlags}">HCC Risk Flags</span></a></p><h3>Predictions</h3><table class="grid"><tr><td>-</td><td><b>Probability[x]</b></td><td><b>When[x]</b></td></tr><tr><td>*</td><td>0.083132</td><td>2020-01-01 --&gt; 2020-12-31</td></tr></table></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="https://bluebutton.cms.gov/resources/variables/alr/aged-dual-score"/>
+      <code value="AGED_DUAL_SCORE"/>
+      <display value="CMS-HCC Risk Score for Aged/Dual"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/example-id-patient"/>
+  </subject>
+  <basis>
+    <reference value="Observation/example-id-hcc-risk-flags"/>
+  </basis>
+  <prediction>
+    <probabilityDecimal value="0.083132"/>
+    <whenPeriod>
+      <start value="2020-01-01"/>
+      <end value="2020-12-31"/>
+    </whenPeriod>
+  </prediction>
+</RiskAssessment>

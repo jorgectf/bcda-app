@@ -1,0 +1,94 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://alr.cms.gov/ig/Observation/example-id-hcc-risk-flags> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "example-id-hcc-risk-flags"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://alr.cms.gov/ig/StructureDefinition/alr-HccRiskFlag";
+       fhir:index 0;
+       fhir:link <http://alr.cms.gov/ig/StructureDefinition/alr-HccRiskFlag>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p></p><p><b>code</b>: <span title=\"Codes: {https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags hccRiskFlags}\">HCC Risk Flags</span></p><p><b>subject</b>: <span></span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes: {https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags HCC1}\">HIV/AIDS</span></p><p><b>value</b>: 0</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes: {https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags HCC2}\">Septicemia/Shock</span></p><p><b>value</b>: 1</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes: {https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags HCC5}\">Opportunistic Infections</span></p><p><b>value</b>: N/A</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes: {https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags HCC7}\">Metastatic Cancer and Acute Leukemia</span></p><p><b>value</b>: N/A</p></blockquote></div>"
+  ];
+  fhir:Observation.status [ fhir:value "final"];
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags" ];
+       fhir:Coding.version [ fhir:value "V12" ];
+       fhir:Coding.code [ fhir:value "hccRiskFlags" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "HCC Risk Flags" ]
+  ];
+  fhir:Observation.subject [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "https://bluebutton.cms.gov/resources/variables/bene_id" ];
+       fhir:Identifier.value [ fhir:value "19990000000140" ]
+     ]
+  ];
+  fhir:Observation.component [
+     fhir:index 0;
+     fhir:Observation.component.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags" ];
+         fhir:Coding.version [ fhir:value "V12" ];
+         fhir:Coding.code [ fhir:value "HCC1" ];
+         fhir:Coding.display [ fhir:value "HIV/AIDS" ]
+       ]
+     ];
+     fhir:Observation.component.valueString [ fhir:value "0" ]
+  ], [
+     fhir:index 1;
+     fhir:Observation.component.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags" ];
+         fhir:Coding.version [ fhir:value "V12" ];
+         fhir:Coding.code [ fhir:value "HCC2" ];
+         fhir:Coding.display [ fhir:value "Septicemia/Shock" ]
+       ]
+     ];
+     fhir:Observation.component.valueString [ fhir:value "1" ]
+  ], [
+     fhir:index 2;
+     fhir:Observation.component.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags" ];
+         fhir:Coding.version [ fhir:value "V12" ];
+         fhir:Coding.code [ fhir:value "HCC5" ];
+         fhir:Coding.display [ fhir:value "Opportunistic Infections" ]
+       ]
+     ];
+     fhir:Observation.component.valueString [ fhir:value "N/A" ]
+  ], [
+     fhir:index 3;
+     fhir:Observation.component.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags" ];
+         fhir:Coding.version [ fhir:value "V12" ];
+         fhir:Coding.code [ fhir:value "HCC7" ];
+         fhir:Coding.display [ fhir:value "Metastatic Cancer and Acute Leukemia" ]
+       ]
+     ];
+     fhir:Observation.component.valueString [ fhir:value "N/A" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://alr.cms.gov/ig/Observation/example-id-hcc-risk-flags.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

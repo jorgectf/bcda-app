@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Group xmlns="http://hl7.org/fhir">
+  <id value="example-id-group"/>
+  <meta>
+    <lastUpdated value="2021-04-01T03:04:12.348-04:00"/>
+    <profile value="http://alr.cms.gov/ig/StructureDefinition/alr-Group"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Contract Validity Period</b>: 2020-04-01 --&gt; 2021-03-31</p><p><b>active</b>: true</p><p><b>type</b>: person</p><p><b>actual</b>: true</p><p><b>name</b>: General Example of ALR Group</p><p><b>managingEntity</b>: <a href="Organization/123">Sample Organization</a></p><blockquote><p><b>member</b></p><p><b>Group Member Change Information</b>: dropped</p><p><b>Coverage Reference</b>: <a href="Coverage-example-id-coverage.html">Generated Summary: status: active; subscriberId: -19999000381; period: 2020-01-01 --&gt; 2020-12-31</a></p><p><b>Attributed Provider</b>: <a href="Practitioner/example-id-prac">Practitioner/example-id-prac</a></p><blockquote><p><b>ALR Change Reason</b></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: <span title="{https://bluebutton.cms.gov/resources/variables/alr/changeReason GHP_EXCLUDED}">Beneficiary had at least one month of Part-A only or Part-B only coverage</span></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: <span title="{https://bluebutton.cms.gov/resources/variables/alr/changeReason MISSING_ID_EXCLUDED}">Beneficiary identifier is missing</span></p></blockquote><p><b>ALR Claims Based Assignment</b>: true</p><p><b>ALR Claims Based Assignment</b>: 3</p><p><b>ALR Previously Assigned Beneficiary Flag</b>: true</p><p><b>ALR Newly Assigned Beneficiary Flag</b>: false</p><p><b>ALR Voluntary Alignment</b>: false</p><p><b>entity</b>: <a href="Patient-example-id-patient.html">General example of coverage with gaps in enrollment periodGenerated Summary: id: example-ccw-id, id: 412be343c343343324f661527671abb5307d5e89031db9a9f, id: example-mbi-patient; John Doe ; gender: male; birthDate: 1957-01-17; deceased: 2020-03-18</a></p></blockquote><blockquote><p><b>member</b></p><p><b>Group Member Change Information</b>: nochange</p><p><b>Coverage Reference</b>: <a href="Coverage-example-id-coverage.html">Generated Summary: status: active; subscriberId: -19999000381; period: 2020-01-01 --&gt; 2020-12-31</a></p><p><b>Attributed Provider</b>: <a href="Practitioner/example-id-prac">Practitioner/example-id-prac</a></p><p><b>ALR Claims Based Assignment</b>: false</p><p><b>ALR Claims Based Assignment</b>: 2</p><p><b>ALR Previously Assigned Beneficiary Flag</b>: false</p><p><b>ALR Newly Assigned Beneficiary Flag</b>: true</p><p><b>ALR Voluntary Alignment</b>: true</p><p><b>entity</b>: <a href="Patient/example-id-2-patient">Patient/example-id-2-patient</a></p></blockquote><blockquote><p><b>member</b></p><p><b>Group Member Change Information</b>: new</p><p><b>Coverage Reference</b>: <a href="Coverage-example-id-coverage.html">Generated Summary: status: active; subscriberId: -19999000381; period: 2020-01-01 --&gt; 2020-12-31</a></p><p><b>Attributed Provider</b>: <a href="Practitioner/example-id-prac">Practitioner/example-id-prac</a></p><p><b>ALR Claims Based Assignment</b>: true</p><p><b>ALR Claims Based Assignment</b>: 1</p><p><b>ALR Previously Assigned Beneficiary Flag</b>: false</p><p><b>ALR Newly Assigned Beneficiary Flag</b>: true</p><p><b>ALR Voluntary Alignment</b>: true</p><p><b>entity</b>: <a href="Patient/example-id-3-patient">Patient/example-id-3-patient</a></p></blockquote></div>
+  </text>
+  <extension url="http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-contractValidityPeriod">
+    <valuePeriod>
+      <start value="2020-04-01"/>
+      <end value="2021-03-31"/>
+    </valuePeriod>
+  </extension>
+  <active value="true"/>
+  <type value="person"/>
+  <actual value="true"/>
+  <name value="General Example of ALR Group"/>
+  <managingEntity>
+    <reference value="Organization/123"/>
+    <display value="Sample Organization"/>
+  </managingEntity>
+  <member>
+    <extension url="http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-changeType">
+      <valueCode value="dropped"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-coverageReference">
+      <valueReference>
+        <reference value="Coverage/example-id-coverage"/>
+      </valueReference>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-attributedProvider">
+      <valueReference>
+        <reference value="Practitioner/example-id-prac"/>
+      </valueReference>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-changeReason">
+      <extension url="reasonCode">
+        <valueCoding>
+          <system value="https://bluebutton.cms.gov/resources/variables/alr/changeReason"/>
+          <code value="GHP_EXCLUDED"/>
+          <display value="Beneficiary had at least one month of Part-A only or Part-B only coverage"/>
+        </valueCoding>
+      </extension>
+      <extension url="reasonCode">
+        <valueCoding>
+          <system value="https://bluebutton.cms.gov/resources/variables/alr/changeReason"/>
+          <code value="MISSING_ID_EXCLUDED"/>
+          <display value="Beneficiary identifier is missing"/>
+        </valueCoding>
+      </extension>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentFlag">
+      <valueBoolean value="true"/>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentStep">
+      <valueInteger value="3"/>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-prevAssignedBeneficiaryFlag">
+      <valueBoolean value="true"/>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-newlyAssignedBeneficiaryFlag">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag">
+      <valueBoolean value="false"/>
+    </extension>
+    <entity>
+      <reference value="Patient/example-id-patient"/>
+    </entity>
+  </member>
+  <member>
+    <extension url="http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-changeType">
+      <valueCode value="nochange"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-coverageReference">
+      <valueReference>
+        <reference value="Coverage/example-id-coverage"/>
+      </valueReference>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-attributedProvider">
+      <valueReference>
+        <reference value="Practitioner/example-id-prac"/>
+      </valueReference>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentFlag">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentStep">
+      <valueInteger value="2"/>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-prevAssignedBeneficiaryFlag">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-newlyAssignedBeneficiaryFlag">
+      <valueBoolean value="true"/>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag">
+      <valueBoolean value="true"/>
+    </extension>
+    <entity>
+      <reference value="Patient/example-id-2-patient"/>
+    </entity>
+  </member>
+  <member>
+    <extension url="http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-changeType">
+      <valueCode value="new"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-coverageReference">
+      <valueReference>
+        <reference value="Coverage/example-id-coverage"/>
+      </valueReference>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-attributedProvider">
+      <valueReference>
+        <reference value="Practitioner/example-id-prac"/>
+      </valueReference>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentFlag">
+      <valueBoolean value="true"/>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentStep">
+      <valueInteger value="1"/>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-prevAssignedBeneficiaryFlag">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-newlyAssignedBeneficiaryFlag">
+      <valueBoolean value="true"/>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag">
+      <valueBoolean value="true"/>
+    </extension>
+    <entity>
+      <reference value="Patient/example-id-3-patient"/>
+    </entity>
+  </member>
+</Group>

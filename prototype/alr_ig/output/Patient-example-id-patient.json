@@ -1,0 +1,170 @@
+{
+  "resourceType": "Patient",
+  "id": "example-id-patient",
+  "meta": {
+    "profile": [
+      "http://alr.cms.gov/ig/StructureDefinition/alr-Patient"
+    ]
+  },
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>General example of coverage with gaps in enrollment period</p></div>"
+  },
+  "extension": [
+    {
+      "extension": [
+        {
+          "url": "category",
+          "valueCoding": {
+            "system": "https://bluebutton.cms.gov/resources/variables/b_em_line_cnt_t",
+            "code": "B_EM_LINE_CNT_T",
+            "display": "Count of Primary Care Services - ACO Participant TIN"
+          }
+        },
+        {
+          "url": "participant",
+          "valueIdentifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "TAX",
+                  "display": "Tax ID number"
+                }
+              ]
+            },
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "value": "example-TIN"
+          }
+        },
+        {
+          "url": "serviceCount",
+          "valueInteger": 5
+        }
+      ],
+      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount"
+    },
+    {
+      "extension": [
+        {
+          "url": "category",
+          "valueCoding": {
+            "system": "https://bluebutton.cms.gov/resources/variables/rev-line-cnt",
+            "code": "REV_LINE_CNT",
+            "display": "Count of Primary Care Services - ACO Participant CCN"
+          }
+        },
+        {
+          "url": "participant",
+          "valueIdentifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://bluebutton.cms.gov/resources/variables/prvdr_num",
+                  "code": "CCN",
+                  "display": "CCN Number"
+                }
+              ]
+            },
+            "system": "https://bluebutton.cms.gov/resources/variables/prvdr_num",
+            "value": "example-CCN"
+          }
+        },
+        {
+          "url": "serviceCount",
+          "valueInteger": 15
+        }
+      ],
+      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount"
+    },
+    {
+      "extension": [
+        {
+          "url": "category",
+          "valueCoding": {
+            "system": "https://bluebutton.cms.gov/resources/variables/pcs-count",
+            "code": "PCS_COUNT",
+            "display": "Top ACO Participant TIN-Individual NPI"
+          }
+        },
+        {
+          "url": "participant",
+          "valueIdentifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "TAX",
+                  "display": "Tax ID number"
+                }
+              ]
+            },
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "value": "example-TIN"
+          }
+        },
+        {
+          "url": "participant",
+          "valueIdentifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/sid/us-npi",
+                  "code": "NPI",
+                  "display": "NPI Number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "example-NPI"
+          }
+        },
+        {
+          "url": "serviceCount",
+          "valueInteger": 7
+        }
+      ],
+      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount"
+    },
+    {
+      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag",
+      "valueBoolean": false
+    }
+  ],
+  "identifier": [
+    {
+      "system": "https://bluebutton.cms.gov/resources/variables/bene_id",
+      "value": "example-ccw-id"
+    },
+    {
+      "system": "https://bluebutton.cms.gov/resources/identifier/mbi-hash",
+      "value": "412be343c343343324f661527671abb5307d5e89031db9a9f"
+    },
+    {
+      "system": "http://hl7.org/fhir/sid/us-mbi",
+      "value": "example-mbi-patient"
+    }
+  ],
+  "name": [
+    {
+      "family": "Doe",
+      "given": [
+        "John"
+      ]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1957-01-17",
+  "deceasedDateTime": "2020-03-18",
+  "address": [
+    {
+      "line": [
+        "1000 Main Street",
+        "Apt #2"
+      ],
+      "city": "Anytown",
+      "district": "SL County",
+      "state": "UT"
+    }
+  ]
+}

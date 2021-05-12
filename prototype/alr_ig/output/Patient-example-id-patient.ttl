@@ -1,0 +1,179 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://alr.cms.gov/ig/Patient/example-id-patient> a fhir:Patient;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "example-id-patient"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://alr.cms.gov/ig/StructureDefinition/alr-Patient";
+       fhir:index 0;
+       fhir:link <http://alr.cms.gov/ig/StructureDefinition/alr-Patient>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "additional" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>General example of coverage with gaps in enrollment period</p></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "category" ];
+       fhir:Extension.valueCoding [
+         fhir:Coding.system [ fhir:value "https://bluebutton.cms.gov/resources/variables/b_em_line_cnt_t" ];
+         fhir:Coding.code [ fhir:value "B_EM_LINE_CNT_T" ];
+         fhir:Coding.display [ fhir:value "Count of Primary Care Services - ACO Participant TIN" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "participant" ];
+       fhir:Extension.valueIdentifier [
+         fhir:Identifier.type [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0203" ];
+             fhir:Coding.code [ fhir:value "TAX" ];
+             fhir:Coding.display [ fhir:value "Tax ID number" ]
+           ]
+         ];
+         fhir:Identifier.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0203" ];
+         fhir:Identifier.value [ fhir:value "example-TIN" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Extension.url [ fhir:value "serviceCount" ];
+       fhir:Extension.valueInteger [ fhir:value "5"^^xsd:integer ]
+     ];
+     fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount" ]
+  ], [
+     fhir:index 1;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "category" ];
+       fhir:Extension.valueCoding [
+         fhir:Coding.system [ fhir:value "https://bluebutton.cms.gov/resources/variables/rev-line-cnt" ];
+         fhir:Coding.code [ fhir:value "REV_LINE_CNT" ];
+         fhir:Coding.display [ fhir:value "Count of Primary Care Services - ACO Participant CCN" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "participant" ];
+       fhir:Extension.valueIdentifier [
+         fhir:Identifier.type [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "https://bluebutton.cms.gov/resources/variables/prvdr_num" ];
+             fhir:Coding.code [ fhir:value "CCN" ];
+             fhir:Coding.display [ fhir:value "CCN Number" ]
+           ]
+         ];
+         fhir:Identifier.system [ fhir:value "https://bluebutton.cms.gov/resources/variables/prvdr_num" ];
+         fhir:Identifier.value [ fhir:value "example-CCN" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Extension.url [ fhir:value "serviceCount" ];
+       fhir:Extension.valueInteger [ fhir:value "15"^^xsd:integer ]
+     ];
+     fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount" ]
+  ], [
+     fhir:index 2;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "category" ];
+       fhir:Extension.valueCoding [
+         fhir:Coding.system [ fhir:value "https://bluebutton.cms.gov/resources/variables/pcs-count" ];
+         fhir:Coding.code [ fhir:value "PCS_COUNT" ];
+         fhir:Coding.display [ fhir:value "Top ACO Participant TIN-Individual NPI" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "participant" ];
+       fhir:Extension.valueIdentifier [
+         fhir:Identifier.type [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0203" ];
+             fhir:Coding.code [ fhir:value "TAX" ];
+             fhir:Coding.display [ fhir:value "Tax ID number" ]
+           ]
+         ];
+         fhir:Identifier.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0203" ];
+         fhir:Identifier.value [ fhir:value "example-TIN" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Extension.url [ fhir:value "participant" ];
+       fhir:Extension.valueIdentifier [
+         fhir:Identifier.type [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "http://hl7.org/fhir/sid/us-npi" ];
+             fhir:Coding.code [ fhir:value "NPI" ];
+             fhir:Coding.display [ fhir:value "NPI Number" ]
+           ]
+         ];
+         fhir:Identifier.system [ fhir:value "http://hl7.org/fhir/sid/us-npi" ];
+         fhir:Identifier.value [ fhir:value "example-NPI" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:Extension.url [ fhir:value "serviceCount" ];
+       fhir:Extension.valueInteger [ fhir:value "7"^^xsd:integer ]
+     ];
+     fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount" ]
+  ], [
+     fhir:index 3;
+     fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag" ];
+     fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+  ];
+  fhir:Patient.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "https://bluebutton.cms.gov/resources/variables/bene_id" ];
+     fhir:Identifier.value [ fhir:value "example-ccw-id" ]
+  ], [
+     fhir:index 1;
+     fhir:Identifier.system [ fhir:value "https://bluebutton.cms.gov/resources/identifier/mbi-hash" ];
+     fhir:Identifier.value [ fhir:value "412be343c343343324f661527671abb5307d5e89031db9a9f" ]
+  ], [
+     fhir:index 2;
+     fhir:Identifier.system [ fhir:value "http://hl7.org/fhir/sid/us-mbi" ];
+     fhir:Identifier.value [ fhir:value "example-mbi-patient" ]
+  ];
+  fhir:Patient.name [
+     fhir:index 0;
+     fhir:HumanName.family [ fhir:value "Doe" ];
+     fhir:HumanName.given [
+       fhir:value "John";
+       fhir:index 0
+     ]
+  ];
+  fhir:Patient.gender [ fhir:value "male"];
+  fhir:Patient.birthDate [ fhir:value "1957-01-17"^^xsd:date];
+  fhir:Patient.deceasedDateTime [ fhir:value "2020-03-18"^^xsd:date];
+  fhir:Patient.address [
+     fhir:index 0;
+     fhir:Address.line [
+       fhir:value "1000 Main Street";
+       fhir:index 0
+     ], [
+       fhir:value "Apt #2";
+       fhir:index 1
+     ];
+     fhir:Address.city [ fhir:value "Anytown" ];
+     fhir:Address.district [ fhir:value "SL County" ];
+     fhir:Address.state [ fhir:value "UT" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://alr.cms.gov/ig/Patient/example-id-patient.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
