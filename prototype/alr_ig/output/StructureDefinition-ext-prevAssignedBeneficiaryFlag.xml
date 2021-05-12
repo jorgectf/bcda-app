@@ -14,7 +14,7 @@
   <name value="PrevAssignedBeneficiaryFlag"/>
   <title value="ALR Previously Assigned Beneficiary Flag"/>
   <status value="active"/>
-  <date value="2021-05-12T09:18:12-06:00"/>
+  <date value="2021-05-12T12:56:35-06:00"/>
   <description value="ALR Previously Assigned Beneficiary Flag"/>
   <fhirVersion value="4.0.1"/>
   <mapping>
