@@ -4,7 +4,7 @@ Title:          "Patient: General Example"
 Usage:          #example
 * id = "example-id-patient"
 * text.status = #additional
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>General example of coverage with gaps in enrollment period</p></div>"
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>General example of a patient, including extensions for the service counts found in the ALR data dictionary: table 1-2, 1-3 and 1-4</p></div>"
 * identifier[0].system = "https://bluebutton.cms.gov/resources/variables/bene_id"
 * identifier[0].value = "example-ccw-id"
 * identifier[1].system = "https://bluebutton.cms.gov/resources/identifier/mbi-hash"
@@ -24,9 +24,9 @@ Usage:          #example
 * address.state = "UT"
 * address.district = "SL County"
 // table 1-2
-* extension[ext-serviceCount][0].extension[category][0].valueCoding.system = "https://bluebutton.cms.gov/resources/variables/b_em_line_cnt_t"
-* extension[ext-serviceCount][0].extension[category][0].valueCoding.code = #B_EM_LINE_CNT_T
-* extension[ext-serviceCount][0].extension[category][0].valueCoding.display = "Count of Primary Care Services - ACO Participant TIN"
+* extension[ext-serviceCount][0].extension[serviceCountCode][0].valueCoding.system = "https://alr.cms.gov/resources/variables/service-count-codes"
+* extension[ext-serviceCount][0].extension[serviceCountCode][0].valueCoding.code = #B_EM_LINE_CNT_T
+* extension[ext-serviceCount][0].extension[serviceCountCode][0].valueCoding.display = "Count of Primary Care Services - ACO Participant TIN"
 * extension[ext-serviceCount][0].extension[participant][0].valueIdentifier.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
 * extension[ext-serviceCount][0].extension[participant][0].valueIdentifier.value = "example-TIN"
 * extension[ext-serviceCount][0].extension[participant][0].valueIdentifier.type.coding.code = #TAX
@@ -34,9 +34,9 @@ Usage:          #example
 * extension[ext-serviceCount][0].extension[participant][0].valueIdentifier.type.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
 * extension[ext-serviceCount][0].extension[serviceCount].valueInteger = 5
 // table 1-3
-* extension[ext-serviceCount][1].extension[category][0].valueCoding.system = "https://bluebutton.cms.gov/resources/variables/rev-line-cnt"
-* extension[ext-serviceCount][1].extension[category][0].valueCoding.code = #REV_LINE_CNT
-* extension[ext-serviceCount][1].extension[category][0].valueCoding.display = "Count of Primary Care Services - ACO Participant CCN"
+* extension[ext-serviceCount][1].extension[serviceCountCode][0].valueCoding.system = "https://alr.cms.gov/resources/variables/service-count-codes"
+* extension[ext-serviceCount][1].extension[serviceCountCode][0].valueCoding.code = #REV_LINE_CNT
+* extension[ext-serviceCount][1].extension[serviceCountCode][0].valueCoding.display = "Count of Primary Care Services - ACO Participant CCN"
 * extension[ext-serviceCount][1].extension[participant][0].valueIdentifier.system = "https://bluebutton.cms.gov/resources/variables/prvdr_num"
 * extension[ext-serviceCount][1].extension[participant][0].valueIdentifier.value = "example-CCN"
 * extension[ext-serviceCount][1].extension[participant][0].valueIdentifier.type.coding.code = #CCN
@@ -44,9 +44,9 @@ Usage:          #example
 * extension[ext-serviceCount][1].extension[participant][0].valueIdentifier.type.coding.system = "https://bluebutton.cms.gov/resources/variables/prvdr_num"
 * extension[ext-serviceCount][1].extension[serviceCount].valueInteger = 15
 // table 1-4
-* extension[ext-serviceCount][2].extension[category][0].valueCoding.system = "https://bluebutton.cms.gov/resources/variables/pcs-count"
-* extension[ext-serviceCount][2].extension[category][0].valueCoding.code = #PCS_COUNT
-* extension[ext-serviceCount][2].extension[category][0].valueCoding.display = "Top ACO Participant TIN-Individual NPI"
+* extension[ext-serviceCount][2].extension[serviceCountCode][0].valueCoding.system = "https://alr.cms.gov/resources/variables/service-count-codes"
+* extension[ext-serviceCount][2].extension[serviceCountCode][0].valueCoding.code = #PCS_COUNT
+* extension[ext-serviceCount][2].extension[serviceCountCode][0].valueCoding.display = "Top ACO Participant TIN-Individual NPI"
 * extension[ext-serviceCount][2].extension[participant][0].valueIdentifier.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
 * extension[ext-serviceCount][2].extension[participant][0].valueIdentifier.value = "example-TIN"
 * extension[ext-serviceCount][2].extension[participant][0].valueIdentifier.type.coding.code = #TAX

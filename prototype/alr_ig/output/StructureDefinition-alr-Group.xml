@@ -17,11 +17,11 @@
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <url value="http://alr.cms.gov/ig/StructureDefinition/alr-Group"/>
-  <version value="0.1.0"/>
+  <version value="0.0.1"/>
   <name value="ALRGroup"/>
   <title value="ALR Group Profile"/>
   <status value="active"/>
-  <date value="2021-05-12T13:49:40-06:00"/>
+  <date value="2021-05-20T11:39:09-06:00"/>
   <description value="ALR Group Profile Desc"/>
   <fhirVersion value="4.0.1"/>
   <mapping>

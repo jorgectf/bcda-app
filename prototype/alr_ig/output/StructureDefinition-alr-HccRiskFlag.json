@@ -16,11 +16,11 @@
     }
   ],
   "url": "http://alr.cms.gov/ig/StructureDefinition/alr-HccRiskFlag",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "name": "ALRHccRiskFlag",
   "title": "ALR HCC Flag Profile",
   "status": "active",
-  "date": "2021-05-12T13:49:40-06:00",
+  "date": "2021-05-20T11:39:09-06:00",
   "description": "ALR HCC Flag Profile Desc",
   "fhirVersion": "4.0.1",
   "mapping": [

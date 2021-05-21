@@ -3,13 +3,16 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="cms.gov.us.alr"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>AssignmentListIG</h2><p>The official URL for this implementation guide is: </p><pre>http://alr.cms.gov/ig/ImplementationGuide/cms.gov.us.alr</pre></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>AssignmentListIG</h2><p>The official URL for this implementation guide is: </p><pre>http://alr.cms.gov/ig/ImplementationGuide/cms.gov.us.alr</pre><div><p>Implementation Guide for the FHIR version of the CMS Assignment List Report</p>
+</div></div>
   </text>
   <url value="http://alr.cms.gov/ig/ImplementationGuide/cms.gov.us.alr"/>
-  <version value="0.1.0"/>
+  <version value="0.0.1"/>
   <name value="AssignmentListIG"/>
+  <title value="CMS Assignment List Report FHIR IG"/>
   <status value="draft"/>
-  <date value="2021-05-12T13:49:40-06:00"/>
+  <date value="2021-05-20T11:39:09-06:00"/>
+  <description value="Implementation Guide for the FHIR version of the CMS Assignment List Report"/>
   <packageId value="cms.gov.us.alr"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>

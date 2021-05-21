@@ -6,6 +6,8 @@ Title:          "Group: General Example"
 Usage:          #example
 * id = "example-id-group"
 * active = true
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>General example of a Group resource</p></div>"
+* text.status = #additional
 * type = #person
 * actual = true
 * name = "General Example of ALR Group"

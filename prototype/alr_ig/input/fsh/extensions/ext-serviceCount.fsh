@@ -9,10 +9,10 @@ Description:    "ALR Service Count Description"
 */
 
 * extension contains
-    category 0..1 and
+    serviceCountCode 0..1 and
     participant 0..* and
     serviceCount 0..1
-* extension[category].value[x] only Coding
+* extension[serviceCountCode].value[x] only Coding
 * extension[participant].value[x] only Identifier
 * extension[serviceCount].value[x] only integer
 

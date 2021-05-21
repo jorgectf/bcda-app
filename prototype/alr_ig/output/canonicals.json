@@ -3,98 +3,98 @@
     "id": "cms.gov.us.alr",
     "type": "ImplementationGuide",
     "url": "http://alr.cms.gov/ig/ImplementationGuide/cms.gov.us.alr",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "name": "AssignmentListIG"
   },
   {
     "id": "alr-Coverage",
     "type": "StructureDefinition",
     "url": "http://alr.cms.gov/ig/StructureDefinition/alr-Coverage",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "name": "ALRCoverage"
   },
   {
     "id": "alr-Group",
     "type": "StructureDefinition",
     "url": "http://alr.cms.gov/ig/StructureDefinition/alr-Group",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "name": "ALRGroup"
   },
   {
     "id": "alr-HccRiskFlag",
     "type": "StructureDefinition",
     "url": "http://alr.cms.gov/ig/StructureDefinition/alr-HccRiskFlag",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "name": "ALRHccRiskFlag"
   },
   {
     "id": "alr-Patient",
     "type": "StructureDefinition",
     "url": "http://alr.cms.gov/ig/StructureDefinition/alr-Patient",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "name": "ALRPatient"
   },
   {
     "id": "alr-RiskAssessment",
     "type": "StructureDefinition",
     "url": "http://alr.cms.gov/ig/StructureDefinition/alr-RiskAssessment",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "name": "ALRRiskAssessment"
   },
   {
     "id": "ext-changeReason",
     "type": "StructureDefinition",
     "url": "http://alr.cms.gov/ig/StructureDefinition/ext-changeReason",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "name": "ChangeReason"
   },
   {
     "id": "ext-claimsBasedAssignmentFlag",
     "type": "StructureDefinition",
     "url": "http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentFlag",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "name": "ClaimsBasedAssignmentFlag"
   },
   {
     "id": "ext-claimsBasedAssignmentStep",
     "type": "StructureDefinition",
     "url": "http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentStep",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "name": "ClaimsBasedAssignmentStep"
   },
   {
     "id": "ext-enrollmentPeriod",
     "type": "StructureDefinition",
     "url": "http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentPeriod",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "name": "EnrollmentPeriod"
   },
   {
     "id": "ext-newlyAssignedBeneficiaryFlag",
     "type": "StructureDefinition",
     "url": "http://alr.cms.gov/ig/StructureDefinition/ext-newlyAssignedBeneficiaryFlag",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "name": "NewlyAssignedBeneficiaryFlag"
   },
   {
     "id": "ext-prevAssignedBeneficiaryFlag",
     "type": "StructureDefinition",
     "url": "http://alr.cms.gov/ig/StructureDefinition/ext-prevAssignedBeneficiaryFlag",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "name": "PrevAssignedBeneficiaryFlag"
   },
   {
     "id": "ext-serviceCount",
     "type": "StructureDefinition",
     "url": "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "name": "ServiceCount"
   },
   {
     "id": "ext-voluntaryAlignmentFlag",
     "type": "StructureDefinition",
     "url": "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "name": "VoluntaryAlignmentFlag"
   }
 ]

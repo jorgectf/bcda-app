@@ -7,8 +7,8 @@
     ]
   },
   "text": {
-    "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><blockquote><p><b>ALR Enrollment Period</b></p><h3>Urls</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: 2020-01-01 --&gt; 2020-06-30</p><h3>Urls</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: 2020-10-01 --&gt; 2020-12-31</p></blockquote><p><b>status</b>: active</p><p><b>subscriberId</b>: -19999000381</p><p><b>beneficiary</b>: <a href=\"Patient-example-id-patient.html\">General example of coverage with gaps in enrollment periodGenerated Summary: id: example-ccw-id, id: 412be343c343343324f661527671abb5307d5e89031db9a9f, id: example-mbi-patient; John Doe ; gender: male; birthDate: 1957-01-17; deceased: 2020-03-18</a></p><p><b>period</b>: 2020-01-01 --&gt; 2020-12-31</p><p><b>payor</b>: <a href=\"Organization/123\">Organization/123</a></p></div>"
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>General example of a Coverage resource, with an extension for Enrollment periods (ALR enrollment flags)</p></div>"
   },
   "extension": [
     {

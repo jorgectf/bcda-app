@@ -4,6 +4,8 @@ Title:          "HCC Risk Flags: General Example"
 Usage:          #example
 * id = "example-id-hcc-risk-flags"
 * status = #final
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>General example of HCC Risk flags, using the Observation resource</p></div>"
+* text.status = #additional
 * code.coding[0].system = "https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags"
 * code.coding[0].code = #hccRiskFlags
 * code.coding[0].version = "V12"

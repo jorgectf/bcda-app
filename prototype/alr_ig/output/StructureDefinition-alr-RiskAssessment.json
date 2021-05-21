@@ -16,11 +16,11 @@
     }
   ],
   "url": "http://alr.cms.gov/ig/StructureDefinition/alr-RiskAssessment",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "name": "ALRRiskAssessment",
   "title": "ALR Risk Assessment Profile",
   "status": "active",
-  "date": "2021-05-12T13:49:40-06:00",
+  "date": "2021-05-20T11:39:09-06:00",
   "description": "ALR Risk Assessment Profile Desc",
   "fhirVersion": "4.0.1",
   "mapping": [

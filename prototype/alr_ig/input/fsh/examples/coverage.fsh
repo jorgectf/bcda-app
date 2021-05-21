@@ -4,6 +4,8 @@ Title:          "Coverage: General Example"
 Usage:          #example
 * id = "example-id-coverage"
 * status = #active
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>General example of a Coverage resource, with an extension for Enrollment periods (ALR enrollment flags)</p></div>"
+* text.status = #additional
 * subscriberId = "-19999000381"
 * beneficiary.reference = "Patient/example-id-patient"
 * period.start = "2020-01-01"

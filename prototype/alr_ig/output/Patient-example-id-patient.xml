@@ -6,12 +6,12 @@
     <profile value="http://alr.cms.gov/ig/StructureDefinition/alr-Patient"/>
   </meta>
   <text>
-    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p>General example of coverage with gaps in enrollment period</p></div>
+    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p>General example of a patient, including extensions for the service counts found in the ALR data dictionary: table 1-2, 1-3 and 1-4</p></div>
   </text>
   <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount">
-    <extension url="category">
+    <extension url="serviceCountCode">
       <valueCoding>
-        <system value="https://bluebutton.cms.gov/resources/variables/b_em_line_cnt_t"/>
+        <system value="https://alr.cms.gov/resources/variables/service-count-codes"/>
         <code value="B_EM_LINE_CNT_T"/>
         <display value="Count of Primary Care Services - ACO Participant TIN"/>
       </valueCoding>
@@ -34,9 +34,9 @@
     </extension>
   </extension>
   <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount">
-    <extension url="category">
+    <extension url="serviceCountCode">
       <valueCoding>
-        <system value="https://bluebutton.cms.gov/resources/variables/rev-line-cnt"/>
+        <system value="https://alr.cms.gov/resources/variables/service-count-codes"/>
         <code value="REV_LINE_CNT"/>
         <display value="Count of Primary Care Services - ACO Participant CCN"/>
       </valueCoding>
@@ -59,9 +59,9 @@
     </extension>
   </extension>
   <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount">
-    <extension url="category">
+    <extension url="serviceCountCode">
       <valueCoding>
-        <system value="https://bluebutton.cms.gov/resources/variables/pcs-count"/>
+        <system value="https://alr.cms.gov/resources/variables/service-count-codes"/>
         <code value="PCS_COUNT"/>
         <display value="Top ACO Participant TIN-Individual NPI"/>
       </valueCoding>

@@ -16,8 +16,8 @@
      ]
   ];
   fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p></p><p><b>code</b>: <span title=\"Codes: {https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags hccRiskFlags}\">HCC Risk Flags</span></p><p><b>subject</b>: <span></span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes: {https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags HCC1}\">HIV/AIDS</span></p><p><b>value</b>: 0</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes: {https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags HCC2}\">Septicemia/Shock</span></p><p><b>value</b>: 1</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes: {https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags HCC5}\">Opportunistic Infections</span></p><p><b>value</b>: N/A</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes: {https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags HCC7}\">Metastatic Cancer and Acute Leukemia</span></p><p><b>value</b>: N/A</p></blockquote></div>"
+     fhir:Narrative.status [ fhir:value "additional" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>General example of HCC Risk flags, using the Observation resource</p></div>"
   ];
   fhir:Observation.status [ fhir:value "final"];
   fhir:Observation.code [

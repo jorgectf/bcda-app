@@ -8,15 +8,15 @@
   },
   "text": {
     "status": "additional",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>General example of coverage with gaps in enrollment period</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>General example of a patient, including extensions for the service counts found in the ALR data dictionary: table 1-2, 1-3 and 1-4</p></div>"
   },
   "extension": [
     {
       "extension": [
         {
-          "url": "category",
+          "url": "serviceCountCode",
           "valueCoding": {
-            "system": "https://bluebutton.cms.gov/resources/variables/b_em_line_cnt_t",
+            "system": "https://alr.cms.gov/resources/variables/service-count-codes",
             "code": "B_EM_LINE_CNT_T",
             "display": "Count of Primary Care Services - ACO Participant TIN"
           }
@@ -47,9 +47,9 @@
     {
       "extension": [
         {
-          "url": "category",
+          "url": "serviceCountCode",
           "valueCoding": {
-            "system": "https://bluebutton.cms.gov/resources/variables/rev-line-cnt",
+            "system": "https://alr.cms.gov/resources/variables/service-count-codes",
             "code": "REV_LINE_CNT",
             "display": "Count of Primary Care Services - ACO Participant CCN"
           }
@@ -80,9 +80,9 @@
     {
       "extension": [
         {
-          "url": "category",
+          "url": "serviceCountCode",
           "valueCoding": {
-            "system": "https://bluebutton.cms.gov/resources/variables/pcs-count",
+            "system": "https://alr.cms.gov/resources/variables/service-count-codes",
             "code": "PCS_COUNT",
             "display": "Top ACO Participant TIN-Individual NPI"
           }

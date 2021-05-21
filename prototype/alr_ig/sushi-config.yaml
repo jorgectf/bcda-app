@@ -6,7 +6,9 @@ id: cms.gov.us.alr
 canonical: http://alr.cms.gov/ig
 name: AssignmentListIG
 status: draft
-version: 0.1.0
+version: 0.0.1
+title: "CMS Assignment List Report FHIR IG"
+description: "Implementation Guide for the FHIR version of the CMS Assignment List Report"
 fhirVersion: 4.0.1
 copyrightYear: 2021+
 releaseLabel: ci-build

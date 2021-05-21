@@ -4,6 +4,8 @@ Title:          "Risk Score: CMS-HCC Monthly Risk Score"
 Usage:          #example
 * id = "example-id-monthly-risk-score"
 * status = #final
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>General example of HCC Risk Scores, using the Risk Assessment resource</p></div>"
+* text.status = #additional
 * code.coding[0].system = "https://bluebutton.cms.gov/resources/variables/alr/bene_rsk_r_scre"
 * code.coding[0].code = #BENE_RSK_R_SCRE
 * code.coding[0].display = "CMS-HCC Monthly Risk Scores"

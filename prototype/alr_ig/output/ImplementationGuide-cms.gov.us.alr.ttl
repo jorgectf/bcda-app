@@ -10,13 +10,15 @@
   fhir:Resource.id [ fhir:value "cms.gov.us.alr"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>AssignmentListIG</h2><p>The official URL for this implementation guide is: </p><pre>http://alr.cms.gov/ig/ImplementationGuide/cms.gov.us.alr</pre></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>AssignmentListIG</h2><p>The official URL for this implementation guide is: </p><pre>http://alr.cms.gov/ig/ImplementationGuide/cms.gov.us.alr</pre><div><p>Implementation Guide for the FHIR version of the CMS Assignment List Report</p>\n</div></div>"
   ];
   fhir:ImplementationGuide.url [ fhir:value "http://alr.cms.gov/ig/ImplementationGuide/cms.gov.us.alr"];
-  fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
+  fhir:ImplementationGuide.version [ fhir:value "0.0.1"];
   fhir:ImplementationGuide.name [ fhir:value "AssignmentListIG"];
+  fhir:ImplementationGuide.title [ fhir:value "CMS Assignment List Report FHIR IG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-05-12T13:49:40-06:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-05-20T11:39:09-06:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.description [ fhir:value "Implementation Guide for the FHIR version of the CMS Assignment List Report"];
   fhir:ImplementationGuide.packageId [ fhir:value "cms.gov.us.alr"];
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
   fhir:ImplementationGuide.fhirVersion [
