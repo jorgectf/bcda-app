@@ -91,6 +91,34 @@
     "name": "ServiceCount"
   },
   {
+    "id": "ext-serviceCount2",
+    "type": "StructureDefinition",
+    "url": "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount2",
+    "version": "0.0.1",
+    "name": "ServiceCount2"
+  },
+  {
+    "id": "ext-serviceCountCCN",
+    "type": "StructureDefinition",
+    "url": "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCountCCN",
+    "version": "0.0.1",
+    "name": "ServiceCountCCN"
+  },
+  {
+    "id": "ext-serviceCountTIN",
+    "type": "StructureDefinition",
+    "url": "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCountTIN",
+    "version": "0.0.1",
+    "name": "ServiceCountTIN"
+  },
+  {
+    "id": "ext-serviceCountTIN-NPI",
+    "type": "StructureDefinition",
+    "url": "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCountTIN-NPI",
+    "version": "0.0.1",
+    "name": "ServiceCountTINNPI"
+  },
+  {
     "id": "ext-voluntaryAlignmentFlag",
     "type": "StructureDefinition",
     "url": "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag",

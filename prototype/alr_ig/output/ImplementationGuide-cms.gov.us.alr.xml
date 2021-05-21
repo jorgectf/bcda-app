@@ -11,7 +11,7 @@
   <name value="AssignmentListIG"/>
   <title value="CMS Assignment List Report FHIR IG"/>
   <status value="draft"/>
-  <date value="2021-05-20T11:39:09-06:00"/>
+  <date value="2021-05-21T12:02:13-06:00"/>
   <description value="Implementation Guide for the FHIR version of the CMS Assignment List Report"/>
   <packageId value="cms.gov.us.alr"/>
   <license value="CC0-1.0"/>
@@ -309,6 +309,50 @@
       </reference>
       <name value="ALR Service Count"/>
       <description value="ALR Service Count Description"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ext-serviceCount2"/>
+      </reference>
+      <name value="ALR Service Count 2"/>
+      <description value="ALR Service Count Description 2"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ext-serviceCountCCN"/>
+      </reference>
+      <name value="Service Count by ACO Participant CCN level"/>
+      <description value="Assigned Beneficiaries and Number of Primary Care Services at the ACO Participant CCN Level"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ext-serviceCountTIN"/>
+      </reference>
+      <name value="Service Count by ACO Participant TIN level"/>
+      <description value="Assigned Beneficiaries and Number of Primary Care Services at the ACO Participant TIN Level "/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ext-serviceCountTIN-NPI"/>
+      </reference>
+      <name value="Top ACO Participant TIN-Individual NPI"/>
+      <description value="Top ACO Participant TIN-Individual NPI (by number of primary care services) for Assigned Beneficiaries"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

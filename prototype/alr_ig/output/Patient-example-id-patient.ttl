@@ -23,14 +23,6 @@
      fhir:index 0;
      fhir:Element.extension [
        fhir:index 0;
-       fhir:Extension.url [ fhir:value "serviceCountCode" ];
-       fhir:Extension.valueCoding [
-         fhir:Coding.system [ fhir:value "https://alr.cms.gov/resources/variables/service-count-codes" ];
-         fhir:Coding.code [ fhir:value "B_EM_LINE_CNT_T" ];
-         fhir:Coding.display [ fhir:value "Count of Primary Care Services - ACO Participant TIN" ]
-       ]
-     ], [
-       fhir:index 1;
        fhir:Extension.url [ fhir:value "participant" ];
        fhir:Extension.valueIdentifier [
          fhir:Identifier.type [
@@ -41,27 +33,18 @@
              fhir:Coding.display [ fhir:value "Tax ID number" ]
            ]
          ];
-         fhir:Identifier.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0203" ];
          fhir:Identifier.value [ fhir:value "example-TIN" ]
        ]
      ], [
-       fhir:index 2;
+       fhir:index 1;
        fhir:Extension.url [ fhir:value "serviceCount" ];
        fhir:Extension.valueInteger [ fhir:value "5"^^xsd:integer ]
      ];
-     fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount" ]
+     fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCountTIN" ]
   ], [
      fhir:index 1;
      fhir:Element.extension [
        fhir:index 0;
-       fhir:Extension.url [ fhir:value "serviceCountCode" ];
-       fhir:Extension.valueCoding [
-         fhir:Coding.system [ fhir:value "https://alr.cms.gov/resources/variables/service-count-codes" ];
-         fhir:Coding.code [ fhir:value "REV_LINE_CNT" ];
-         fhir:Coding.display [ fhir:value "Count of Primary Care Services - ACO Participant CCN" ]
-       ]
-     ], [
-       fhir:index 1;
        fhir:Extension.url [ fhir:value "participant" ];
        fhir:Extension.valueIdentifier [
          fhir:Identifier.type [
@@ -69,30 +52,21 @@
              fhir:index 0;
              fhir:Coding.system [ fhir:value "https://bluebutton.cms.gov/resources/variables/prvdr_num" ];
              fhir:Coding.code [ fhir:value "CCN" ];
-             fhir:Coding.display [ fhir:value "CCN Number" ]
+             fhir:Coding.display [ fhir:value "CCN number" ]
            ]
          ];
-         fhir:Identifier.system [ fhir:value "https://bluebutton.cms.gov/resources/variables/prvdr_num" ];
          fhir:Identifier.value [ fhir:value "example-CCN" ]
        ]
      ], [
-       fhir:index 2;
+       fhir:index 1;
        fhir:Extension.url [ fhir:value "serviceCount" ];
        fhir:Extension.valueInteger [ fhir:value "15"^^xsd:integer ]
      ];
-     fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount" ]
+     fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCountCCN" ]
   ], [
      fhir:index 2;
      fhir:Element.extension [
        fhir:index 0;
-       fhir:Extension.url [ fhir:value "serviceCountCode" ];
-       fhir:Extension.valueCoding [
-         fhir:Coding.system [ fhir:value "https://alr.cms.gov/resources/variables/service-count-codes" ];
-         fhir:Coding.code [ fhir:value "PCS_COUNT" ];
-         fhir:Coding.display [ fhir:value "Top ACO Participant TIN-Individual NPI" ]
-       ]
-     ], [
-       fhir:index 1;
        fhir:Extension.url [ fhir:value "participant" ];
        fhir:Extension.valueIdentifier [
          fhir:Identifier.type [
@@ -103,11 +77,10 @@
              fhir:Coding.display [ fhir:value "Tax ID number" ]
            ]
          ];
-         fhir:Identifier.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0203" ];
          fhir:Identifier.value [ fhir:value "example-TIN" ]
        ]
      ], [
-       fhir:index 2;
+       fhir:index 1;
        fhir:Extension.url [ fhir:value "participant" ];
        fhir:Extension.valueIdentifier [
          fhir:Identifier.type [
@@ -115,22 +88,17 @@
              fhir:index 0;
              fhir:Coding.system [ fhir:value "http://hl7.org/fhir/sid/us-npi" ];
              fhir:Coding.code [ fhir:value "NPI" ];
-             fhir:Coding.display [ fhir:value "NPI Number" ]
+             fhir:Coding.display [ fhir:value "NPI number" ]
            ]
          ];
-         fhir:Identifier.system [ fhir:value "http://hl7.org/fhir/sid/us-npi" ];
          fhir:Identifier.value [ fhir:value "example-NPI" ]
        ]
      ], [
-       fhir:index 3;
+       fhir:index 2;
        fhir:Extension.url [ fhir:value "serviceCount" ];
        fhir:Extension.valueInteger [ fhir:value "7"^^xsd:integer ]
      ];
-     fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount" ]
-  ], [
-     fhir:index 3;
-     fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag" ];
-     fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCountTIN-NPI" ]
   ];
   fhir:Patient.identifier [
      fhir:index 0;

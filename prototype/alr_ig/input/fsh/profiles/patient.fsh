@@ -4,7 +4,11 @@ Parent:         http://hl7.org/fhir/us/davinci-atr/StructureDefinition/atr-patie
 Id:             alr-Patient
 Title:          "ALR Patient Profile"
 Description:    "ALR Patient Profile Desc"
-* extension contains ServiceCount named ext-serviceCount 0..* MS
+//* extension contains ServiceCount named ext-serviceCount 0..* MS
+//* extension contains ServiceCount2 named ext-serviceCount2 0..* MS
+* extension contains ServiceCountTIN named ext-serviceCountTIN 0..* MS
+* extension contains ServiceCountCCN named ext-serviceCountCCN 0..* MS
+* extension contains ServiceCountTINNPI named ext-serviceCountTIN-NPI 0..* MS
 * extension contains VoluntaryAlignmentFlag named ext-voluntaryAlignmentFlag 0..1 MS
 
 
@@ -36,8 +40,8 @@ Id:       alr-csv-patient-1-2
 * gender -> "BENE_SEX_CD"
 * birthDate -> "BENE_BRTH_DT"
 * deceasedDateTime -> "BENE_DEATH_DT"
-* extension[ext-serviceCount].extension[participant] -> "MASTER_ID"
-* extension[ext-serviceCount].extension[serviceCount] -> "B_EM_LINE_CNT_T"
+* extension[ext-serviceCountTIN].extension[participant] -> "MASTER_ID"
+* extension[ext-serviceCountTIN].extension[serviceCount] -> "B_EM_LINE_CNT_T"
 
 Mapping:  ALRPatientToALRCSV1-3
 Source:   ALRPatient
@@ -51,8 +55,8 @@ Id:       alr-csv-patient-1-3
 * gender -> "BENE_SEX_CD"
 * birthDate -> "BENE_BRTH_DT"
 * deceasedDateTime -> "BENE_DEATH_DT"
-* extension[ext-serviceCount].extension[participant] -> "MASTER_ID"
-* extension[ext-serviceCount].extension[serviceCount] -> "REV_LINE_CNT"
+* extension[ext-serviceCountCCN].extension[participant] -> "MASTER_ID"
+* extension[ext-serviceCountCCN].extension[serviceCount] -> "REV_LINE_CNT"
 
 Mapping:  ALRPatientToALRCSV1-4
 Source:   ALRPatient
@@ -66,6 +70,6 @@ Id:       alr-csv-patient-1-4
 * gender -> "BENE_SEX_CD"
 * birthDate -> "BENE_BRTH_DT"
 * deceasedDateTime -> "BENE_DEATH_DT"
-* extension[ext-serviceCount].extension[participant] -> "MASTER_ID"
-* extension[ext-serviceCount].extension[participant] -> "NPI_USED"
-* extension[ext-serviceCount].extension[serviceCount] -> "PCS_COUNT"
+* extension[ext-serviceCountTIN-NPI].extension[participant] -> "MASTER_ID"
+* extension[ext-serviceCountTIN-NPI].extension[participant] -> "NPI_USED"
+* extension[ext-serviceCountTIN-NPI].extension[serviceCount] -> "PCS_COUNT"
