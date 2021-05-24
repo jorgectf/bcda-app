@@ -17,18 +17,37 @@
           "url": "period",
           "valuePeriod": {
             "start": "2020-01-01",
-            "end": "2020-06-30"
+            "end": "2020-03-31"
           }
         },
         {
-          "url": "period",
-          "valuePeriod": {
-            "start": "2020-10-01",
-            "end": "2020-12-31"
+          "url": "flag",
+          "valueCoding": {
+            "code": "1",
+            "display": "Medicare enrollment type is ESRD"
           }
         }
       ],
-      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentPeriod"
+      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentFlag"
+    },
+    {
+      "extension": [
+        {
+          "url": "period",
+          "valuePeriod": {
+            "start": "2020-04-01",
+            "end": "2020-12-31"
+          }
+        },
+        {
+          "url": "flag",
+          "valueCoding": {
+            "code": "2",
+            "display": "Medicare enrollment type is Disabled"
+          }
+        }
+      ],
+      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentFlag"
     }
   ],
   "status": "active",

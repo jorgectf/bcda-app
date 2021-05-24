@@ -21,7 +21,7 @@
   <name value="ServiceCountTINNPI"/>
   <title value="Top ACO Participant TIN-Individual NPI"/>
   <status value="active"/>
-  <date value="2021-05-21T12:02:13-06:00"/>
+  <date value="2021-05-24T10:45:39-06:00"/>
   <description value="Top ACO Participant TIN-Individual NPI (by number of primary care services) for Assigned Beneficiaries"/>
   <fhirVersion value="4.0.1"/>
   <mapping>

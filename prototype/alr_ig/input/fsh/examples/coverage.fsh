@@ -11,9 +11,21 @@ Usage:          #example
 * period.start = "2020-01-01"
 * period.end = "2020-12-31"
 * payor.reference = "Organization/123"
+
+/*
 * extension[ext-enrollmentPeriod].extension[period][0].valuePeriod.start = "2020-01-01"
 * extension[ext-enrollmentPeriod].extension[period][0].valuePeriod.end = "2020-06-30"
 * extension[ext-enrollmentPeriod].extension[period][1].valuePeriod.start = "2020-10-01"
 * extension[ext-enrollmentPeriod].extension[period][1].valuePeriod.end = "2020-12-31"
+*/
 
+
+* extension[ext-enrollmentFlag][0].extension[period].valuePeriod.start = "2020-01-01"
+* extension[ext-enrollmentFlag][0].extension[period].valuePeriod.end = "2020-03-31"
+* extension[ext-enrollmentFlag][0].extension[flag].valueCoding.code = #1
+* extension[ext-enrollmentFlag][0].extension[flag].valueCoding.display = "Medicare enrollment type is ESRD"
+* extension[ext-enrollmentFlag][1].extension[period].valuePeriod.start = "2020-04-01"
+* extension[ext-enrollmentFlag][1].extension[period].valuePeriod.end = "2020-12-31"
+* extension[ext-enrollmentFlag][1].extension[flag].valueCoding.code = #2
+* extension[ext-enrollmentFlag][1].extension[flag].valueCoding.display = "Medicare enrollment type is Disabled"
 

@@ -13,7 +13,6 @@
     <sch:title>f:Coverage</sch:title>
     <sch:rule context="f:Coverage">
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-insuranceProductType']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-insuranceProductType': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentPeriod']) &lt;= 1">extension with URL = 'http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentPeriod': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:policyHolder) &lt;= 0">policyHolder: maximum cardinality of 'policyHolder' is 0</sch:assert>
       <sch:assert test="count(f:subscriber) &lt;= 0">subscriber: maximum cardinality of 'subscriber' is 0</sch:assert>
       <sch:assert test="count(f:dependent) &lt;= 0">dependent: maximum cardinality of 'dependent' is 0</sch:assert>
@@ -74,6 +73,8 @@
     <sch:title>f:Coverage/f:extension</sch:title>
     <sch:rule context="f:Coverage/f:extension">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'period']) &lt;= 1">extension with URL = 'period': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'flag']) &lt;= 1">extension with URL = 'flag': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:url) &gt;= 1">url: minimum cardinality of 'url' is 1</sch:assert>
       <sch:assert test="count(f:url) &lt;= 1">url: maximum cardinality of 'url' is 1</sch:assert>
       <sch:assert test="count(f:value[x]) &lt;= 0">value[x]: maximum cardinality of 'value[x]' is 0</sch:assert>
@@ -86,11 +87,17 @@
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
     <sch:title>f:Coverage/f:extension/f:extension</sch:title>
     <sch:rule context="f:Coverage/f:extension/f:extension">
+      <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
+      <sch:assert test="count(f:url) &gt;= 1">url: minimum cardinality of 'url' is 1</sch:assert>
+      <sch:assert test="count(f:url) &lt;= 1">url: maximum cardinality of 'url' is 1</sch:assert>
+      <sch:assert test="count(f:value[x]) &lt;= 1">value[x]: maximum cardinality of 'value[x]' is 1</sch:assert>
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
       <sch:assert test="count(f:url) &gt;= 1">url: minimum cardinality of 'url' is 1</sch:assert>
       <sch:assert test="count(f:url) &lt;= 1">url: maximum cardinality of 'url' is 1</sch:assert>
@@ -102,12 +109,15 @@
     <sch:rule context="f:Coverage/f:extension/f:extension/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
     <sch:title>Coverage.extension.extension.value[x] 1</sch:title>
     <sch:rule context="f:Coverage/f:extension/f:extension/f:value[x]">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

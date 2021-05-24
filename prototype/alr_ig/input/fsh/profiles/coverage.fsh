@@ -16,7 +16,8 @@ Description:    "ALR Coverage Profile Desc"
 * costToBeneficiary 0..0
 * subrogation 0..0
 * contract 0..0
-* extension contains EnrollmentPeriod named ext-enrollmentPeriod 0..1 MS
+//* extension contains EnrollmentPeriod named ext-enrollmentPeriod 0..1 MS
+* extension contains EnrollmentFlag named ext-enrollmentFlag 0..* MS
 
 Mapping:  ALRCoverageToALRCSV
 Source:   ALRCoverage
@@ -24,4 +25,5 @@ Target:   "http://cms.gov/ALR/Datadictionary"
 Title:    "CMS Assignment List Report"
 Id:       alr-csv-coverage
 * -> "ALR Table 1-1"
-* extension[ext-enrollmentPeriod].extension[period] -> "EnrollFlagN"
+//* extension[ext-enrollmentPeriod].extension[period] -> "EnrollFlagN"
+* extension[ext-enrollmentFlag].extension[period] -> "EnrollFlagN"

@@ -63,6 +63,13 @@
     "name": "ClaimsBasedAssignmentStep"
   },
   {
+    "id": "ext-enrollmentFlag",
+    "type": "StructureDefinition",
+    "url": "http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentFlag",
+    "version": "0.0.1",
+    "name": "EnrollmentFlag"
+  },
+  {
     "id": "ext-enrollmentPeriod",
     "type": "StructureDefinition",
     "url": "http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentPeriod",

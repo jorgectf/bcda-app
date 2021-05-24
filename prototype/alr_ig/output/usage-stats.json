@@ -75,6 +75,64 @@
       ]
     },
     {
+      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentFlag",
+      "title": "ALR Enrollment Flag",
+      "types": [
+        "Period",
+        "Coding",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
       "url": "http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentPeriod",
       "title": "ALR Enrollment Period",
       "types": [
@@ -486,7 +544,7 @@
     "http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentStep": [
       "Group.member"
     ],
-    "http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentPeriod": [
+    "http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentFlag": [
       "Coverage"
     ],
     "http://alr.cms.gov/ig/StructureDefinition/ext-newlyAssignedBeneficiaryFlag": [

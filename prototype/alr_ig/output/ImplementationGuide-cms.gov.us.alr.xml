@@ -11,7 +11,7 @@
   <name value="AssignmentListIG"/>
   <title value="CMS Assignment List Report FHIR IG"/>
   <status value="draft"/>
-  <date value="2021-05-21T12:02:13-06:00"/>
+  <date value="2021-05-24T10:45:39-06:00"/>
   <description value="Implementation Guide for the FHIR version of the CMS Assignment List Report"/>
   <packageId value="cms.gov.us.alr"/>
   <license value="CC0-1.0"/>
@@ -265,6 +265,17 @@
       </reference>
       <name value="ALR Claims Based Assignment"/>
       <description value="ALR Claims Based Assignment Desc"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ext-enrollmentFlag"/>
+      </reference>
+      <name value="ALR Enrollment Flag"/>
+      <description value="ALR Enrollment Flag Desc"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

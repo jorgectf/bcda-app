@@ -8,18 +8,32 @@
   <text>
     <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p>General example of a Coverage resource, with an extension for Enrollment periods (ALR enrollment flags)</p></div>
   </text>
-  <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentPeriod">
+  <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentFlag">
     <extension url="period">
       <valuePeriod>
         <start value="2020-01-01"/>
-        <end value="2020-06-30"/>
+        <end value="2020-03-31"/>
       </valuePeriod>
     </extension>
+    <extension url="flag">
+      <valueCoding>
+        <code value="1"/>
+        <display value="Medicare enrollment type is ESRD"/>
+      </valueCoding>
+    </extension>
+  </extension>
+  <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentFlag">
     <extension url="period">
       <valuePeriod>
-        <start value="2020-10-01"/>
+        <start value="2020-04-01"/>
         <end value="2020-12-31"/>
       </valuePeriod>
+    </extension>
+    <extension url="flag">
+      <valueCoding>
+        <code value="2"/>
+        <display value="Medicare enrollment type is Disabled"/>
+      </valueCoding>
     </extension>
   </extension>
   <status value="active"/>
