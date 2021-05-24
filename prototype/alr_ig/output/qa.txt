@@ -1,13 +1,14 @@
 ﻿AssignmentListIG : Validation Results
 =========================================
 
-err = 10, warn = 14, info = 15
+err = 11, warn = 15, info = 15
 IG Publisher Version: 1.1.72
-Generated Mon May 24 10:46:21 MDT 2021. FHIR version 4.0.1 for cms.gov.us.alr#0.0.1 (canonical = http://alr.cms.gov/ig)
+Generated Mon May 24 12:29:50 MDT 2021. FHIR version 4.0.1 for cms.gov.us.alr#0.0.1 (canonical = http://alr.cms.gov/ig)
 
- Build Errors : 176 / 8 / 0
+ Build Errors : 203 / 9 / 0
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\ImplementationGuide-cms.gov.us.alr : 0 / 1 / 1
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\coverage-example-id-coverage : 1 / 2 / 1
+ C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\episodeofcare-example-id-episode : 1 / 0 / 1
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\group-example-id-group : 6 / 0 / 3
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\observation-example-id-hcc-risk-flags : 0 / 0 / 6
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\patient-example-id-patient : 2 / 0 / 5
@@ -20,9 +21,12 @@ Generated Mon May 24 10:46:21 MDT 2021. FHIR version 4.0.1 for cms.gov.us.alr#0.
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-alr-HccRiskFlag : 0 / 0 / 1
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-alr-Patient : 0 / 0 / 1
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-alr-RiskAssessment : 0 / 0 / 1
+ C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-alr-covidEpisode : 0 / 0 / 1
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-changeReason : 0 / 0 / 1
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-claimsBasedAssignmentFlag : 0 / 0 / 1
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-claimsBasedAssignmentStep : 0 / 0 / 1
+ C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-covidEpisode : 0 / 0 / 1
+ C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-covidFlag : 0 / 0 / 1
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-enrollmentFlag : 0 / 0 / 1
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-enrollmentPeriod : 0 / 1 / 1
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-newlyAssignedBeneficiaryFlag : 0 / 0 / 1
@@ -36,6 +40,7 @@ Generated Mon May 24 10:46:21 MDT 2021. FHIR version 4.0.1 for cms.gov.us.alr#0.
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Coverage/example-id-coverage.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource EpisodeOfCare/example-id-episode.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Group/example-id-group.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/example-id-hcc-risk-flags.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource RiskAssessment/example-id-monthly-risk-score.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -48,6 +53,11 @@ ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Coverage-ex
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Coverage-example-id-coverage.json.html#/html/body/div/div/div/p/a at Line 261, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Coverage-example-id-coverage.ttl.html#/html/body/div/div/div/p/a at Line 264, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Coverage-example-id-coverage.xml.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\EpisodeOfCare-example-id-episode.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\EpisodeOfCare-example-id-episode.html#/html/body/div/div/div/p/a at Line 192, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\EpisodeOfCare-example-id-episode.json.html#/html/body/div/div/div/p/a at Line 327, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\EpisodeOfCare-example-id-episode.ttl.html#/html/body/div/div/div/p/a at Line 314, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\EpisodeOfCare-example-id-episode.xml.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Group-example-id-group.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Group-example-id-group.html#/html/body/div/div/div/p/a at Line 192, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Group-example-id-group.json.html#/html/body/div/div/div/p/a at Line 377, column 28: The link '' for "" cannot be resolved
@@ -123,6 +133,14 @@ ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDe
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-RiskAssessment.profile.json.html#/html/body/div/div/div/p/a at Line 2095, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-RiskAssessment.profile.ttl.html#/html/body/div/div/div/p/a at Line 1850, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-RiskAssessment.profile.xml.html#/html/body/div/div/div/p/a at Line 1891, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode-definitions.html#/html/body/div/div/div/p/a at Line 548, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode-examples.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode-mappings.html#/html/body/div/div/div/p/a at Line 279, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode.html#/html/body/div/div/div/p/a at Line 656, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode.profile.history.html#/html/body/div/div/div/p/a at Line 238, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode.profile.json.html#/html/body/div/div/div/p/a at Line 1834, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode.profile.ttl.html#/html/body/div/div/div/p/a at Line 1663, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode.profile.xml.html#/html/body/div/div/div/p/a at Line 1636, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-changeReason-definitions.html#/html/body/div/div/div/p/a at Line 315, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-changeReason-mappings.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-changeReason.html#/html/body/div/div/div/p/a at Line 498, column 28: The link '' for "" cannot be resolved
@@ -144,6 +162,20 @@ ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDe
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentStep.profile.json.html#/html/body/div/div/div/p/a at Line 503, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentStep.profile.ttl.html#/html/body/div/div/div/p/a at Line 481, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentStep.profile.xml.html#/html/body/div/div/div/p/a at Line 465, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidEpisode-definitions.html#/html/body/div/div/div/p/a at Line 275, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidEpisode-mappings.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidEpisode.html#/html/body/div/div/div/p/a at Line 470, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidEpisode.profile.history.html#/html/body/div/div/div/p/a at Line 228, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidEpisode.profile.json.html#/html/body/div/div/div/p/a at Line 503, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidEpisode.profile.ttl.html#/html/body/div/div/div/p/a at Line 481, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidEpisode.profile.xml.html#/html/body/div/div/div/p/a at Line 464, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidFlag-definitions.html#/html/body/div/div/div/p/a at Line 352, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidFlag-mappings.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidFlag.html#/html/body/div/div/div/p/a at Line 527, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidFlag.profile.history.html#/html/body/div/div/div/p/a at Line 228, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidFlag.profile.json.html#/html/body/div/div/div/p/a at Line 1094, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 951, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 987, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-enrollmentFlag-definitions.html#/html/body/div/div/div/p/a at Line 352, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-enrollmentFlag-mappings.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-enrollmentFlag.html#/html/body/div/div/div/p/a at Line 527, column 28: The link '' for "" cannot be resolved
@@ -214,19 +246,22 @@ ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDe
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentFlag.profile.json.html#/html/body/div/div/div/p/a at Line 503, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 481, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 465, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\artifacts.html#/html/body/div/div/div/p/a at Line 410, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\artifacts.html#/html/body/div/div/div/p/a at Line 443, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\index.html#/html/body/div/div/div/p/a at Line 167, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\overview.html#/html/body/div/div/div/div/div/div/p/img at Line 127, column 4: The image source 'anImage.png' cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\overview.html#/html/body/div/div/div/p/a at Line 152, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\toc.html#/html/body/div/div/div/p/a at Line 143, column 28: The link '' for "" cannot be resolved
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\ImplementationGuide-cms.gov.us.alr.json ==
 INFORMATION: ImplementationGuide/cms.gov.us.alr: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
-WARNING: ImplementationGuide/cms.gov.us.alr: ImplementationGuide.definition.resource[15].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/cms.gov.us.alr: ImplementationGuide.definition.resource[18].description: value should not start or finish with whitespace
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\Coverage-example-id-coverage.json ==
 INFORMATION: Coverage/example-id-coverage: Coverage: Validate resource against profile http://alr.cms.gov/ig/StructureDefinition/alr-Coverage
 WARNING: Coverage/example-id-coverage: Coverage.extension[0].extension[1].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
 WARNING: Coverage/example-id-coverage: Coverage.extension[1].extension[1].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
 ERROR: Coverage/example-id-coverage: Coverage.payor[0]: Unable to resolve resource 'Organization/123'
+== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\EpisodeOfCare-example-id-episode.json ==
+INFORMATION: EpisodeOfCare/example-id-episode: EpisodeOfCare: Validate resource against profile http://alr.cms.gov/ig/StructureDefinition/alr-covidEpisode
+ERROR: EpisodeOfCare/example-id-episode: EpisodeOfCare.patient: Unable to resolve resource 'patient/example-id-patient'
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\Group-example-id-group.json ==
 INFORMATION: Group/example-id-group: Group: Validate resource against profile http://alr.cms.gov/ig/StructureDefinition/alr-Group
 ERROR: Group/example-id-group: Group.managingEntity: Unable to resolve resource 'Organization/123'
@@ -274,12 +309,18 @@ INFORMATION: StructureDefinition/alr-HccRiskFlag: StructureDefinition: Validate 
 INFORMATION: StructureDefinition/alr-Patient: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-alr-RiskAssessment.json ==
 INFORMATION: StructureDefinition/alr-RiskAssessment: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-alr-covidEpisode.json ==
+INFORMATION: StructureDefinition/alr-covidEpisode: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-changeReason.json ==
 INFORMATION: StructureDefinition/ext-changeReason: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-claimsBasedAssignmentFlag.json ==
 INFORMATION: StructureDefinition/ext-claimsBasedAssignmentFlag: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-claimsBasedAssignmentStep.json ==
 INFORMATION: StructureDefinition/ext-claimsBasedAssignmentStep: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-covidEpisode.json ==
+INFORMATION: StructureDefinition/ext-covidEpisode: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-covidFlag.json ==
+INFORMATION: StructureDefinition/ext-covidFlag: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-enrollmentFlag.json ==
 INFORMATION: StructureDefinition/ext-enrollmentFlag: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-enrollmentPeriod.json ==

@@ -10,7 +10,7 @@
   "name": "ClaimsBasedAssignmentFlag",
   "title": "ALR Claims Based Assignment",
   "status": "active",
-  "date": "2021-05-24T10:45:39-06:00",
+  "date": "2021-05-24T12:29:06-06:00",
   "description": "ALR Claims Based Assignment Desc",
   "fhirVersion": "4.0.1",
   "mapping": [

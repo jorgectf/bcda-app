@@ -1,0 +1,142 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://alr.cms.gov/ig/EpisodeOfCare/example-id-episode> a fhir:EpisodeOfCare;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "example-id-episode"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://alr.cms.gov/ig/StructureDefinition/alr-covidEpisode";
+       fhir:index 0;
+       fhir:link <http://alr.cms.gov/ig/StructureDefinition/alr-covidEpisode>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "additional" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>General example of a Covid Episode</p></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-covidEpisode" ];
+     fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
+  ], [
+     fhir:index 1;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "period" ];
+       fhir:Extension.valuePeriod [
+         fhir:Period.start [ fhir:value "2020-01-01"^^xsd:date ];
+         fhir:Period.end [ fhir:value "2020-01-31"^^xsd:date ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "flag" ];
+       fhir:Extension.valueInteger [ fhir:value "0"^^xsd:integer ]
+     ];
+     fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag" ]
+  ], [
+     fhir:index 2;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "period" ];
+       fhir:Extension.valuePeriod [
+         fhir:Period.start [ fhir:value "2020-02-01"^^xsd:date ];
+         fhir:Period.end [ fhir:value "2020-02-28"^^xsd:date ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "flag" ];
+       fhir:Extension.valueInteger [ fhir:value "0"^^xsd:integer ]
+     ];
+     fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag" ]
+  ], [
+     fhir:index 3;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "period" ];
+       fhir:Extension.valuePeriod [
+         fhir:Period.start [ fhir:value "2020-03-01"^^xsd:date ];
+         fhir:Period.end [ fhir:value "2020-03-31"^^xsd:date ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "flag" ];
+       fhir:Extension.valueInteger [ fhir:value "0"^^xsd:integer ]
+     ];
+     fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag" ]
+  ], [
+     fhir:index 4;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "period" ];
+       fhir:Extension.valuePeriod [
+         fhir:Period.start [ fhir:value "2020-04-01"^^xsd:date ];
+         fhir:Period.end [ fhir:value "2020-04-30"^^xsd:date ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "flag" ];
+       fhir:Extension.valueInteger [ fhir:value "0"^^xsd:integer ]
+     ];
+     fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag" ]
+  ], [
+     fhir:index 5;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "period" ];
+       fhir:Extension.valuePeriod [
+         fhir:Period.start [ fhir:value "2020-05-01"^^xsd:date ];
+         fhir:Period.end [ fhir:value "2020-05-31"^^xsd:date ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "flag" ];
+       fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
+     ];
+     fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag" ]
+  ], [
+     fhir:index 6;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "period" ];
+       fhir:Extension.valuePeriod [
+         fhir:Period.start [ fhir:value "2020-06-01"^^xsd:date ];
+         fhir:Period.end [ fhir:value "2020-06-30"^^xsd:date ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "flag" ];
+       fhir:Extension.valueInteger [ fhir:value "0"^^xsd:integer ]
+     ];
+     fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag" ]
+  ];
+  fhir:EpisodeOfCare.status [ fhir:value "finished"];
+  fhir:EpisodeOfCare.diagnosis [
+     fhir:index 0;
+     fhir:EpisodeOfCare.diagnosis.condition [
+       fhir:Reference.identifier [
+         fhir:Identifier.system [ fhir:value "http://hl7.org/fhir/sid/icd-10" ];
+         fhir:Identifier.value [ fhir:value "U071" ]
+       ]
+     ]
+  ];
+  fhir:EpisodeOfCare.patient [
+     fhir:link <http://alr.cms.gov/ig/patient/example-id-patient>;
+     fhir:Reference.reference [ fhir:value "patient/example-id-patient" ]
+  ];
+  fhir:EpisodeOfCare.period [
+     fhir:Period.start [ fhir:value "2020-05-10"^^xsd:date ];
+     fhir:Period.end [ fhir:value "2020-05-15"^^xsd:date ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://alr.cms.gov/ig/EpisodeOfCare/example-id-episode.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

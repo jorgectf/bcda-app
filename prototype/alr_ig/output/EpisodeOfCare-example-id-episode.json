@@ -1,0 +1,133 @@
+{
+  "resourceType": "EpisodeOfCare",
+  "id": "example-id-episode",
+  "meta": {
+    "profile": [
+      "http://alr.cms.gov/ig/StructureDefinition/alr-covidEpisode"
+    ]
+  },
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>General example of a Covid Episode</p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-covidEpisode",
+      "valueInteger": 1
+    },
+    {
+      "extension": [
+        {
+          "url": "period",
+          "valuePeriod": {
+            "start": "2020-01-01",
+            "end": "2020-01-31"
+          }
+        },
+        {
+          "url": "flag",
+          "valueInteger": 0
+        }
+      ],
+      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag"
+    },
+    {
+      "extension": [
+        {
+          "url": "period",
+          "valuePeriod": {
+            "start": "2020-02-01",
+            "end": "2020-02-28"
+          }
+        },
+        {
+          "url": "flag",
+          "valueInteger": 0
+        }
+      ],
+      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag"
+    },
+    {
+      "extension": [
+        {
+          "url": "period",
+          "valuePeriod": {
+            "start": "2020-03-01",
+            "end": "2020-03-31"
+          }
+        },
+        {
+          "url": "flag",
+          "valueInteger": 0
+        }
+      ],
+      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag"
+    },
+    {
+      "extension": [
+        {
+          "url": "period",
+          "valuePeriod": {
+            "start": "2020-04-01",
+            "end": "2020-04-30"
+          }
+        },
+        {
+          "url": "flag",
+          "valueInteger": 0
+        }
+      ],
+      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag"
+    },
+    {
+      "extension": [
+        {
+          "url": "period",
+          "valuePeriod": {
+            "start": "2020-05-01",
+            "end": "2020-05-31"
+          }
+        },
+        {
+          "url": "flag",
+          "valueInteger": 1
+        }
+      ],
+      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag"
+    },
+    {
+      "extension": [
+        {
+          "url": "period",
+          "valuePeriod": {
+            "start": "2020-06-01",
+            "end": "2020-06-30"
+          }
+        },
+        {
+          "url": "flag",
+          "valueInteger": 0
+        }
+      ],
+      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag"
+    }
+  ],
+  "status": "finished",
+  "diagnosis": [
+    {
+      "condition": {
+        "identifier": {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "value": "U071"
+        }
+      }
+    }
+  ],
+  "patient": {
+    "reference": "patient/example-id-patient"
+  },
+  "period": {
+    "start": "2020-05-10",
+    "end": "2020-05-15"
+  }
+}

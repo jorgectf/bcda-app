@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EpisodeOfCare xmlns="http://hl7.org/fhir">
+  <id value="example-id-episode"/>
+  <meta>
+    <profile value="http://alr.cms.gov/ig/StructureDefinition/alr-covidEpisode"/>
+  </meta>
+  <text>
+    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p>General example of a Covid Episode</p></div>
+  </text>
+  <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-covidEpisode">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag">
+    <extension url="period">
+      <valuePeriod>
+        <start value="2020-01-01"/>
+        <end value="2020-01-31"/>
+      </valuePeriod>
+    </extension>
+    <extension url="flag">
+      <valueInteger value="0"/>
+    </extension>
+  </extension>
+  <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag">
+    <extension url="period">
+      <valuePeriod>
+        <start value="2020-02-01"/>
+        <end value="2020-02-28"/>
+      </valuePeriod>
+    </extension>
+    <extension url="flag">
+      <valueInteger value="0"/>
+    </extension>
+  </extension>
+  <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag">
+    <extension url="period">
+      <valuePeriod>
+        <start value="2020-03-01"/>
+        <end value="2020-03-31"/>
+      </valuePeriod>
+    </extension>
+    <extension url="flag">
+      <valueInteger value="0"/>
+    </extension>
+  </extension>
+  <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag">
+    <extension url="period">
+      <valuePeriod>
+        <start value="2020-04-01"/>
+        <end value="2020-04-30"/>
+      </valuePeriod>
+    </extension>
+    <extension url="flag">
+      <valueInteger value="0"/>
+    </extension>
+  </extension>
+  <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag">
+    <extension url="period">
+      <valuePeriod>
+        <start value="2020-05-01"/>
+        <end value="2020-05-31"/>
+      </valuePeriod>
+    </extension>
+    <extension url="flag">
+      <valueInteger value="1"/>
+    </extension>
+  </extension>
+  <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag">
+    <extension url="period">
+      <valuePeriod>
+        <start value="2020-06-01"/>
+        <end value="2020-06-30"/>
+      </valuePeriod>
+    </extension>
+    <extension url="flag">
+      <valueInteger value="0"/>
+    </extension>
+  </extension>
+  <status value="finished"/>
+  <diagnosis>
+    <condition>
+      <identifier>
+        <system value="http://hl7.org/fhir/sid/icd-10"/>
+        <value value="U071"/>
+      </identifier>
+    </condition>
+  </diagnosis>
+  <patient>
+    <reference value="patient/example-id-patient"/>
+  </patient>
+  <period>
+    <start value="2020-05-10"/>
+    <end value="2020-05-15"/>
+  </period>
+</EpisodeOfCare>

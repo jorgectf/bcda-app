@@ -75,6 +75,71 @@
       ]
     },
     {
+      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-covidEpisode",
+      "title": "ALR Covid Episode",
+      "types": [
+        "integer"
+      ]
+    },
+    {
+      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag",
+      "title": "ALR Covid Flag",
+      "types": [
+        "Period",
+        "integer",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
       "url": "http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentFlag",
       "title": "ALR Enrollment Flag",
       "types": [
@@ -532,6 +597,12 @@
         "url": "http://alr.cms.gov/ig/StructureDefinition/alr-RiskAssessment",
         "title": "ALR Risk Assessment Profile"
       }
+    ],
+    "EpisodeOfCare": [
+      {
+        "url": "http://alr.cms.gov/ig/StructureDefinition/alr-covidEpisode",
+        "title": "ALR Covid Episode"
+      }
     ]
   },
   "usage": {
@@ -543,6 +614,12 @@
     ],
     "http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentStep": [
       "Group.member"
+    ],
+    "http://alr.cms.gov/ig/StructureDefinition/ext-covidEpisode": [
+      "EpisodeOfCare"
+    ],
+    "http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag": [
+      "EpisodeOfCare"
     ],
     "http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentFlag": [
       "Coverage"

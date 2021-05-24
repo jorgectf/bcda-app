@@ -10,7 +10,7 @@
   "name": "AssignmentListIG",
   "title": "CMS Assignment List Report FHIR IG",
   "status": "draft",
-  "date": "2021-05-24T10:45:39-06:00",
+  "date": "2021-05-24T12:29:06-06:00",
   "description": "Implementation Guide for the FHIR version of the CMS Assignment List Report",
   "packageId": "cms.gov.us.alr",
   "license": "CC0-1.0",
@@ -304,6 +304,20 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/alr-covidEpisode"
+        },
+        "name": "ALR Covid Episode",
+        "description": "ALR Covid Episode Desc",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/alr-Group"
         },
         "name": "ALR Group Profile",
@@ -392,6 +406,34 @@
         },
         "name": "ALR Claims Based Assignment",
         "description": "ALR Claims Based Assignment Desc",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ext-covidEpisode"
+        },
+        "name": "ALR Covid Episode",
+        "description": "ALR Covid Episode Desc",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ext-covidFlag"
+        },
+        "name": "ALR Covid Flag",
+        "description": "ALR Covid Flag Desc",
         "exampleBoolean": false
       },
       {
@@ -546,6 +588,19 @@
         },
         "name": "Coverage: General Example",
         "exampleCanonical": "http://alr.cms.gov/ig/StructureDefinition/alr-Coverage"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "EpisodeOfCare"
+          }
+        ],
+        "reference": {
+          "reference": "EpisodeOfCare/example-id-episode"
+        },
+        "name": "Covid Episode: General Example",
+        "exampleCanonical": "http://alr.cms.gov/ig/StructureDefinition/alr-covidEpisode"
       },
       {
         "extension": [
