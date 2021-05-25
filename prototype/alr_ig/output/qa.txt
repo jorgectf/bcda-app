@@ -1,11 +1,11 @@
 ﻿AssignmentListIG : Validation Results
 =========================================
 
-err = 11, warn = 15, info = 15
+err = 12, warn = 15, info = 15
 IG Publisher Version: 1.1.72
-Generated Mon May 24 12:29:50 MDT 2021. FHIR version 4.0.1 for cms.gov.us.alr#0.0.1 (canonical = http://alr.cms.gov/ig)
+Generated Tue May 25 15:22:26 MDT 2021. FHIR version 4.0.1 for cms.gov.us.alr#0.0.1 (canonical = http://alr.cms.gov/ig)
 
- Build Errors : 203 / 9 / 0
+ Build Errors : 205 / 9 / 0
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\ImplementationGuide-cms.gov.us.alr : 0 / 1 / 1
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\coverage-example-id-coverage : 1 / 2 / 1
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\episodeofcare-example-id-episode : 1 / 0 / 1
@@ -248,8 +248,10 @@ ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDe
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 465, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\artifacts.html#/html/body/div/div/div/p/a at Line 443, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\index.html#/html/body/div/div/div/p/a at Line 167, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\overview.html#/html/body/div/div/div/div/div/div/p/img at Line 127, column 4: The image source 'anImage.png' cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\overview.html#/html/body/div/div/div/p/a at Line 152, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\overview.html#/html/body/div/div/div/div/div/p/img at Line 197, column 5: The image source 'diagram.png' cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\overview.html#/html/body/div/div/div/p/a at Line 224, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\overview_old.html#/html/body/div/div/div/div/div/div/p/img at Line 127, column 4: The image source 'anImage.png' cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\overview_old.html#/html/body/div/div/div/p/a at Line 152, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\toc.html#/html/body/div/div/div/p/a at Line 143, column 28: The link '' for "" cannot be resolved
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\ImplementationGuide-cms.gov.us.alr.json ==
 INFORMATION: ImplementationGuide/cms.gov.us.alr: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
