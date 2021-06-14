@@ -33,7 +33,7 @@
       "extension": [
         {
           "url": "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-changeType",
-          "valueCode": "dropped"
+          "valueCode": "excluded"
         },
         {
           "url": "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-coverageReference",
@@ -177,6 +177,70 @@
       ],
       "entity": {
         "reference": "Patient/example-id-3-patient"
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-changeType",
+          "valueCode": "dropped"
+        },
+        {
+          "url": "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-coverageReference",
+          "valueReference": {
+            "reference": "Coverage/example-id-coverage"
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-attributedProvider",
+          "valueReference": {
+            "reference": "Practitioner/example-id-prac"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "reasonCode",
+              "valueCoding": {
+                "system": "https://bluebutton.cms.gov/resources/variables/alr/changeReason",
+                "code": "#PLUR_R05",
+                "display": "Beneficiary did not receive the plurality of their primary care services from the ACO"
+              }
+            },
+            {
+              "url": "reasonCode",
+              "valueCoding": {
+                "system": "https://bluebutton.cms.gov/resources/variables/alr/changeReason",
+                "code": "NO_US_R02",
+                "display": "Beneficiary does not reside in the United States"
+              }
+            }
+          ],
+          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-changeReason"
+        },
+        {
+          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentFlag",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentStep",
+          "valueInteger": 0
+        },
+        {
+          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-prevAssignedBeneficiaryFlag",
+          "valueBoolean": true
+        },
+        {
+          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-newlyAssignedBeneficiaryFlag",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag",
+          "valueBoolean": false
+        }
+      ],
+      "entity": {
+        "reference": "Patient/example-id-patient"
       }
     }
   ]

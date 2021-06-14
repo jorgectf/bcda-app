@@ -560,6 +560,13 @@
       ]
     },
     {
+      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-vaSelectionOnlyFlag",
+      "title": "ALR Voluntary Alignment Selection Only",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
       "url": "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag",
       "title": "ALR Voluntary Alignment",
       "types": [
@@ -638,6 +645,9 @@
     ],
     "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCountTIN-NPI": [
       "Patient"
+    ],
+    "http://alr.cms.gov/ig/StructureDefinition/ext-vaSelectionOnlyFlag": [
+      "Group.member"
     ],
     "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag": [
       "Group.member",

@@ -39,8 +39,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"4.24"}
-    h3,h4,h5,h6{--heading-prefix:"4.24"}</style>
+    <style type="text/css">h2{--heading-prefix:"4.25"}
+    h3,h4,h5,h6{--heading-prefix:"4.25"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
@@ -195,7 +195,7 @@
       "<a href="http://hl7.org/fhir/R4/group.html#Group.member.extension">extension</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-changeType",
-          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "dropped"
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "excluded"
         },
         {
           "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-coverageReference",
@@ -340,6 +340,70 @@
       "<a href="http://hl7.org/fhir/R4/group.html#Group.member.entity">entity</a>" : {
         "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Patient/example-id-3-patient"
       }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/group.html#Group.member.extension">extension</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-changeType",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "dropped"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-coverageReference",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueReference</a>" : {
+            "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Coverage/example-id-coverage"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-attributedProvider",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueReference</a>" : {
+            "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Practitioner/example-id-prac"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "reasonCode",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>" : {
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "https://bluebutton.cms.gov/resources/variables/alr/changeReason",
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "#PLUR_R05",
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Beneficiary did not receive the plurality of their primary care services from the ACO"
+              }
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "reasonCode",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>" : {
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "https://bluebutton.cms.gov/resources/variables/alr/changeReason",
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "NO_US_R02",
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Beneficiary does not reside in the United States"
+              }
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://alr.cms.gov/ig/StructureDefinition/ext-changeReason"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentFlag",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueBoolean</a>" : false
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentStep",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueInteger</a>" : 0
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://alr.cms.gov/ig/StructureDefinition/ext-prevAssignedBeneficiaryFlag",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueBoolean</a>" : true
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://alr.cms.gov/ig/StructureDefinition/ext-newlyAssignedBeneficiaryFlag",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueBoolean</a>" : false
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueBoolean</a>" : false
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/group.html#Group.member.entity">entity</a>" : {
+        "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Patient/example-id-patient"
+      }
     }
   ]
 }</code></pre>
@@ -371,15 +435,15 @@
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="7231dc0e-11c6-417c-ab8c-3b502db1082f">​</a>
-          IG &copy; 2021+ <a style="color: #81BEF7" href="null"></a>.  Package cms.gov.us.alr#0.0.1 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, May 25, 2021 15:21-0600">2021-05-25</span>
+        <p><a name="4583e823-b499-4fbc-b7bd-83edc8868ece">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package cms.gov.us.alr#0.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 14, 2021 14:09-0600">2021-06-14</span>
           <br/>
-          <span style="color: #FFFF77">
-                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
-                 <a style="color: #81BEF7" href="qa.html">QA Report</a>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
                 
-          </span>
+          
         </p>
       </div>    <!-- /inner-wrapper -->
     </div>    <!-- /container -->

@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "ClaimsBasedAssignmentStep"];
   fhir:StructureDefinition.title [ fhir:value "ALR Claims Based Assignment"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-05-25T15:21:32-06:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-06-14T14:09:39-06:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "ALR Claims Based Assignment Desc"];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [

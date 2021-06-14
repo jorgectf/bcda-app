@@ -147,6 +147,13 @@
     "name": "ServiceCountTINNPI"
   },
   {
+    "id": "ext-vaSelectionOnlyFlag",
+    "type": "StructureDefinition",
+    "url": "http://alr.cms.gov/ig/StructureDefinition/ext-vaSelectionOnlyFlag",
+    "version": "0.0.1",
+    "name": "VaSelectionOnlyFlag"
+  },
+  {
     "id": "ext-voluntaryAlignmentFlag",
     "type": "StructureDefinition",
     "url": "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag",

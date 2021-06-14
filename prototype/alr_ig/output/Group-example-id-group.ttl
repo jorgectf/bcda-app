@@ -42,7 +42,7 @@
      fhir:Element.extension [
        fhir:index 0;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-changeType" ];
-       fhir:Extension.valueCode [ fhir:value "dropped" ]
+       fhir:Extension.valueCode [ fhir:value "excluded" ]
      ], [
        fhir:index 1;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-coverageReference" ];
@@ -191,6 +191,71 @@
      fhir:Group.member.entity [
        fhir:link <http://alr.cms.gov/ig/Patient/example-id-3-patient>;
        fhir:Reference.reference [ fhir:value "Patient/example-id-3-patient" ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-changeType" ];
+       fhir:Extension.valueCode [ fhir:value "dropped" ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-coverageReference" ];
+       fhir:Extension.valueReference [
+         fhir:link <http://alr.cms.gov/ig/Coverage/example-id-coverage>;
+         fhir:Reference.reference [ fhir:value "Coverage/example-id-coverage" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-attributedProvider" ];
+       fhir:Extension.valueReference [
+         fhir:link <http://alr.cms.gov/ig/Practitioner/example-id-prac>;
+         fhir:Reference.reference [ fhir:value "Practitioner/example-id-prac" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "reasonCode" ];
+         fhir:Extension.valueCoding [
+           fhir:Coding.system [ fhir:value "https://bluebutton.cms.gov/resources/variables/alr/changeReason" ];
+           fhir:Coding.code [ fhir:value "#PLUR_R05" ];
+           fhir:Coding.display [ fhir:value "Beneficiary did not receive the plurality of their primary care services from the ACO" ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "reasonCode" ];
+         fhir:Extension.valueCoding [
+           fhir:Coding.system [ fhir:value "https://bluebutton.cms.gov/resources/variables/alr/changeReason" ];
+           fhir:Coding.code [ fhir:value "NO_US_R02" ];
+           fhir:Coding.display [ fhir:value "Beneficiary does not reside in the United States" ]
+         ]
+       ];
+       fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-changeReason" ]
+     ], [
+       fhir:index 4;
+       fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentFlag" ];
+       fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 5;
+       fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentStep" ];
+       fhir:Extension.valueInteger [ fhir:value "0"^^xsd:integer ]
+     ], [
+       fhir:index 6;
+       fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-prevAssignedBeneficiaryFlag" ];
+       fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 7;
+       fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-newlyAssignedBeneficiaryFlag" ];
+       fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 8;
+       fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag" ];
+       fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ];
+     fhir:Group.member.entity [
+       fhir:link <http://alr.cms.gov/ig/Patient/example-id-patient>;
+       fhir:Reference.reference [ fhir:value "Patient/example-id-patient" ]
      ]
   ] .
 

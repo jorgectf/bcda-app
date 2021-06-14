@@ -10,7 +10,7 @@
   "name": "AssignmentListIG",
   "title": "CMS Assignment List Report FHIR IG",
   "status": "draft",
-  "date": "2021-05-25T15:21:32-06:00",
+  "date": "2021-06-14T14:09:39-06:00",
   "description": "Implementation Guide for the FHIR version of the CMS Assignment List Report",
   "packageId": "cms.gov.us.alr",
   "license": "CC0-1.0",
@@ -560,6 +560,20 @@
         },
         "name": "Top ACO Participant TIN-Individual NPI",
         "description": "Top ACO Participant TIN-Individual NPI (by number of primary care services) for Assigned Beneficiaries",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ext-vaSelectionOnlyFlag"
+        },
+        "name": "ALR Voluntary Alignment Selection Only",
+        "description": "ALR Voluntary Alignment Selection Only",
         "exampleBoolean": false
       },
       {
