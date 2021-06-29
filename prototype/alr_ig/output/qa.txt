@@ -1,11 +1,11 @@
 ﻿AssignmentListIG : Validation Results
 =========================================
 
-err = 13, warn = 16, info = 17
-IG Publisher Version: 1.1.72 Out of date - current version is 1.1.73
-Generated Mon Jun 14 14:10:25 MDT 2021. FHIR version 4.0.1 for cms.gov.us.alr#0.0.1 (canonical = http://alr.cms.gov/ig)
+err = 12, warn = 16, info = 17
+IG Publisher Version: 1.1.76
+Generated Tue Jun 29 07:29:45 MDT 2021. FHIR version 4.0.1 for cms.gov.us.alr#0.0.1 (canonical = http://alr.cms.gov/ig)
 
- Build Errors : 212 / 9 / 0
+ Build Errors : 211 / 9 / 0
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\ImplementationGuide-cms.gov.us.alr : 0 / 1 / 1
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\coverage-example-id-coverage : 1 / 2 / 1
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\episodeofcare-example-id-episode : 1 / 0 / 1
@@ -256,24 +256,19 @@ ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDe
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 465, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\artifacts.html#/html/body/div/div/div/p/a at Line 452, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\index.html#/html/body/div/div/div/p/a at Line 167, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\overview.html#/html/body/div/div/div/div/div/p/img at Line 197, column 5: The image source 'diagram.png' cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\overview.html#/html/body/div/div/div/p/a at Line 224, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\overview.html#/html/body/div/div/div/p/a at Line 257, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\overview_old.html#/html/body/div/div/div/div/div/div/p/img at Line 127, column 4: The image source 'anImage.png' cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\overview_old.html#/html/body/div/div/div/p/a at Line 152, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\toc.html#/html/body/div/div/div/p/a at Line 143, column 28: The link '' for "" cannot be resolved
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\ImplementationGuide-cms.gov.us.alr.json ==
-INFORMATION: ImplementationGuide/cms.gov.us.alr: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
 WARNING: ImplementationGuide/cms.gov.us.alr: ImplementationGuide.definition.resource[18].description: value should not start or finish with whitespace
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\Coverage-example-id-coverage.json ==
-INFORMATION: Coverage/example-id-coverage: Coverage: Validate resource against profile http://alr.cms.gov/ig/StructureDefinition/alr-Coverage
 WARNING: Coverage/example-id-coverage: Coverage.extension[0].extension[1].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
 WARNING: Coverage/example-id-coverage: Coverage.extension[1].extension[1].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
 ERROR: Coverage/example-id-coverage: Coverage.payor[0]: Unable to resolve resource 'Organization/123'
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\EpisodeOfCare-example-id-episode.json ==
-INFORMATION: EpisodeOfCare/example-id-episode: EpisodeOfCare: Validate resource against profile http://alr.cms.gov/ig/StructureDefinition/alr-covidEpisode
 ERROR: EpisodeOfCare/example-id-episode: EpisodeOfCare.patient: Unable to resolve resource 'patient/example-id-patient'
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\Group-example-id-group.json ==
-INFORMATION: Group/example-id-group: Group: Validate resource against profile http://alr.cms.gov/ig/StructureDefinition/alr-Group
 ERROR: Group/example-id-group: Group.managingEntity: Unable to resolve resource 'Organization/123'
 ERROR: Group/example-id-group: Group.member[0].extension[2].value.ofType(Reference): Unable to resolve resource 'Practitioner/example-id-prac'
 INFORMATION: Group/example-id-group: Group.member[0].extension[3].extension[0].value.ofType(Coding): Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/changeReason' is unknown so the code cannot be validated
@@ -286,14 +281,12 @@ ERROR: Group/example-id-group: Group.member[3].extension[2].value.ofType(Referen
 INFORMATION: Group/example-id-group: Group.member[3].extension[3].extension[0].value.ofType(Coding): Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/changeReason' is unknown so the code cannot be validated
 INFORMATION: Group/example-id-group: Group.member[3].extension[3].extension[1].value.ofType(Coding): Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/changeReason' is unknown so the code cannot be validated
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\Observation-example-id-hcc-risk-flags.json ==
-INFORMATION: Observation/example-id-hcc-risk-flags: Observation: Validate resource against profile http://alr.cms.gov/ig/StructureDefinition/alr-HccRiskFlag
 INFORMATION: Observation/example-id-hcc-risk-flags: Observation.code.coding[0]: Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags' is unknown so the code cannot be validated
 INFORMATION: Observation/example-id-hcc-risk-flags: Observation.component[0].code.coding[0]: Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags' is unknown so the code cannot be validated
 INFORMATION: Observation/example-id-hcc-risk-flags: Observation.component[1].code.coding[0]: Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags' is unknown so the code cannot be validated
 INFORMATION: Observation/example-id-hcc-risk-flags: Observation.component[2].code.coding[0]: Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags' is unknown so the code cannot be validated
 INFORMATION: Observation/example-id-hcc-risk-flags: Observation.component[3].code.coding[0]: Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags' is unknown so the code cannot be validated
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\Patient-example-id-patient.json ==
-INFORMATION: Patient/example-id-patient: Patient: Validate resource against profile http://alr.cms.gov/ig/StructureDefinition/alr-Patient
 INFORMATION: Patient/example-id-patient: Patient.identifier[0]: This element does not match any known slice defined in the profile http://alr.cms.gov/ig/StructureDefinition/alr-Patient
 INFORMATION: Patient/example-id-patient: Patient.identifier[1]: This element does not match any known slice defined in the profile http://alr.cms.gov/ig/StructureDefinition/alr-Patient
 INFORMATION: Patient/example-id-patient: Patient.identifier[2]: This element does not match any known slice defined in the profile http://alr.cms.gov/ig/StructureDefinition/alr-Patient
@@ -301,62 +294,36 @@ INFORMATION: Patient/example-id-patient: Patient.extension[1].extension[0].value
 ERROR: Patient/example-id-patient: Patient.extension[2].extension[1].value.ofType(Identifier).type.coding[0]: Unknown Code System 'http://hl7.org/fhir/sid/us-npi'
 ERROR: Patient/example-id-patient: Patient.identifier[2].system: URL value 'http://hl7.org/fhir/sid/us-mbi' does not resolve
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\RiskAssessment-example-id-monthly-risk-score.json ==
-INFORMATION: RiskAssessment/example-id-monthly-risk-score: RiskAssessment: Validate resource against profile http://alr.cms.gov/ig/StructureDefinition/alr-RiskAssessment
 INFORMATION: RiskAssessment/example-id-monthly-risk-score: RiskAssessment.code.coding[0]: Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/bene_rsk_r_scre' is unknown so the code cannot be validated
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\RiskAssessment-example-id-risk-score-aged-dual.json ==
-INFORMATION: RiskAssessment/example-id-risk-score-aged-dual: RiskAssessment: Validate resource against profile http://alr.cms.gov/ig/StructureDefinition/alr-RiskAssessment
 INFORMATION: RiskAssessment/example-id-risk-score-aged-dual: RiskAssessment.code.coding[0]: Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/aged-dual-score' is unknown so the code cannot be validated
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\RiskAssessment-example-id-risk-score-disabled.json ==
-INFORMATION: RiskAssessment/example-id-risk-score-disabled: RiskAssessment: Validate resource against profile http://alr.cms.gov/ig/StructureDefinition/alr-RiskAssessment
 INFORMATION: RiskAssessment/example-id-risk-score-disabled: RiskAssessment.code.coding[0]: Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/disabled-score' is unknown so the code cannot be validated
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\RiskAssessment-example-id-risk-score-esrd.json ==
-INFORMATION: RiskAssessment/example-id-risk-score-esrd: RiskAssessment: Validate resource against profile http://alr.cms.gov/ig/StructureDefinition/alr-RiskAssessment
 INFORMATION: RiskAssessment/example-id-risk-score-esrd: RiskAssessment.code.coding[0]: Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/esrd-score' is unknown so the code cannot be validated
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-alr-Coverage.json ==
-INFORMATION: StructureDefinition/alr-Coverage: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-alr-Group.json ==
-INFORMATION: StructureDefinition/alr-Group: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-alr-HccRiskFlag.json ==
-INFORMATION: StructureDefinition/alr-HccRiskFlag: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-alr-Patient.json ==
-INFORMATION: StructureDefinition/alr-Patient: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-alr-RiskAssessment.json ==
-INFORMATION: StructureDefinition/alr-RiskAssessment: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-alr-covidEpisode.json ==
-INFORMATION: StructureDefinition/alr-covidEpisode: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-changeReason.json ==
-INFORMATION: StructureDefinition/ext-changeReason: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-claimsBasedAssignmentFlag.json ==
-INFORMATION: StructureDefinition/ext-claimsBasedAssignmentFlag: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-claimsBasedAssignmentStep.json ==
-INFORMATION: StructureDefinition/ext-claimsBasedAssignmentStep: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-covidEpisode.json ==
-INFORMATION: StructureDefinition/ext-covidEpisode: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-covidFlag.json ==
-INFORMATION: StructureDefinition/ext-covidFlag: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-enrollmentFlag.json ==
-INFORMATION: StructureDefinition/ext-enrollmentFlag: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-enrollmentPeriod.json ==
-INFORMATION: StructureDefinition/ext-enrollmentPeriod: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentPeriod'): The Implementation Guide contains no examples for this extension
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-newlyAssignedBeneficiaryFlag.json ==
-INFORMATION: StructureDefinition/ext-newlyAssignedBeneficiaryFlag: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-prevAssignedBeneficiaryFlag.json ==
-INFORMATION: StructureDefinition/ext-prevAssignedBeneficiaryFlag: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-serviceCount.json ==
-INFORMATION: StructureDefinition/ext-serviceCount: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount'): The Implementation Guide contains no examples for this extension
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-serviceCount2.json ==
-INFORMATION: StructureDefinition/ext-serviceCount2: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount2'): The Implementation Guide contains no examples for this extension
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-serviceCountCCN.json ==
-INFORMATION: StructureDefinition/ext-serviceCountCCN: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-serviceCountTIN.json ==
-INFORMATION: StructureDefinition/ext-serviceCountTIN: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-serviceCountTIN-NPI.json ==
-INFORMATION: StructureDefinition/ext-serviceCountTIN-NPI: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-vaSelectionOnlyFlag.json ==
-INFORMATION: StructureDefinition/ext-vaSelectionOnlyFlag: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://alr.cms.gov/ig/StructureDefinition/ext-vaSelectionOnlyFlag'): The Implementation Guide contains no examples for this extension
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-voluntaryAlignmentFlag.json ==
-INFORMATION: StructureDefinition/ext-voluntaryAlignmentFlag: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
