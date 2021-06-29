@@ -10,7 +10,7 @@
   "name": "ServiceCountTIN",
   "title": "Service Count by ACO Participant TIN level",
   "status": "active",
-  "date": "2021-06-29T07:28:24-06:00",
+  "date": "2021-06-29T11:42:24-06:00",
   "description": "Assigned Beneficiaries and Number of Primary Care Services at the ACO Participant TIN Level ",
   "fhirVersion": "4.0.1",
   "mapping": [

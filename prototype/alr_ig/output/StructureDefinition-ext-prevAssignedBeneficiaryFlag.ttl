@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "PrevAssignedBeneficiaryFlag"];
   fhir:StructureDefinition.title [ fhir:value "ALR Previously Assigned Beneficiary Flag"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-06-29T07:28:24-06:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-06-29T11:42:24-06:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "ALR Previously Assigned Beneficiary Flag"];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [
