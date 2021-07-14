@@ -12,69 +12,51 @@
     <valueInteger value="1"/>
   </extension>
   <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag">
-    <extension url="period">
-      <valuePeriod>
-        <start value="2020-01-01"/>
-        <end value="2020-01-31"/>
-      </valuePeriod>
+    <extension url="monthNum">
+      <valueInteger value="1"/>
     </extension>
     <extension url="flag">
       <valueInteger value="0"/>
     </extension>
   </extension>
   <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag">
-    <extension url="period">
-      <valuePeriod>
-        <start value="2020-02-01"/>
-        <end value="2020-02-28"/>
-      </valuePeriod>
+    <extension url="monthNum">
+      <valueInteger value="2"/>
     </extension>
     <extension url="flag">
       <valueInteger value="0"/>
     </extension>
   </extension>
   <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag">
-    <extension url="period">
-      <valuePeriod>
-        <start value="2020-03-01"/>
-        <end value="2020-03-31"/>
-      </valuePeriod>
+    <extension url="monthNum">
+      <valueInteger value="3"/>
     </extension>
     <extension url="flag">
       <valueInteger value="0"/>
     </extension>
   </extension>
   <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag">
-    <extension url="period">
-      <valuePeriod>
-        <start value="2020-04-01"/>
-        <end value="2020-04-30"/>
-      </valuePeriod>
+    <extension url="monthNum">
+      <valueInteger value="4"/>
     </extension>
     <extension url="flag">
       <valueInteger value="0"/>
     </extension>
   </extension>
   <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag">
-    <extension url="period">
-      <valuePeriod>
-        <start value="2020-05-01"/>
-        <end value="2020-05-31"/>
-      </valuePeriod>
+    <extension url="monthNum">
+      <valueInteger value="5"/>
     </extension>
     <extension url="flag">
       <valueInteger value="1"/>
     </extension>
   </extension>
   <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag">
-    <extension url="period">
-      <valuePeriod>
-        <start value="2020-06-01"/>
-        <end value="2020-06-30"/>
-      </valuePeriod>
+    <extension url="monthNum">
+      <valueInteger value="6"/>
     </extension>
     <extension url="flag">
-      <valueInteger value="0"/>
+      <valueInteger value="1"/>
     </extension>
   </extension>
   <status value="finished"/>

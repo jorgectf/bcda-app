@@ -18,11 +18,8 @@
     {
       "extension": [
         {
-          "url": "period",
-          "valuePeriod": {
-            "start": "2020-01-01",
-            "end": "2020-01-31"
-          }
+          "url": "monthNum",
+          "valueInteger": 1
         },
         {
           "url": "flag",
@@ -34,11 +31,8 @@
     {
       "extension": [
         {
-          "url": "period",
-          "valuePeriod": {
-            "start": "2020-02-01",
-            "end": "2020-02-28"
-          }
+          "url": "monthNum",
+          "valueInteger": 2
         },
         {
           "url": "flag",
@@ -50,11 +44,8 @@
     {
       "extension": [
         {
-          "url": "period",
-          "valuePeriod": {
-            "start": "2020-03-01",
-            "end": "2020-03-31"
-          }
+          "url": "monthNum",
+          "valueInteger": 3
         },
         {
           "url": "flag",
@@ -66,11 +57,8 @@
     {
       "extension": [
         {
-          "url": "period",
-          "valuePeriod": {
-            "start": "2020-04-01",
-            "end": "2020-04-30"
-          }
+          "url": "monthNum",
+          "valueInteger": 4
         },
         {
           "url": "flag",
@@ -82,11 +70,8 @@
     {
       "extension": [
         {
-          "url": "period",
-          "valuePeriod": {
-            "start": "2020-05-01",
-            "end": "2020-05-31"
-          }
+          "url": "monthNum",
+          "valueInteger": 5
         },
         {
           "url": "flag",
@@ -98,15 +83,12 @@
     {
       "extension": [
         {
-          "url": "period",
-          "valuePeriod": {
-            "start": "2020-06-01",
-            "end": "2020-06-30"
-          }
+          "url": "monthNum",
+          "valueInteger": 6
         },
         {
           "url": "flag",
-          "valueInteger": 0
+          "valueInteger": 1
         }
       ],
       "url": "http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag"

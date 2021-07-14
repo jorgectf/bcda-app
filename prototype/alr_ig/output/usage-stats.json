@@ -85,7 +85,7 @@
       "url": "http://alr.cms.gov/ig/StructureDefinition/ext-covidFlag",
       "title": "ALR Covid Flag",
       "types": [
-        "Period",
+        "integer",
         "integer",
         "base64Binary",
         "boolean",
