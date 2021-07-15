@@ -10,7 +10,7 @@
   "name": "AssignmentListIG",
   "title": "CMS Assignment List Report FHIR IG",
   "status": "draft",
-  "date": "2021-07-14T09:54:57-06:00",
+  "date": "2021-07-15T10:35:54-06:00",
   "description": "Implementation Guide for the FHIR version of the CMS Assignment List Report",
   "packageId": "cms.gov.us.alr",
   "license": "CC0-1.0",
@@ -458,10 +458,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/ext-enrollmentPeriod"
+          "reference": "StructureDefinition/ext-newlyAssignedBeneficiaryFlag"
         },
-        "name": "ALR Enrollment Period",
-        "description": "ALR Enrollment Period Desc",
+        "name": "ALR Newly Assigned Beneficiary Flag",
+        "description": "ALR Newly Assigned Beneficiary Flag",
         "exampleBoolean": false
       },
       {
@@ -472,10 +472,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/ext-newlyAssignedBeneficiaryFlag"
+          "reference": "StructureDefinition/ext-partDMonths"
         },
-        "name": "ALR Newly Assigned Beneficiary Flag",
-        "description": "ALR Newly Assigned Beneficiary Flag",
+        "name": "ALR Part D Months",
+        "description": "ALR Part D Months",
         "exampleBoolean": false
       },
       {
@@ -588,6 +588,20 @@
         },
         "name": "ALR Voluntary Alignment",
         "description": "ALR Voluntary Alignment Desc",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ext-voluntaryAlignmentProvider"
+        },
+        "name": "ALR Voluntary Alignment Provider",
+        "description": "ALR Voluntary Alignment Provider",
         "exampleBoolean": false
       },
       {

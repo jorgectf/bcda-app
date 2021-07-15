@@ -68,6 +68,32 @@
     <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag">
       <valueBoolean value="false"/>
     </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentProvider">
+      <valueIdentifier>
+        <type>
+          <coding>
+            <system value="http://hl7.org/fhir/sid/us-npi"/>
+            <code value="NPI"/>
+            <display value="NPI number"/>
+          </coding>
+        </type>
+        <system value="http://hl7.org/fhir/sid/us-npi"/>
+        <value value="example-NPI"/>
+      </valueIdentifier>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentProvider">
+      <valueIdentifier>
+        <type>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+            <code value="TAX"/>
+            <display value="Tax ID number"/>
+          </coding>
+        </type>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <value value="example-TIN"/>
+      </valueIdentifier>
+    </extension>
     <entity>
       <reference value="Patient/example-id-patient"/>
     </entity>

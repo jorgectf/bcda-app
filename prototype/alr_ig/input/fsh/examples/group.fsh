@@ -31,6 +31,17 @@ Usage:          #example
 * member[0].extension[ext-newlyAssignedBeneficiaryFlag].valueBoolean = false
 * member[0].extension[ext-voluntaryAlignmentFlag].valueBoolean = false
 * member[0].entity.reference = "Patient/example-id-patient"
+* member[0].extension[ext-voluntaryAlignmentProvider][0].valueIdentifier.value = "example-NPI"
+* member[0].extension[ext-voluntaryAlignmentProvider][0].valueIdentifier.system = "http://hl7.org/fhir/sid/us-npi"
+* member[0].extension[ext-voluntaryAlignmentProvider][0].valueIdentifier.type.coding.code = #NPI
+* member[0].extension[ext-voluntaryAlignmentProvider][0].valueIdentifier.type.coding.display = "NPI number"
+* member[0].extension[ext-voluntaryAlignmentProvider][0].valueIdentifier.type.coding.system = "http://hl7.org/fhir/sid/us-npi"
+* member[0].extension[ext-voluntaryAlignmentProvider][1].valueIdentifier.value = "example-TIN"
+* member[0].extension[ext-voluntaryAlignmentProvider][1].valueIdentifier.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
+* member[0].extension[ext-voluntaryAlignmentProvider][1].valueIdentifier.type.coding.code = #TAX
+* member[0].extension[ext-voluntaryAlignmentProvider][1].valueIdentifier.type.coding.display = "Tax ID number"
+* member[0].extension[ext-voluntaryAlignmentProvider][1].valueIdentifier.type.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
+
 //
 * member[1].extension[changeType].valueCode = #nochange
 * member[1].extension[coverageReference].valueReference.reference = "Coverage/example-id-coverage"

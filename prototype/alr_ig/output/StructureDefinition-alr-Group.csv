@@ -295,6 +295,9 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Group.member.extension","ext-voluntaryAlignmentFlag","","",0,1,"Y","","","Extension {[CanonicalType[http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag]]} {[]}
 ","ALR Voluntary Alignment","ALR Voluntary Alignment Desc","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","IN_VA_MAX"
+"Group.member.extension","ext-voluntaryAlignmentProvider","","",0,*,"Y","","","Extension {[CanonicalType[http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentProvider]]} {[]}
+","ALR Voluntary Alignment Provider","ALR Voluntary Alignment Provider","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Group.member.extension","ext-vaSelectionOnlyFlag","","",0,1,"Y","","","Extension {[CanonicalType[http://alr.cms.gov/ig/StructureDefinition/ext-vaSelectionOnlyFlag]]} {[]}
 ","ALR Voluntary Alignment Selection Only","ALR Voluntary Alignment Selection Only","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","VA_SELECTION_ONLY"

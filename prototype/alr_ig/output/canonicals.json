@@ -91,18 +91,18 @@
     "name": "EnrollmentFlag"
   },
   {
-    "id": "ext-enrollmentPeriod",
-    "type": "StructureDefinition",
-    "url": "http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentPeriod",
-    "version": "0.0.1",
-    "name": "EnrollmentPeriod"
-  },
-  {
     "id": "ext-newlyAssignedBeneficiaryFlag",
     "type": "StructureDefinition",
     "url": "http://alr.cms.gov/ig/StructureDefinition/ext-newlyAssignedBeneficiaryFlag",
     "version": "0.0.1",
     "name": "NewlyAssignedBeneficiaryFlag"
+  },
+  {
+    "id": "ext-partDMonths",
+    "type": "StructureDefinition",
+    "url": "http://alr.cms.gov/ig/StructureDefinition/ext-partDMonths",
+    "version": "0.0.1",
+    "name": "PartDMonths"
   },
   {
     "id": "ext-prevAssignedBeneficiaryFlag",
@@ -159,5 +159,12 @@
     "url": "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag",
     "version": "0.0.1",
     "name": "VoluntaryAlignmentFlag"
+  },
+  {
+    "id": "ext-voluntaryAlignmentProvider",
+    "type": "StructureDefinition",
+    "url": "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentProvider",
+    "version": "0.0.1",
+    "name": "VoluntaryAlignmentProvider"
   }
 ]

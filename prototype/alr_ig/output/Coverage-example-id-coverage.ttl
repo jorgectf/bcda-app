@@ -55,6 +55,10 @@
        ]
      ];
      fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentFlag" ]
+  ], [
+     fhir:index 2;
+     fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-partDMonths" ];
+     fhir:Extension.valueInteger [ fhir:value "5"^^xsd:integer ]
   ];
   fhir:Coverage.status [ fhir:value "active"];
   fhir:Coverage.subscriberId [ fhir:value "-19999000381"];

@@ -10,6 +10,7 @@ Description:    "ALR Group Profile Desc"
 * member.extension contains NewlyAssignedBeneficiaryFlag named ext-newlyAssignedBeneficiaryFlag 0..1 MS
 * member.extension contains PrevAssignedBeneficiaryFlag named ext-pervAssignedBeneficiaryFlag 0..1 MS
 * member.extension contains VoluntaryAlignmentFlag named ext-voluntaryAlignmentFlag 0..1 MS
+* member.extension contains VoluntaryAlignmentProvider named ext-voluntaryAlignmentProvider 0..* MS
 * member.extension contains VaSelectionOnlyFlag named ext-vaSelectionOnlyFlag 0..1 MS
 * characteristic 0..0
 

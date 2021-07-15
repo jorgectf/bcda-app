@@ -48,6 +48,10 @@
         }
       ],
       "url": "http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentFlag"
+    },
+    {
+      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-partDMonths",
+      "valueInteger": 5
     }
   ],
   "status": "active",

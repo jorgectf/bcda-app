@@ -18,6 +18,7 @@ Description:    "ALR Coverage Profile Desc"
 * contract 0..0
 //* extension contains EnrollmentPeriod named ext-enrollmentPeriod 0..1 MS
 * extension contains EnrollmentFlag named ext-enrollmentFlag 0..* MS
+* extension contains PartDMonths named ext-partDMonths 0..1 MS
 
 Mapping:  ALRCoverageToALRCSV
 Source:   ALRCoverage

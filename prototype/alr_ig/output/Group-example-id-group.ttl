@@ -97,6 +97,36 @@
        fhir:index 8;
        fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag" ];
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 9;
+       fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentProvider" ];
+       fhir:Extension.valueIdentifier [
+         fhir:Identifier.type [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "http://hl7.org/fhir/sid/us-npi" ];
+             fhir:Coding.code [ fhir:value "NPI" ];
+             fhir:Coding.display [ fhir:value "NPI number" ]
+           ]
+         ];
+         fhir:Identifier.system [ fhir:value "http://hl7.org/fhir/sid/us-npi" ];
+         fhir:Identifier.value [ fhir:value "example-NPI" ]
+       ]
+     ], [
+       fhir:index 10;
+       fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentProvider" ];
+       fhir:Extension.valueIdentifier [
+         fhir:Identifier.type [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0203" ];
+             fhir:Coding.code [ fhir:value "TAX" ];
+             fhir:Coding.display [ fhir:value "Tax ID number" ]
+           ]
+         ];
+         fhir:Identifier.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0203" ];
+         fhir:Identifier.value [ fhir:value "example-TIN" ]
+       ]
      ];
      fhir:Group.member.entity [
        fhir:link <http://alr.cms.gov/ig/Patient/example-id-patient>;

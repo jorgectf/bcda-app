@@ -28,4 +28,6 @@ Usage:          #example
 * extension[ext-enrollmentFlag][1].extension[period].valuePeriod.end = "2020-12-31"
 * extension[ext-enrollmentFlag][1].extension[flag].valueCoding.code = #2
 * extension[ext-enrollmentFlag][1].extension[flag].valueCoding.display = "Medicare enrollment type is Disabled"
+* extension[ext-partDMonths].valueInteger = 5
+
 

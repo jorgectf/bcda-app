@@ -36,6 +36,9 @@
       </valueCoding>
     </extension>
   </extension>
+  <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-partDMonths">
+    <valueInteger value="5"/>
+  </extension>
   <status value="active"/>
   <subscriberId value="-19999000381"/>
   <beneficiary>

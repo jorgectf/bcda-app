@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "ServiceCountCCN"];
   fhir:StructureDefinition.title [ fhir:value "Service Count by ACO Participant CCN level"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-07-14T09:54:57-06:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-07-15T10:35:54-06:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "Assigned Beneficiaries and Number of Primary Care Services at the ACO Participant CCN Level"];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [

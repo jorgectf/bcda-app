@@ -198,67 +198,17 @@
       ]
     },
     {
-      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentPeriod",
-      "title": "ALR Enrollment Period",
-      "types": [
-        "Period",
-        "base64Binary",
-        "boolean",
-        "canonical",
-        "code",
-        "date",
-        "dateTime",
-        "decimal",
-        "id",
-        "instant",
-        "integer",
-        "markdown",
-        "oid",
-        "positiveInt",
-        "string",
-        "time",
-        "unsignedInt",
-        "uri",
-        "url",
-        "uuid",
-        "Address",
-        "Age",
-        "Annotation",
-        "Attachment",
-        "CodeableConcept",
-        "Coding",
-        "ContactPoint",
-        "Count",
-        "Distance",
-        "Duration",
-        "HumanName",
-        "Identifier",
-        "Money",
-        "Period",
-        "Quantity",
-        "Range",
-        "Ratio",
-        "Reference",
-        "SampledData",
-        "Signature",
-        "Timing",
-        "ContactDetail",
-        "Contributor",
-        "DataRequirement",
-        "Expression",
-        "ParameterDefinition",
-        "RelatedArtifact",
-        "TriggerDefinition",
-        "UsageContext",
-        "Dosage",
-        "Meta"
-      ]
-    },
-    {
       "url": "http://alr.cms.gov/ig/StructureDefinition/ext-newlyAssignedBeneficiaryFlag",
       "title": "ALR Newly Assigned Beneficiary Flag",
       "types": [
         "boolean"
+      ]
+    },
+    {
+      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-partDMonths",
+      "title": "ALR Part D Months",
+      "types": [
+        "integer"
       ]
     },
     {
@@ -572,6 +522,13 @@
       "types": [
         "boolean"
       ]
+    },
+    {
+      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentProvider",
+      "title": "ALR Voluntary Alignment Provider",
+      "types": [
+        "Identifier"
+      ]
     }
   ],
   "profiles": {
@@ -634,6 +591,9 @@
     "http://alr.cms.gov/ig/StructureDefinition/ext-newlyAssignedBeneficiaryFlag": [
       "Group.member"
     ],
+    "http://alr.cms.gov/ig/StructureDefinition/ext-partDMonths": [
+      "Coverage"
+    ],
     "http://alr.cms.gov/ig/StructureDefinition/ext-prevAssignedBeneficiaryFlag": [
       "Group.member"
     ],
@@ -652,6 +612,9 @@
     "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag": [
       "Group.member",
       "Patient"
+    ],
+    "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentProvider": [
+      "Group.member"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
