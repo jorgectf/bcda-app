@@ -18,7 +18,7 @@
   <name value="ALRHccRiskFlag"/>
   <title value="ALR HCC Flag Profile"/>
   <status value="active"/>
-  <date value="2021-07-15T10:35:54-06:00"/>
+  <date value="2021-08-04T09:01:47-06:00"/>
   <description value="ALR HCC Flag Profile Desc"/>
   <fhirVersion value="4.0.1"/>
   <mapping>

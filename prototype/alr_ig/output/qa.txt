@@ -2,8 +2,8 @@
 =========================================
 
 err = 13, warn = 15, info = 17
-IG Publisher Version: 1.1.76
-Generated Thu Jul 15 10:36:41 MDT 2021. FHIR version 4.0.1 for cms.gov.us.alr#0.0.1 (canonical = http://alr.cms.gov/ig)
+IG Publisher Version: 1.1.76 Out of date - current version is 1.1.77
+Generated Wed Aug 04 09:02:52 MDT 2021. FHIR version 4.0.1 for cms.gov.us.alr#0.0.1 (canonical = http://alr.cms.gov/ig)
 
  Build Errors : 218 / 9 / 0
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\ImplementationGuide-cms.gov.us.alr : 0 / 1 / 1
