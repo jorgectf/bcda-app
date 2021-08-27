@@ -1,13 +1,13 @@
 ﻿AssignmentListIG : Validation Results
 =========================================
 
-err = 13, warn = 15, info = 17
+err = 13, warn = 13, info = 17
 IG Publisher Version: 1.1.76 Out of date - current version is 1.1.77
-Generated Wed Aug 04 09:02:52 MDT 2021. FHIR version 4.0.1 for cms.gov.us.alr#0.0.1 (canonical = http://alr.cms.gov/ig)
+Generated Fri Aug 27 08:40:32 MDT 2021. FHIR version 4.0.1 for cms.gov.us.alr#0.0.1 (canonical = http://alr.cms.gov/ig)
 
  Build Errors : 218 / 9 / 0
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\ImplementationGuide-cms.gov.us.alr : 0 / 1 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\coverage-example-id-coverage : 1 / 2 / 1
+ C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\coverage-example-id-coverage : 1 / 0 / 1
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\episodeofcare-example-id-episode : 1 / 0 / 1
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\group-example-id-group : 8 / 0 / 5
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\observation-example-id-hcc-risk-flags : 0 / 0 / 6
@@ -52,9 +52,9 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource RiskAssessment/example-id-risk-score-esrd.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Coverage-example-id-coverage.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Coverage-example-id-coverage.html#/html/body/div/div/div/p/a at Line 192, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Coverage-example-id-coverage.json.html#/html/body/div/div/div/p/a at Line 265, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Coverage-example-id-coverage.ttl.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Coverage-example-id-coverage.xml.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Coverage-example-id-coverage.json.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Coverage-example-id-coverage.ttl.html#/html/body/div/div/div/p/a at Line 270, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Coverage-example-id-coverage.xml.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\EpisodeOfCare-example-id-episode.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\EpisodeOfCare-example-id-episode.html#/html/body/div/div/div/p/a at Line 192, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\EpisodeOfCare-example-id-episode.json.html#/html/body/div/div/div/p/a at Line 309, column 28: The link '' for "" cannot be resolved
@@ -95,14 +95,14 @@ ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessm
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-esrd.json.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-esrd.ttl.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-esrd.xml.html#/html/body/div/div/div/p/a at Line 228, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage-definitions.html#/html/body/div/div/div/p/a at Line 1241, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage-definitions.html#/html/body/div/div/div/p/a at Line 1135, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage-examples.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage-mappings.html#/html/body/div/div/div/p/a at Line 411, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage.html#/html/body/div/div/div/p/a at Line 956, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage-mappings.html#/html/body/div/div/div/p/a at Line 393, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage.html#/html/body/div/div/div/p/a at Line 920, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage.profile.history.html#/html/body/div/div/div/p/a at Line 238, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage.profile.json.html#/html/body/div/div/div/p/a at Line 5098, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage.profile.ttl.html#/html/body/div/div/div/p/a at Line 4380, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage.profile.xml.html#/html/body/div/div/div/p/a at Line 4550, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage.profile.json.html#/html/body/div/div/div/p/a at Line 4377, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage.profile.ttl.html#/html/body/div/div/div/p/a at Line 3804, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage.profile.xml.html#/html/body/div/div/div/p/a at Line 3921, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Group-definitions.html#/html/body/div/div/div/p/a at Line 1228, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Group-examples.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Group-mappings.html#/html/body/div/div/div/p/a at Line 341, column 28: The link '' for "" cannot be resolved
@@ -271,8 +271,6 @@ ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\toc.html#/h
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\ImplementationGuide-cms.gov.us.alr.json ==
 WARNING: ImplementationGuide/cms.gov.us.alr: ImplementationGuide.definition.resource[18].description: value should not start or finish with whitespace
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\Coverage-example-id-coverage.json ==
-WARNING: Coverage/example-id-coverage: Coverage.extension[0].extension[1].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
-WARNING: Coverage/example-id-coverage: Coverage.extension[1].extension[1].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
 ERROR: Coverage/example-id-coverage: Coverage.payor[0]: Unable to resolve resource 'Organization/123'
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\EpisodeOfCare-example-id-episode.json ==
 ERROR: EpisodeOfCare/example-id-episode: EpisodeOfCare.patient: Unable to resolve resource 'patient/example-id-patient'

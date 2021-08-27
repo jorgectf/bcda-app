@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "alr-Coverage"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-alr-Coverage-definitions.html#Coverage\">Coverage</a><a name=\"Coverage\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/us/davinci-atr/STU1/StructureDefinition-atr-coverage.html\">ATRCoverage</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Davinci ATR Coverage</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck15.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-alr-Coverage-definitions.html#Coverage.extension:ext-enrollmentFlag\" title=\"Extension URL = http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentFlag\">ext-enrollmentFlag</a><a name=\"Coverage.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">(Complex)</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">ALR Enrollment Flag</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-ext-enrollmentFlag.html\">http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentFlag</a><br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck144.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end_slice.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-alr-Coverage-definitions.html#Coverage.extension:ext-enrollmentFlag.extension:period\" title=\"Slice period\">extension:period</a><a name=\"Coverage.extension.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/extensibility.html#Extension\">Extension</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-alr-Coverage-definitions.html#Coverage.extension:ext-partDMonths\" title=\"Extension URL = http://alr.cms.gov/ig/StructureDefinition/ext-partDMonths\">ext-partDMonths</a><a name=\"Coverage.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#integer\">integer</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">ALR Part D Months</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-ext-partDMonths.html\">http://alr.cms.gov/ig/StructureDefinition/ext-partDMonths</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <span style=\"text-decoration:line-through\">policyHolder</span><a name=\"Coverage.policyHolder\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"text-decoration:line-through\"/><span style=\"text-decoration:line-through\">0</span><span style=\"text-decoration:line-through\">..</span><span style=\"text-decoration:line-through\">0</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <span style=\"text-decoration:line-through\">subscriber</span><a name=\"Coverage.subscriber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"text-decoration:line-through\"/><span style=\"text-decoration:line-through\">0</span><span style=\"text-decoration:line-through\">..</span><span style=\"text-decoration:line-through\">0</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <span style=\"text-decoration:line-through\">dependent</span><a name=\"Coverage.dependent\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"text-decoration:line-through\"/><span style=\"text-decoration:line-through\">0</span><span style=\"text-decoration:line-through\">..</span><span style=\"text-decoration:line-through\">0</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <span style=\"text-decoration:line-through\">relationship</span><a name=\"Coverage.relationship\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"text-decoration:line-through\"/><span style=\"text-decoration:line-through\">0</span><span style=\"text-decoration:line-through\">..</span><span style=\"text-decoration:line-through\">0</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <span style=\"text-decoration:line-through\">order</span><a name=\"Coverage.order\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"text-decoration:line-through\"/><span style=\"text-decoration:line-through\">0</span><span style=\"text-decoration:line-through\">..</span><span style=\"text-decoration:line-through\">0</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <span style=\"text-decoration:line-through\">network</span><a name=\"Coverage.network\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"text-decoration:line-through\"/><span style=\"text-decoration:line-through\">0</span><span style=\"text-decoration:line-through\">..</span><span style=\"text-decoration:line-through\">0</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <span style=\"text-decoration:line-through\">costToBeneficiary</span><a name=\"Coverage.costToBeneficiary\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"text-decoration:line-through\"/><span style=\"text-decoration:line-through\">0</span><span style=\"text-decoration:line-through\">..</span><span style=\"text-decoration:line-through\">0</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <span style=\"text-decoration:line-through\">subrogation</span><a name=\"Coverage.subrogation\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"text-decoration:line-through\"/><span style=\"text-decoration:line-through\">0</span><span style=\"text-decoration:line-through\">..</span><span style=\"text-decoration:line-through\">0</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <span style=\"text-decoration:line-through\">contract</span><a name=\"Coverage.contract\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"text-decoration:line-through\"/><span style=\"text-decoration:line-through\">0</span><span style=\"text-decoration:line-through\">..</span><span style=\"text-decoration:line-through\">0</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-alr-Coverage-definitions.html#Coverage\">Coverage</a><a name=\"Coverage\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/us/davinci-atr/STU1/StructureDefinition-atr-coverage.html\">ATRCoverage</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Davinci ATR Coverage</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-alr-Coverage-definitions.html#Coverage.extension:ext-enrollmentFlag\" title=\"Extension URL = http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentFlag\">ext-enrollmentFlag</a><a name=\"Coverage.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">(Complex)</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">ALR Enrollment Flag</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-ext-enrollmentFlag.html\">http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentFlag</a><br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-alr-Coverage-definitions.html#Coverage.extension:ext-partDMonths\" title=\"Extension URL = http://alr.cms.gov/ig/StructureDefinition/ext-partDMonths\">ext-partDMonths</a><a name=\"Coverage.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#integer\">integer</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">ALR Part D Months</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-ext-partDMonths.html\">http://alr.cms.gov/ig/StructureDefinition/ext-partDMonths</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <span style=\"text-decoration:line-through\">policyHolder</span><a name=\"Coverage.policyHolder\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"text-decoration:line-through\"/><span style=\"text-decoration:line-through\">0</span><span style=\"text-decoration:line-through\">..</span><span style=\"text-decoration:line-through\">0</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <span style=\"text-decoration:line-through\">subscriber</span><a name=\"Coverage.subscriber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"text-decoration:line-through\"/><span style=\"text-decoration:line-through\">0</span><span style=\"text-decoration:line-through\">..</span><span style=\"text-decoration:line-through\">0</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <span style=\"text-decoration:line-through\">dependent</span><a name=\"Coverage.dependent\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"text-decoration:line-through\"/><span style=\"text-decoration:line-through\">0</span><span style=\"text-decoration:line-through\">..</span><span style=\"text-decoration:line-through\">0</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <span style=\"text-decoration:line-through\">relationship</span><a name=\"Coverage.relationship\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"text-decoration:line-through\"/><span style=\"text-decoration:line-through\">0</span><span style=\"text-decoration:line-through\">..</span><span style=\"text-decoration:line-through\">0</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <span style=\"text-decoration:line-through\">order</span><a name=\"Coverage.order\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"text-decoration:line-through\"/><span style=\"text-decoration:line-through\">0</span><span style=\"text-decoration:line-through\">..</span><span style=\"text-decoration:line-through\">0</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <span style=\"text-decoration:line-through\">network</span><a name=\"Coverage.network\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"text-decoration:line-through\"/><span style=\"text-decoration:line-through\">0</span><span style=\"text-decoration:line-through\">..</span><span style=\"text-decoration:line-through\">0</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <span style=\"text-decoration:line-through\">costToBeneficiary</span><a name=\"Coverage.costToBeneficiary\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"text-decoration:line-through\"/><span style=\"text-decoration:line-through\">0</span><span style=\"text-decoration:line-through\">..</span><span style=\"text-decoration:line-through\">0</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <span style=\"text-decoration:line-through\">subrogation</span><a name=\"Coverage.subrogation\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"text-decoration:line-through\"/><span style=\"text-decoration:line-through\">0</span><span style=\"text-decoration:line-through\">..</span><span style=\"text-decoration:line-through\">0</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <span style=\"text-decoration:line-through\">contract</span><a name=\"Coverage.contract\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"text-decoration:line-through\"/><span style=\"text-decoration:line-through\">0</span><span style=\"text-decoration:line-through\">..</span><span style=\"text-decoration:line-through\">0</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
   ];
   fhir:StructureDefinition.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/alr-Coverage"];
   fhir:StructureDefinition.version [ fhir:value "0.0.1"];
   fhir:StructureDefinition.name [ fhir:value "ALRCoverage"];
   fhir:StructureDefinition.title [ fhir:value "ALR Coverage Profile"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-08-04T09:01:47-06:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-08-27T08:39:43-06:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "ALR Coverage Profile Desc"];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [
@@ -548,722 +548,6 @@
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 10;
-       fhir:Element.id [ fhir:value "Coverage.extension:ext-enrollmentFlag.id" ];
-       fhir:ElementDefinition.path [ fhir:value "Coverage.extension.id" ];
-       fhir:ElementDefinition.representation [
-         fhir:value "xmlAttr";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.short [ fhir:value "Unique id for inter-element referencing" ];
-       fhir:ElementDefinition.definition [ fhir:value "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Element.id" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "1" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type" ];
-           fhir:Extension.valueUrl [ fhir:value "string" ]
-         ];
-         fhir:ElementDefinition.type.code [ fhir:value "http://hl7.org/fhirpath/System.String" ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
-       ]
-     ], [
-       fhir:index 11;
-       fhir:Element.id [ fhir:value "Coverage.extension:ext-enrollmentFlag.extension" ];
-       fhir:ElementDefinition.path [ fhir:value "Coverage.extension.extension" ];
-       fhir:ElementDefinition.slicing [
-         fhir:ElementDefinition.slicing.discriminator [
-           fhir:index 0;
-           fhir:ElementDefinition.slicing.discriminator.type [ fhir:value "value" ];
-           fhir:ElementDefinition.slicing.discriminator.path [ fhir:value "url" ]
-         ];
-         fhir:ElementDefinition.slicing.description [ fhir:value "Extensions are always sliced by (at least) url" ];
-         fhir:ElementDefinition.slicing.rules [ fhir:value "open" ]
-       ];
-       fhir:ElementDefinition.short [ fhir:value "Additional content defined by implementations" ];
-       fhir:ElementDefinition.definition [ fhir:value "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ];
-       fhir:ElementDefinition.comment [ fhir:value "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ];
-       fhir:ElementDefinition.alias [
-         fhir:value "extensions";
-         fhir:index 0
-       ], [
-         fhir:value "user content";
-         fhir:index 1
-       ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "*" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Element.extension" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "*" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Extension" ]
-       ];
-       fhir:ElementDefinition.constraint [
-         fhir:index 0;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
-         ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ext-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Extension";
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
-         ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
-       ]
-     ], [
-       fhir:index 12;
-       fhir:Element.id [ fhir:value "Coverage.extension:ext-enrollmentFlag.extension:period" ];
-       fhir:ElementDefinition.path [ fhir:value "Coverage.extension.extension" ];
-       fhir:ElementDefinition.sliceName [ fhir:value "period" ];
-       fhir:ElementDefinition.short [ fhir:value "Extension" ];
-       fhir:ElementDefinition.definition [ fhir:value "An Extension" ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Element.extension" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "*" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Extension" ]
-       ];
-       fhir:ElementDefinition.constraint [
-         fhir:index 0;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
-         ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ext-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Extension";
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
-         ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "alr-csv-coverage" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "EnrollFlagN" ]
-       ]
-     ], [
-       fhir:index 13;
-       fhir:Element.id [ fhir:value "Coverage.extension:ext-enrollmentFlag.extension:period.id" ];
-       fhir:ElementDefinition.path [ fhir:value "Coverage.extension.extension.id" ];
-       fhir:ElementDefinition.representation [
-         fhir:value "xmlAttr";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.short [ fhir:value "Unique id for inter-element referencing" ];
-       fhir:ElementDefinition.definition [ fhir:value "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Element.id" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "1" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type" ];
-           fhir:Extension.valueUrl [ fhir:value "string" ]
-         ];
-         fhir:ElementDefinition.type.code [ fhir:value "http://hl7.org/fhirpath/System.String" ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
-       ]
-     ], [
-       fhir:index 14;
-       fhir:Element.id [ fhir:value "Coverage.extension:ext-enrollmentFlag.extension:period.extension" ];
-       fhir:ElementDefinition.path [ fhir:value "Coverage.extension.extension.extension" ];
-       fhir:ElementDefinition.slicing [
-         fhir:ElementDefinition.slicing.discriminator [
-           fhir:index 0;
-           fhir:ElementDefinition.slicing.discriminator.type [ fhir:value "value" ];
-           fhir:ElementDefinition.slicing.discriminator.path [ fhir:value "url" ]
-         ];
-         fhir:ElementDefinition.slicing.description [ fhir:value "Extensions are always sliced by (at least) url" ];
-         fhir:ElementDefinition.slicing.rules [ fhir:value "open" ]
-       ];
-       fhir:ElementDefinition.short [ fhir:value "Extension" ];
-       fhir:ElementDefinition.definition [ fhir:value "An Extension" ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "0" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Element.extension" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "*" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Extension" ]
-       ];
-       fhir:ElementDefinition.constraint [
-         fhir:index 0;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
-         ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ext-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Extension";
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
-         ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 15;
-       fhir:Element.id [ fhir:value "Coverage.extension:ext-enrollmentFlag.extension:period.url" ];
-       fhir:ElementDefinition.path [ fhir:value "Coverage.extension.extension.url" ];
-       fhir:ElementDefinition.representation [
-         fhir:value "xmlAttr";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.short [ fhir:value "identifies the meaning of the extension" ];
-       fhir:ElementDefinition.definition [ fhir:value "Source of the definition for the extension code - a logical name or a URL." ];
-       fhir:ElementDefinition.comment [ fhir:value "The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension." ];
-       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Extension.url" ];
-         fhir:ElementDefinition.base.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "1" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type" ];
-           fhir:Extension.valueUrl [ fhir:value "uri" ]
-         ];
-         fhir:ElementDefinition.type.code [ fhir:value "http://hl7.org/fhirpath/System.String" ]
-       ];
-       fhir:ElementDefinition.fixedUri [ fhir:value "period" ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
-       ]
-     ], [
-       fhir:index 16;
-       fhir:Element.id [ fhir:value "Coverage.extension:ext-enrollmentFlag.extension:period.value[x]" ];
-       fhir:ElementDefinition.path [ fhir:value "Coverage.extension.extension.value[x]" ];
-       fhir:ElementDefinition.short [ fhir:value "Value of extension" ];
-       fhir:ElementDefinition.definition [ fhir:value "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list)." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Extension.value[x]" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "1" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Period" ]
-       ];
-       fhir:ElementDefinition.constraint [
-         fhir:index 0;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
-         ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
-       ]
-     ], [
-       fhir:index 17;
-       fhir:Element.id [ fhir:value "Coverage.extension:ext-enrollmentFlag.extension:flag" ];
-       fhir:ElementDefinition.path [ fhir:value "Coverage.extension.extension" ];
-       fhir:ElementDefinition.sliceName [ fhir:value "flag" ];
-       fhir:ElementDefinition.short [ fhir:value "Extension" ];
-       fhir:ElementDefinition.definition [ fhir:value "An Extension" ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Element.extension" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "*" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Extension" ]
-       ];
-       fhir:ElementDefinition.constraint [
-         fhir:index 0;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
-         ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ext-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Extension";
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
-         ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 18;
-       fhir:Element.id [ fhir:value "Coverage.extension:ext-enrollmentFlag.extension:flag.id" ];
-       fhir:ElementDefinition.path [ fhir:value "Coverage.extension.extension.id" ];
-       fhir:ElementDefinition.representation [
-         fhir:value "xmlAttr";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.short [ fhir:value "Unique id for inter-element referencing" ];
-       fhir:ElementDefinition.definition [ fhir:value "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Element.id" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "1" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type" ];
-           fhir:Extension.valueUrl [ fhir:value "string" ]
-         ];
-         fhir:ElementDefinition.type.code [ fhir:value "http://hl7.org/fhirpath/System.String" ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
-       ]
-     ], [
-       fhir:index 19;
-       fhir:Element.id [ fhir:value "Coverage.extension:ext-enrollmentFlag.extension:flag.extension" ];
-       fhir:ElementDefinition.path [ fhir:value "Coverage.extension.extension.extension" ];
-       fhir:ElementDefinition.slicing [
-         fhir:ElementDefinition.slicing.discriminator [
-           fhir:index 0;
-           fhir:ElementDefinition.slicing.discriminator.type [ fhir:value "value" ];
-           fhir:ElementDefinition.slicing.discriminator.path [ fhir:value "url" ]
-         ];
-         fhir:ElementDefinition.slicing.description [ fhir:value "Extensions are always sliced by (at least) url" ];
-         fhir:ElementDefinition.slicing.rules [ fhir:value "open" ]
-       ];
-       fhir:ElementDefinition.short [ fhir:value "Extension" ];
-       fhir:ElementDefinition.definition [ fhir:value "An Extension" ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "0" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Element.extension" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "*" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Extension" ]
-       ];
-       fhir:ElementDefinition.constraint [
-         fhir:index 0;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
-         ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ext-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Extension";
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
-         ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 20;
-       fhir:Element.id [ fhir:value "Coverage.extension:ext-enrollmentFlag.extension:flag.url" ];
-       fhir:ElementDefinition.path [ fhir:value "Coverage.extension.extension.url" ];
-       fhir:ElementDefinition.representation [
-         fhir:value "xmlAttr";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.short [ fhir:value "identifies the meaning of the extension" ];
-       fhir:ElementDefinition.definition [ fhir:value "Source of the definition for the extension code - a logical name or a URL." ];
-       fhir:ElementDefinition.comment [ fhir:value "The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension." ];
-       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Extension.url" ];
-         fhir:ElementDefinition.base.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "1" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type" ];
-           fhir:Extension.valueUrl [ fhir:value "uri" ]
-         ];
-         fhir:ElementDefinition.type.code [ fhir:value "http://hl7.org/fhirpath/System.String" ]
-       ];
-       fhir:ElementDefinition.fixedUri [ fhir:value "flag" ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
-       ]
-     ], [
-       fhir:index 21;
-       fhir:Element.id [ fhir:value "Coverage.extension:ext-enrollmentFlag.extension:flag.value[x]" ];
-       fhir:ElementDefinition.path [ fhir:value "Coverage.extension.extension.value[x]" ];
-       fhir:ElementDefinition.short [ fhir:value "Value of extension" ];
-       fhir:ElementDefinition.definition [ fhir:value "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list)." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Extension.value[x]" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "1" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Coding" ]
-       ];
-       fhir:ElementDefinition.constraint [
-         fhir:index 0;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
-         ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
-       ]
-     ], [
-       fhir:index 22;
-       fhir:Element.id [ fhir:value "Coverage.extension:ext-enrollmentFlag.url" ];
-       fhir:ElementDefinition.path [ fhir:value "Coverage.extension.url" ];
-       fhir:ElementDefinition.representation [
-         fhir:value "xmlAttr";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.short [ fhir:value "identifies the meaning of the extension" ];
-       fhir:ElementDefinition.definition [ fhir:value "Source of the definition for the extension code - a logical name or a URL." ];
-       fhir:ElementDefinition.comment [ fhir:value "The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension." ];
-       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Extension.url" ];
-         fhir:ElementDefinition.base.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "1" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type" ];
-           fhir:Extension.valueUrl [ fhir:value "uri" ]
-         ];
-         fhir:ElementDefinition.type.code [ fhir:value "http://hl7.org/fhirpath/System.String" ]
-       ];
-       fhir:ElementDefinition.fixedUri [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentFlag" ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
-       ]
-     ], [
-       fhir:index 23;
-       fhir:Element.id [ fhir:value "Coverage.extension:ext-enrollmentFlag.value[x]" ];
-       fhir:ElementDefinition.path [ fhir:value "Coverage.extension.value[x]" ];
-       fhir:ElementDefinition.short [ fhir:value "Value of extension" ];
-       fhir:ElementDefinition.definition [ fhir:value "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list)." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "0" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Extension.value[x]" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "1" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "base64Binary" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.type.code [ fhir:value "boolean" ]
-       ], [
-         fhir:index 2;
-         fhir:ElementDefinition.type.code [ fhir:value "canonical" ]
-       ], [
-         fhir:index 3;
-         fhir:ElementDefinition.type.code [ fhir:value "code" ]
-       ], [
-         fhir:index 4;
-         fhir:ElementDefinition.type.code [ fhir:value "date" ]
-       ], [
-         fhir:index 5;
-         fhir:ElementDefinition.type.code [ fhir:value "dateTime" ]
-       ], [
-         fhir:index 6;
-         fhir:ElementDefinition.type.code [ fhir:value "decimal" ]
-       ], [
-         fhir:index 7;
-         fhir:ElementDefinition.type.code [ fhir:value "id" ]
-       ], [
-         fhir:index 8;
-         fhir:ElementDefinition.type.code [ fhir:value "instant" ]
-       ], [
-         fhir:index 9;
-         fhir:ElementDefinition.type.code [ fhir:value "integer" ]
-       ], [
-         fhir:index 10;
-         fhir:ElementDefinition.type.code [ fhir:value "markdown" ]
-       ], [
-         fhir:index 11;
-         fhir:ElementDefinition.type.code [ fhir:value "oid" ]
-       ], [
-         fhir:index 12;
-         fhir:ElementDefinition.type.code [ fhir:value "positiveInt" ]
-       ], [
-         fhir:index 13;
-         fhir:ElementDefinition.type.code [ fhir:value "string" ]
-       ], [
-         fhir:index 14;
-         fhir:ElementDefinition.type.code [ fhir:value "time" ]
-       ], [
-         fhir:index 15;
-         fhir:ElementDefinition.type.code [ fhir:value "unsignedInt" ]
-       ], [
-         fhir:index 16;
-         fhir:ElementDefinition.type.code [ fhir:value "uri" ]
-       ], [
-         fhir:index 17;
-         fhir:ElementDefinition.type.code [ fhir:value "url" ]
-       ], [
-         fhir:index 18;
-         fhir:ElementDefinition.type.code [ fhir:value "uuid" ]
-       ], [
-         fhir:index 19;
-         fhir:ElementDefinition.type.code [ fhir:value "Address" ]
-       ], [
-         fhir:index 20;
-         fhir:ElementDefinition.type.code [ fhir:value "Age" ]
-       ], [
-         fhir:index 21;
-         fhir:ElementDefinition.type.code [ fhir:value "Annotation" ]
-       ], [
-         fhir:index 22;
-         fhir:ElementDefinition.type.code [ fhir:value "Attachment" ]
-       ], [
-         fhir:index 23;
-         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
-       ], [
-         fhir:index 24;
-         fhir:ElementDefinition.type.code [ fhir:value "Coding" ]
-       ], [
-         fhir:index 25;
-         fhir:ElementDefinition.type.code [ fhir:value "ContactPoint" ]
-       ], [
-         fhir:index 26;
-         fhir:ElementDefinition.type.code [ fhir:value "Count" ]
-       ], [
-         fhir:index 27;
-         fhir:ElementDefinition.type.code [ fhir:value "Distance" ]
-       ], [
-         fhir:index 28;
-         fhir:ElementDefinition.type.code [ fhir:value "Duration" ]
-       ], [
-         fhir:index 29;
-         fhir:ElementDefinition.type.code [ fhir:value "HumanName" ]
-       ], [
-         fhir:index 30;
-         fhir:ElementDefinition.type.code [ fhir:value "Identifier" ]
-       ], [
-         fhir:index 31;
-         fhir:ElementDefinition.type.code [ fhir:value "Money" ]
-       ], [
-         fhir:index 32;
-         fhir:ElementDefinition.type.code [ fhir:value "Period" ]
-       ], [
-         fhir:index 33;
-         fhir:ElementDefinition.type.code [ fhir:value "Quantity" ]
-       ], [
-         fhir:index 34;
-         fhir:ElementDefinition.type.code [ fhir:value "Range" ]
-       ], [
-         fhir:index 35;
-         fhir:ElementDefinition.type.code [ fhir:value "Ratio" ]
-       ], [
-         fhir:index 36;
-         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
-       ], [
-         fhir:index 37;
-         fhir:ElementDefinition.type.code [ fhir:value "SampledData" ]
-       ], [
-         fhir:index 38;
-         fhir:ElementDefinition.type.code [ fhir:value "Signature" ]
-       ], [
-         fhir:index 39;
-         fhir:ElementDefinition.type.code [ fhir:value "Timing" ]
-       ], [
-         fhir:index 40;
-         fhir:ElementDefinition.type.code [ fhir:value "ContactDetail" ]
-       ], [
-         fhir:index 41;
-         fhir:ElementDefinition.type.code [ fhir:value "Contributor" ]
-       ], [
-         fhir:index 42;
-         fhir:ElementDefinition.type.code [ fhir:value "DataRequirement" ]
-       ], [
-         fhir:index 43;
-         fhir:ElementDefinition.type.code [ fhir:value "Expression" ]
-       ], [
-         fhir:index 44;
-         fhir:ElementDefinition.type.code [ fhir:value "ParameterDefinition" ]
-       ], [
-         fhir:index 45;
-         fhir:ElementDefinition.type.code [ fhir:value "RelatedArtifact" ]
-       ], [
-         fhir:index 46;
-         fhir:ElementDefinition.type.code [ fhir:value "TriggerDefinition" ]
-       ], [
-         fhir:index 47;
-         fhir:ElementDefinition.type.code [ fhir:value "UsageContext" ]
-       ], [
-         fhir:index 48;
-         fhir:ElementDefinition.type.code [ fhir:value "Dosage" ]
-       ], [
-         fhir:index 49;
-         fhir:ElementDefinition.type.code [ fhir:value "Meta" ]
-       ];
-       fhir:ElementDefinition.constraint [
-         fhir:index 0;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
-         ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
-       ]
-     ], [
-       fhir:index 24;
        fhir:Element.id [ fhir:value "Coverage.extension:ext-partDMonths" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "ext-partDMonths" ];
@@ -1312,7 +596,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 25;
+       fhir:index 11;
        fhir:Element.id [ fhir:value "Coverage.modifierExtension" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.modifierExtension" ];
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored" ];
@@ -1369,7 +653,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
        ]
      ], [
-       fhir:index 26;
+       fhir:index 12;
        fhir:Element.id [ fhir:value "Coverage.identifier" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.identifier" ];
        fhir:ElementDefinition.slicing [
@@ -1440,7 +724,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "C.32, C.33, C.39" ]
        ]
      ], [
-       fhir:index 27;
+       fhir:index 13;
        fhir:Element.id [ fhir:value "Coverage.identifier:MemberIdentifier" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.identifier" ];
        fhir:ElementDefinition.sliceName [ fhir:value "MemberIdentifier" ];
@@ -1500,7 +784,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "C.32, C.33, C.39" ]
        ]
      ], [
-       fhir:index 28;
+       fhir:index 14;
        fhir:Element.id [ fhir:value "Coverage.identifier:MemberIdentifier.id" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.identifier.id" ];
        fhir:ElementDefinition.representation [
@@ -1533,7 +817,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 29;
+       fhir:index 15;
        fhir:Element.id [ fhir:value "Coverage.identifier:MemberIdentifier.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.identifier.extension" ];
        fhir:ElementDefinition.slicing [
@@ -1597,7 +881,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 30;
+       fhir:index 16;
        fhir:Element.id [ fhir:value "Coverage.identifier:MemberIdentifier.use" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.identifier.use" ];
        fhir:ElementDefinition.short [ fhir:value "usual | official | temp | secondary | old (If known)" ];
@@ -1653,7 +937,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "Role.code or implied by context" ]
        ]
      ], [
-       fhir:index 31;
+       fhir:index 17;
        fhir:Element.id [ fhir:value "Coverage.identifier:MemberIdentifier.type" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.identifier.type" ];
        fhir:ElementDefinition.short [ fhir:value "Description of identifier" ];
@@ -1713,7 +997,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "Role.code or implied by context" ]
        ]
      ], [
-       fhir:index 32;
+       fhir:index 18;
        fhir:Element.id [ fhir:value "Coverage.identifier:MemberIdentifier.type.id" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.identifier.type.id" ];
        fhir:ElementDefinition.representation [
@@ -1746,7 +1030,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 33;
+       fhir:index 19;
        fhir:Element.id [ fhir:value "Coverage.identifier:MemberIdentifier.type.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.identifier.type.extension" ];
        fhir:ElementDefinition.slicing [
@@ -1810,7 +1094,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 34;
+       fhir:index 20;
        fhir:Element.id [ fhir:value "Coverage.identifier:MemberIdentifier.type.coding" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.identifier.type.coding" ];
        fhir:ElementDefinition.short [ fhir:value "Code defined by a terminology system" ];
@@ -1857,7 +1141,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "fhir:CodeableConcept.coding rdfs:subPropertyOf dt:CD.coding" ]
        ]
      ], [
-       fhir:index 35;
+       fhir:index 21;
        fhir:Element.id [ fhir:value "Coverage.identifier:MemberIdentifier.type.coding.id" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.identifier.type.coding.id" ];
        fhir:ElementDefinition.representation [
@@ -1890,7 +1174,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 36;
+       fhir:index 22;
        fhir:Element.id [ fhir:value "Coverage.identifier:MemberIdentifier.type.coding.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.identifier.type.coding.extension" ];
        fhir:ElementDefinition.slicing [
@@ -1954,7 +1238,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 37;
+       fhir:index 23;
        fhir:Element.id [ fhir:value "Coverage.identifier:MemberIdentifier.type.coding.system" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.identifier.type.coding.system" ];
        fhir:ElementDefinition.short [ fhir:value "Identity of the terminology system" ];
@@ -2002,7 +1286,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "fhir:Coding.system rdfs:subPropertyOf dt:CDCoding.codeSystem" ]
        ]
      ], [
-       fhir:index 38;
+       fhir:index 24;
        fhir:Element.id [ fhir:value "Coverage.identifier:MemberIdentifier.type.coding.version" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.identifier.type.coding.version" ];
        fhir:ElementDefinition.short [ fhir:value "Version of the system - if relevant" ];
@@ -2047,7 +1331,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "fhir:Coding.version rdfs:subPropertyOf dt:CDCoding.codeSystemVersion" ]
        ]
      ], [
-       fhir:index 39;
+       fhir:index 25;
        fhir:Element.id [ fhir:value "Coverage.identifier:MemberIdentifier.type.coding.code" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.identifier.type.coding.code" ];
        fhir:ElementDefinition.short [ fhir:value "Symbol in syntax defined by the system" ];
@@ -2094,7 +1378,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code" ]
        ]
      ], [
-       fhir:index 40;
+       fhir:index 26;
        fhir:Element.id [ fhir:value "Coverage.identifier:MemberIdentifier.type.coding.display" ];
        fhir:Element.extension [
          fhir:index 0;
@@ -2144,7 +1428,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "fhir:Coding.display rdfs:subPropertyOf dt:CDCoding.displayName" ]
        ]
      ], [
-       fhir:index 41;
+       fhir:index 27;
        fhir:Element.id [ fhir:value "Coverage.identifier:MemberIdentifier.type.coding.userSelected" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.identifier.type.coding.userSelected" ];
        fhir:ElementDefinition.short [ fhir:value "If this coding was chosen directly by the user" ];
@@ -2190,7 +1474,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "fhir:Coding.userSelected fhir:mapsTo dt:CDCoding.codingRationale. fhir:Coding.userSelected fhir:hasMap fhir:Coding.userSelected.map. fhir:Coding.userSelected.map a fhir:Map;   fhir:target dt:CDCoding.codingRationale. fhir:Coding.userSelected\\#true a [     fhir:source \"true\";     fhir:target dt:CDCoding.codingRationale\\#O   ]" ]
        ]
      ], [
-       fhir:index 42;
+       fhir:index 28;
        fhir:Element.id [ fhir:value "Coverage.identifier:MemberIdentifier.type.text" ];
        fhir:Element.extension [
          fhir:index 0;
@@ -2241,7 +1525,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "fhir:CodeableConcept.text rdfs:subPropertyOf dt:CD.originalText" ]
        ]
      ], [
-       fhir:index 43;
+       fhir:index 29;
        fhir:Element.id [ fhir:value "Coverage.identifier:MemberIdentifier.system" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.identifier.system" ];
        fhir:ElementDefinition.short [ fhir:value "The namespace for the identifier value" ];
@@ -2293,7 +1577,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./IdentifierType" ]
        ]
      ], [
-       fhir:index 44;
+       fhir:index 30;
        fhir:Element.id [ fhir:value "Coverage.identifier:MemberIdentifier.value" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.identifier.value" ];
        fhir:ElementDefinition.short [ fhir:value "The value that is unique" ];
@@ -2344,7 +1628,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./Value" ]
        ]
      ], [
-       fhir:index 45;
+       fhir:index 31;
        fhir:Element.id [ fhir:value "Coverage.identifier:MemberIdentifier.period" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.identifier.period" ];
        fhir:ElementDefinition.short [ fhir:value "Time period when id is/was valid for use" ];
@@ -2388,7 +1672,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./StartDate and ./EndDate" ]
        ]
      ], [
-       fhir:index 46;
+       fhir:index 32;
        fhir:Element.id [ fhir:value "Coverage.identifier:MemberIdentifier.assigner" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.identifier.assigner" ];
        fhir:ElementDefinition.short [ fhir:value "Organization that issued id (may be just text)" ];
@@ -2438,7 +1722,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./IdentifierIssuingAuthority" ]
        ]
      ], [
-       fhir:index 47;
+       fhir:index 33;
        fhir:Element.id [ fhir:value "Coverage.status" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.status" ];
        fhir:ElementDefinition.short [ fhir:value "active | cancelled | draft | entered-in-error" ];
@@ -2500,7 +1784,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "Act.status" ]
        ]
      ], [
-       fhir:index 48;
+       fhir:index 34;
        fhir:Element.id [ fhir:value "Coverage.type" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.type" ];
        fhir:ElementDefinition.short [ fhir:value "Coverage category such as medical or accident" ];
@@ -2554,7 +1838,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "IN1-15" ]
        ]
      ], [
-       fhir:index 49;
+       fhir:index 35;
        fhir:Element.id [ fhir:value "Coverage.policyHolder" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.policyHolder" ];
        fhir:ElementDefinition.short [ fhir:value "Owner of the policy" ];
@@ -2622,7 +1906,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "FiveWs.subject" ]
        ]
      ], [
-       fhir:index 50;
+       fhir:index 36;
        fhir:Element.id [ fhir:value "Coverage.subscriber" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.subscriber" ];
        fhir:ElementDefinition.short [ fhir:value "Subscriber to the policy" ];
@@ -2686,7 +1970,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "FiveWs.subject" ]
        ]
      ], [
-       fhir:index 51;
+       fhir:index 37;
        fhir:Element.id [ fhir:value "Coverage.subscriberId" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.subscriberId" ];
        fhir:ElementDefinition.short [ fhir:value "ID assigned to the subscriber" ];
@@ -2740,7 +2024,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "FiveWs.subject" ]
        ]
      ], [
-       fhir:index 52;
+       fhir:index 38;
        fhir:Element.id [ fhir:value "Coverage.beneficiary" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.beneficiary" ];
        fhir:ElementDefinition.short [ fhir:value "Plan beneficiary" ];
@@ -2803,7 +2087,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "FiveWs.subject" ]
        ]
      ], [
-       fhir:index 53;
+       fhir:index 39;
        fhir:Element.id [ fhir:value "Coverage.dependent" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.dependent" ];
        fhir:ElementDefinition.short [ fhir:value "Dependent number" ];
@@ -2846,7 +2130,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "- No exact HL7 v2 equivalent concept seems to exist;" ]
        ]
      ], [
-       fhir:index 54;
+       fhir:index 40;
        fhir:Element.id [ fhir:value "Coverage.relationship" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.relationship" ];
        fhir:ElementDefinition.short [ fhir:value "Beneficiary relationship to the subscriber" ];
@@ -2898,7 +2182,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "C03" ]
        ]
      ], [
-       fhir:index 55;
+       fhir:index 41;
        fhir:Element.id [ fhir:value "Coverage.period" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.period" ];
        fhir:ElementDefinition.short [ fhir:value "Coverage start and end dates" ];
@@ -2948,7 +2232,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "Act.effectiveTime" ]
        ]
      ], [
-       fhir:index 56;
+       fhir:index 42;
        fhir:Element.id [ fhir:value "Coverage.payor" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.payor" ];
        fhir:ElementDefinition.short [ fhir:value "Issuer of the policy" ];
@@ -3012,7 +2296,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "C.30" ]
        ]
      ], [
-       fhir:index 57;
+       fhir:index 43;
        fhir:Element.id [ fhir:value "Coverage.class" ];
        fhir:Element.extension [
          fhir:index 0;
@@ -3063,7 +2347,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 58;
+       fhir:index 44;
        fhir:Element.id [ fhir:value "Coverage.class.id" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.class.id" ];
        fhir:ElementDefinition.representation [
@@ -3096,7 +2380,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 59;
+       fhir:index 45;
        fhir:Element.id [ fhir:value "Coverage.class.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.class.extension" ];
        fhir:ElementDefinition.short [ fhir:value "Additional content defined by implementations" ];
@@ -3151,7 +2435,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 60;
+       fhir:index 46;
        fhir:Element.id [ fhir:value "Coverage.class.modifierExtension" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.class.modifierExtension" ];
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
@@ -3211,7 +2495,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
        ]
      ], [
-       fhir:index 61;
+       fhir:index 47;
        fhir:Element.id [ fhir:value "Coverage.class.type" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.class.type" ];
        fhir:ElementDefinition.short [ fhir:value "Type of class such as 'group' or 'plan'" ];
@@ -3256,7 +2540,7 @@
          ]
        ]
      ], [
-       fhir:index 62;
+       fhir:index 48;
        fhir:Element.id [ fhir:value "Coverage.class.value" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.class.value" ];
        fhir:ElementDefinition.short [ fhir:value "Value associated with the type" ];
@@ -3302,7 +2586,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "C.31" ]
        ]
      ], [
-       fhir:index 63;
+       fhir:index 49;
        fhir:Element.id [ fhir:value "Coverage.class.name" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.class.name" ];
        fhir:ElementDefinition.short [ fhir:value "Human readable description of the type and value" ];
@@ -3347,7 +2631,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "C.31" ]
        ]
      ], [
-       fhir:index 64;
+       fhir:index 50;
        fhir:Element.id [ fhir:value "Coverage.class:PlanIdentifier" ];
        fhir:Element.extension [
          fhir:index 0;
@@ -3387,7 +2671,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 65;
+       fhir:index 51;
        fhir:Element.id [ fhir:value "Coverage.class:PlanIdentifier.id" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.class.id" ];
        fhir:ElementDefinition.representation [
@@ -3420,7 +2704,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 66;
+       fhir:index 52;
        fhir:Element.id [ fhir:value "Coverage.class:PlanIdentifier.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.class.extension" ];
        fhir:ElementDefinition.short [ fhir:value "Additional content defined by implementations" ];
@@ -3475,7 +2759,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 67;
+       fhir:index 53;
        fhir:Element.id [ fhir:value "Coverage.class:PlanIdentifier.modifierExtension" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.class.modifierExtension" ];
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
@@ -3535,7 +2819,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
        ]
      ], [
-       fhir:index 68;
+       fhir:index 54;
        fhir:Element.id [ fhir:value "Coverage.class:PlanIdentifier.type" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.class.type" ];
        fhir:ElementDefinition.short [ fhir:value "Type of class such as 'group' or 'plan'" ];
@@ -3581,7 +2865,7 @@
          ]
        ]
      ], [
-       fhir:index 69;
+       fhir:index 55;
        fhir:Element.id [ fhir:value "Coverage.class:PlanIdentifier.type.id" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.class.type.id" ];
        fhir:ElementDefinition.representation [
@@ -3614,7 +2898,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 70;
+       fhir:index 56;
        fhir:Element.id [ fhir:value "Coverage.class:PlanIdentifier.type.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.class.type.extension" ];
        fhir:ElementDefinition.slicing [
@@ -3678,7 +2962,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 71;
+       fhir:index 57;
        fhir:Element.id [ fhir:value "Coverage.class:PlanIdentifier.type.coding" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.class.type.coding" ];
        fhir:ElementDefinition.short [ fhir:value "Code defined by a terminology system" ];
@@ -3725,7 +3009,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "fhir:CodeableConcept.coding rdfs:subPropertyOf dt:CD.coding" ]
        ]
      ], [
-       fhir:index 72;
+       fhir:index 58;
        fhir:Element.id [ fhir:value "Coverage.class:PlanIdentifier.type.coding.id" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.class.type.coding.id" ];
        fhir:ElementDefinition.representation [
@@ -3758,7 +3042,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 73;
+       fhir:index 59;
        fhir:Element.id [ fhir:value "Coverage.class:PlanIdentifier.type.coding.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.class.type.coding.extension" ];
        fhir:ElementDefinition.slicing [
@@ -3822,7 +3106,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 74;
+       fhir:index 60;
        fhir:Element.id [ fhir:value "Coverage.class:PlanIdentifier.type.coding.system" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.class.type.coding.system" ];
        fhir:ElementDefinition.short [ fhir:value "Identity of the terminology system" ];
@@ -3870,7 +3154,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "fhir:Coding.system rdfs:subPropertyOf dt:CDCoding.codeSystem" ]
        ]
      ], [
-       fhir:index 75;
+       fhir:index 61;
        fhir:Element.id [ fhir:value "Coverage.class:PlanIdentifier.type.coding.version" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.class.type.coding.version" ];
        fhir:ElementDefinition.short [ fhir:value "Version of the system - if relevant" ];
@@ -3915,7 +3199,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "fhir:Coding.version rdfs:subPropertyOf dt:CDCoding.codeSystemVersion" ]
        ]
      ], [
-       fhir:index 76;
+       fhir:index 62;
        fhir:Element.id [ fhir:value "Coverage.class:PlanIdentifier.type.coding.code" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.class.type.coding.code" ];
        fhir:ElementDefinition.short [ fhir:value "Symbol in syntax defined by the system" ];
@@ -3962,7 +3246,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code" ]
        ]
      ], [
-       fhir:index 77;
+       fhir:index 63;
        fhir:Element.id [ fhir:value "Coverage.class:PlanIdentifier.type.coding.display" ];
        fhir:Element.extension [
          fhir:index 0;
@@ -4012,7 +3296,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "fhir:Coding.display rdfs:subPropertyOf dt:CDCoding.displayName" ]
        ]
      ], [
-       fhir:index 78;
+       fhir:index 64;
        fhir:Element.id [ fhir:value "Coverage.class:PlanIdentifier.type.coding.userSelected" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.class.type.coding.userSelected" ];
        fhir:ElementDefinition.short [ fhir:value "If this coding was chosen directly by the user" ];
@@ -4058,7 +3342,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "fhir:Coding.userSelected fhir:mapsTo dt:CDCoding.codingRationale. fhir:Coding.userSelected fhir:hasMap fhir:Coding.userSelected.map. fhir:Coding.userSelected.map a fhir:Map;   fhir:target dt:CDCoding.codingRationale. fhir:Coding.userSelected\\#true a [     fhir:source \"true\";     fhir:target dt:CDCoding.codingRationale\\#O   ]" ]
        ]
      ], [
-       fhir:index 79;
+       fhir:index 65;
        fhir:Element.id [ fhir:value "Coverage.class:PlanIdentifier.type.text" ];
        fhir:Element.extension [
          fhir:index 0;
@@ -4109,7 +3393,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "fhir:CodeableConcept.text rdfs:subPropertyOf dt:CD.originalText" ]
        ]
      ], [
-       fhir:index 80;
+       fhir:index 66;
        fhir:Element.id [ fhir:value "Coverage.class:PlanIdentifier.value" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.class.value" ];
        fhir:ElementDefinition.short [ fhir:value "Value associated with the type" ];
@@ -4156,7 +3440,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "C.31" ]
        ]
      ], [
-       fhir:index 81;
+       fhir:index 67;
        fhir:Element.id [ fhir:value "Coverage.class:PlanIdentifier.name" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.class.name" ];
        fhir:ElementDefinition.short [ fhir:value "Human readable description of the type and value" ];
@@ -4201,7 +3485,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "C.31" ]
        ]
      ], [
-       fhir:index 82;
+       fhir:index 68;
        fhir:Element.id [ fhir:value "Coverage.order" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.order" ];
        fhir:ElementDefinition.short [ fhir:value "Relative order of the coverage" ];
@@ -4238,7 +3522,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "- No exact HL7 v2 equivalent concept seems to exist;" ]
        ]
      ], [
-       fhir:index 83;
+       fhir:index 69;
        fhir:Element.id [ fhir:value "Coverage.network" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.network" ];
        fhir:ElementDefinition.short [ fhir:value "Insurer network" ];
@@ -4275,7 +3559,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "D10" ]
        ]
      ], [
-       fhir:index 84;
+       fhir:index 70;
        fhir:Element.id [ fhir:value "Coverage.costToBeneficiary" ];
        fhir:Element.extension [
          fhir:index 0;
@@ -4323,7 +3607,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 85;
+       fhir:index 71;
        fhir:Element.id [ fhir:value "Coverage.costToBeneficiary.id" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.costToBeneficiary.id" ];
        fhir:ElementDefinition.representation [
@@ -4356,7 +3640,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 86;
+       fhir:index 72;
        fhir:Element.id [ fhir:value "Coverage.costToBeneficiary.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.costToBeneficiary.extension" ];
        fhir:ElementDefinition.short [ fhir:value "Additional content defined by implementations" ];
@@ -4411,7 +3695,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 87;
+       fhir:index 73;
        fhir:Element.id [ fhir:value "Coverage.costToBeneficiary.modifierExtension" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.costToBeneficiary.modifierExtension" ];
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
@@ -4471,7 +3755,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
        ]
      ], [
-       fhir:index 88;
+       fhir:index 74;
        fhir:Element.id [ fhir:value "Coverage.costToBeneficiary.type" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.costToBeneficiary.type" ];
        fhir:ElementDefinition.short [ fhir:value "Cost category" ];
@@ -4517,7 +3801,7 @@
          ]
        ]
      ], [
-       fhir:index 89;
+       fhir:index 75;
        fhir:Element.id [ fhir:value "Coverage.costToBeneficiary.value[x]" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.costToBeneficiary.value[x]" ];
        fhir:ElementDefinition.short [ fhir:value "The amount or percentage due from the beneficiary" ];
@@ -4571,7 +3855,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "C.31" ]
        ]
      ], [
-       fhir:index 90;
+       fhir:index 76;
        fhir:Element.id [ fhir:value "Coverage.costToBeneficiary.exception" ];
        fhir:Element.extension [
          fhir:index 0;
@@ -4608,7 +3892,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 91;
+       fhir:index 77;
        fhir:Element.id [ fhir:value "Coverage.costToBeneficiary.exception.id" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.costToBeneficiary.exception.id" ];
        fhir:ElementDefinition.representation [
@@ -4641,7 +3925,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 92;
+       fhir:index 78;
        fhir:Element.id [ fhir:value "Coverage.costToBeneficiary.exception.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.costToBeneficiary.exception.extension" ];
        fhir:ElementDefinition.short [ fhir:value "Additional content defined by implementations" ];
@@ -4696,7 +3980,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 93;
+       fhir:index 79;
        fhir:Element.id [ fhir:value "Coverage.costToBeneficiary.exception.modifierExtension" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.costToBeneficiary.exception.modifierExtension" ];
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
@@ -4756,7 +4040,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
        ]
      ], [
-       fhir:index 94;
+       fhir:index 80;
        fhir:Element.id [ fhir:value "Coverage.costToBeneficiary.exception.type" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.costToBeneficiary.exception.type" ];
        fhir:ElementDefinition.short [ fhir:value "Exception category" ];
@@ -4801,7 +4085,7 @@
          ]
        ]
      ], [
-       fhir:index 95;
+       fhir:index 81;
        fhir:Element.id [ fhir:value "Coverage.costToBeneficiary.exception.period" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.costToBeneficiary.exception.period" ];
        fhir:ElementDefinition.short [ fhir:value "The effective period of the exception" ];
@@ -4833,7 +4117,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 96;
+       fhir:index 82;
        fhir:Element.id [ fhir:value "Coverage.subrogation" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.subrogation" ];
        fhir:ElementDefinition.short [ fhir:value "Reimbursement to insurer" ];
@@ -4866,7 +4150,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 97;
+       fhir:index 83;
        fhir:Element.id [ fhir:value "Coverage.contract" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.contract" ];
        fhir:ElementDefinition.short [ fhir:value "Contract details" ];
@@ -4950,16 +4234,6 @@
        fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;
-       fhir:Element.id [ fhir:value "Coverage.extension:ext-enrollmentFlag.extension:period" ];
-       fhir:ElementDefinition.path [ fhir:value "Coverage.extension.extension" ];
-       fhir:ElementDefinition.sliceName [ fhir:value "period" ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "alr-csv-coverage" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "EnrollFlagN" ]
-       ]
-     ], [
-       fhir:index 3;
        fhir:Element.id [ fhir:value "Coverage.extension:ext-partDMonths" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "ext-partDMonths" ];
@@ -4976,47 +4250,47 @@
        ];
        fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 4;
+       fhir:index 3;
        fhir:Element.id [ fhir:value "Coverage.policyHolder" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.policyHolder" ];
        fhir:ElementDefinition.max [ fhir:value "0" ]
      ], [
-       fhir:index 5;
+       fhir:index 4;
        fhir:Element.id [ fhir:value "Coverage.subscriber" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.subscriber" ];
        fhir:ElementDefinition.max [ fhir:value "0" ]
      ], [
-       fhir:index 6;
+       fhir:index 5;
        fhir:Element.id [ fhir:value "Coverage.dependent" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.dependent" ];
        fhir:ElementDefinition.max [ fhir:value "0" ]
      ], [
-       fhir:index 7;
+       fhir:index 6;
        fhir:Element.id [ fhir:value "Coverage.relationship" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.relationship" ];
        fhir:ElementDefinition.max [ fhir:value "0" ]
      ], [
-       fhir:index 8;
+       fhir:index 7;
        fhir:Element.id [ fhir:value "Coverage.order" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.order" ];
        fhir:ElementDefinition.max [ fhir:value "0" ]
      ], [
-       fhir:index 9;
+       fhir:index 8;
        fhir:Element.id [ fhir:value "Coverage.network" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.network" ];
        fhir:ElementDefinition.max [ fhir:value "0" ]
      ], [
-       fhir:index 10;
+       fhir:index 9;
        fhir:Element.id [ fhir:value "Coverage.costToBeneficiary" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.costToBeneficiary" ];
        fhir:ElementDefinition.max [ fhir:value "0" ]
      ], [
-       fhir:index 11;
+       fhir:index 10;
        fhir:Element.id [ fhir:value "Coverage.subrogation" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.subrogation" ];
        fhir:ElementDefinition.max [ fhir:value "0" ]
      ], [
-       fhir:index 12;
+       fhir:index 11;
        fhir:Element.id [ fhir:value "Coverage.contract" ];
        fhir:ElementDefinition.path [ fhir:value "Coverage.contract" ];
        fhir:ElementDefinition.max [ fhir:value "0" ]

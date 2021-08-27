@@ -13,16 +13,3 @@ Description:    "ALR Service Count Description 2"
     serviceCount 0..1
 * extension[participant].value[x] only Identifier
 * extension[serviceCount].value[x] only Quantity
-
-/*
-* extension contains
-    participant 0..* 
-* extension[participant].value[x] only Identifier
-*/
-
-/*
-* extension contains
-    period 0..*
-* extension[period].value[x] only Period
-
-*/

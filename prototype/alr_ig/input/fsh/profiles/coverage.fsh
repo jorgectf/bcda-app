@@ -27,4 +27,4 @@ Title:    "CMS Assignment List Report"
 Id:       alr-csv-coverage
 * -> "ALR Table 1-1"
 //* extension[ext-enrollmentPeriod].extension[period] -> "EnrollFlagN"
-* extension[ext-enrollmentFlag].extension[period] -> "EnrollFlagN"
+// * extension[ext-enrollmentFlag].extension[period] -> "EnrollFlagN"

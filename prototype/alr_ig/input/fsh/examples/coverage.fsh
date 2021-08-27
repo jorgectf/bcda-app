@@ -20,14 +20,12 @@ Usage:          #example
 */
 
 
-* extension[ext-enrollmentFlag][0].extension[period].valuePeriod.start = "2020-01-01"
-* extension[ext-enrollmentFlag][0].extension[period].valuePeriod.end = "2020-03-31"
-* extension[ext-enrollmentFlag][0].extension[flag].valueCoding.code = #1
-* extension[ext-enrollmentFlag][0].extension[flag].valueCoding.display = "Medicare enrollment type is ESRD"
-* extension[ext-enrollmentFlag][1].extension[period].valuePeriod.start = "2020-04-01"
-* extension[ext-enrollmentFlag][1].extension[period].valuePeriod.end = "2020-12-31"
-* extension[ext-enrollmentFlag][1].extension[flag].valueCoding.code = #2
-* extension[ext-enrollmentFlag][1].extension[flag].valueCoding.display = "Medicare enrollment type is Disabled"
+* extension[ext-enrollmentFlag][0].extension[monthNum].valueInteger = 1
+* extension[ext-enrollmentFlag][0].extension[flag].valueInteger = 4
+* extension[ext-enrollmentFlag][1].extension[monthNum].valueInteger = 2
+* extension[ext-enrollmentFlag][1].extension[flag].valueInteger = 4
+* extension[ext-enrollmentFlag][2].extension[monthNum].valueInteger = 3
+* extension[ext-enrollmentFlag][2].extension[flag].valueInteger = 4
 * extension[ext-partDMonths].valueInteger = 5
 
 

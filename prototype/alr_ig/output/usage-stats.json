@@ -143,8 +143,8 @@
       "url": "http://alr.cms.gov/ig/StructureDefinition/ext-enrollmentFlag",
       "title": "ALR Enrollment Flag",
       "types": [
-        "Period",
-        "Coding",
+        "integer",
+        "integer",
         "base64Binary",
         "boolean",
         "canonical",

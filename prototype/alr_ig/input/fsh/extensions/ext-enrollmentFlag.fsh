@@ -6,12 +6,10 @@ Description:    "ALR Enrollment Flag Desc"
 
 
 * extension contains
-    period 0..1 and
+    monthNum 0..1 and
     flag 0..1
-* extension[period].value[x] only Period
-* extension[flag].value[x] only Coding
-
-
+* extension[monthNum].value[x] only integer
+* extension[flag].value[x] only integer
 
 
 
