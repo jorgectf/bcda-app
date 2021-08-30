@@ -80,6 +80,8 @@ func TestGetMaxBeneCount(t *testing.T) {
 		conf.UnsetEnv(t, "BCDA_FHIR_MAX_RECORDS_EOB")
 		conf.UnsetEnv(t, "BCDA_FHIR_MAX_RECORDS_PATIENT")
 		conf.UnsetEnv(t, "BCDA_FHIR_MAX_RECORDS_COVERAGE")
+		conf.UnsetEnv(t, "BCDA_FHIR_MAX_RECORDS_CLAIM")
+		conf.UnsetEnv(t, "BCDA_FHIR_MAX_RECORDS_CLAIM_RESPONSE")
 	}()
 
 	getEnvVar := func(resourceType string) string {
@@ -90,6 +92,10 @@ func TestGetMaxBeneCount(t *testing.T) {
 			return "BCDA_FHIR_MAX_RECORDS_PATIENT"
 		case "Coverage":
 			return "BCDA_FHIR_MAX_RECORDS_COVERAGE"
+		case "Claim":
+			return "BCDA_FHIR_MAX_RECORDS_CLAIM"
+		case "ClaimResponse":
+			return "BCDA_FHIR_MAX_RECORDS_CLAIM_RESPONSE"
 		default:
 			return ""
 		}
@@ -114,6 +120,10 @@ func TestGetMaxBeneCount(t *testing.T) {
 		{"MaxPatient", "Patient", 10, setter},
 		{"DefaultCoverage", "Coverage", 4000, clearer},
 		{"MaxCoverage", "Coverage", 15, setter},
+		{"defaultClaim", "Claim", 4000, clearer},
+		{"MaxClaim", "Claim", 20, setter},
+		{"defaultClaimResponse", "ClaimResponse", 4000, clearer},
+		{"MaxClaimResponse", "ClaimResponse", 25, setter},
 	}
 
 	for _, tt := range tests {
@@ -456,12 +466,22 @@ func (s *ServiceTestSuite) TestGetBeneficiaries() {
 func (s *ServiceTestSuite) TestGetQueJobs() {
 	defaultACOID, lookbackACOID := "SOME_ACO_ID", "LOOKBACK_ACO"
 
-	acoCfg := ACOConfig{
+	defaultACO := ACOConfig{
+		patternExp: regexp.MustCompile(defaultACOID),
+		Data:       []string{constants.Adjudicated},
+	}
+
+	lookbackACO := ACOConfig{
 		patternExp:    regexp.MustCompile(lookbackACOID),
 		LookbackYears: 3,
 		perfYear:      time.Now(),
+		Data:          []string{constants.Adjudicated},
 	}
-	acoCfgs := map[*regexp.Regexp]*ACOConfig{acoCfg.patternExp: &acoCfg}
+
+	acoCfgs := map[*regexp.Regexp]*ACOConfig{
+		defaultACO.patternExp:  &defaultACO,
+		lookbackACO.patternExp: &lookbackACO,
+	}
 
 	benes1, benes2 := make([]*models.CCLFBeneficiary, 10), make([]*models.CCLFBeneficiary, 20)
 	allBenes := [][]*models.CCLFBeneficiary{benes1, benes2}
@@ -534,8 +554,8 @@ func (s *ServiceTestSuite) TestGetQueJobs() {
 		{"New Benes With Since Before Termination", defaultACOID, RetrieveNewBeneHistData, sinceBeforeTermination, claimsWindow{}, append(benes1, benes2...), nil, terminationLatest},
 
 		// ACO with lookback period
-		{"ACO with lookback", lookbackACOID, DefaultRequest, time.Time{}, claimsWindow{LowerBound: acoCfg.LookbackTime()}, benes1, nil, nil},
-		{"Terminated ACO with lookback", lookbackACOID, DefaultRequest, time.Time{}, claimsWindow{LowerBound: acoCfg.LookbackTime(), UpperBound: terminationHistorical.ClaimsDate()}, benes1, nil, terminationHistorical},
+		{"ACO with lookback", lookbackACOID, DefaultRequest, time.Time{}, claimsWindow{LowerBound: lookbackACO.LookbackTime()}, benes1, nil, nil},
+		{"Terminated ACO with lookback", lookbackACOID, DefaultRequest, time.Time{}, claimsWindow{LowerBound: lookbackACO.LookbackTime(), UpperBound: terminationHistorical.ClaimsDate()}, benes1, nil, terminationHistorical},
 	}
 
 	// Add all combinations of resource types
@@ -760,6 +780,51 @@ func (s *ServiceTestSuite) TestGetLatestCCLFFileNotFound() {
 	assert.Equal(s.T(), models.FileTypeDefault, err.(CCLFNotFoundError).FileType)
 	assert.Equal(s.T(), "Z9999", err.(CCLFNotFoundError).CMSID)
 	assert.Equal(s.T(), time.Time{}, err.(CCLFNotFoundError).CutoffTime)
+}
+
+func (s *ServiceTestSuite) TestGetACOConfigForID() {
+	repository := &models.MockRepository{}
+
+	validACOPattern, _ := regexp.Compile(`A\d{4}`)
+
+	validACO := ACOConfig{
+		Model:      "Model A",
+		patternExp: validACOPattern,
+	}
+
+	cfg := &Config{
+		ACOConfigs: []ACOConfig{validACO},
+	}
+
+	service := NewService(repository, cfg, "")
+
+	tests := []struct {
+		name           string
+		cmsID          string
+		expectedConfig *ACOConfig
+		expectedOk     bool
+	}{
+		{
+			"Valid CMSID",
+			"A0000",
+			&validACO,
+			true,
+		},
+		{
+			"Invalid CMSID",
+			"B0000",
+			nil,
+			false,
+		},
+	}
+
+	for _, tt := range tests {
+		s.T().Run(tt.name, func(t *testing.T) {
+			actualConfig, actualOk := service.GetACOConfigForID(tt.cmsID)
+			assert.Equal(t, tt.expectedConfig, actualConfig)
+			assert.Equal(t, tt.expectedOk, actualOk)
+		})
+	}
 }
 
 func getCCLFFile(id uint) *models.CCLFFile {

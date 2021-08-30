@@ -12,6 +12,7 @@ import (
 	"strconv"
 
 	"github.com/CMSgov/bcda-app/bcda/client"
+	"github.com/CMSgov/bcda-app/bcda/constants"
 	"github.com/CMSgov/bcda-app/bcda/models"
 	fhirmodels "github.com/CMSgov/bcda-app/bcda/models/fhir"
 	"github.com/CMSgov/bcda-app/bcda/responseutils"
@@ -161,6 +162,8 @@ func writeBBDataToFile(ctx context.Context, r repository.Repository, bb client.A
 		bundleFunc = func(bene models.CCLFBeneficiary) (*fhirmodels.Bundle, error) {
 			return bb.GetPatient(bene.BlueButtonID, strconv.Itoa(jobArgs.ID), cmsID, jobArgs.Since, jobArgs.TransactionTime)
 		}
+		//TODO: The assumption is Claim/ClaimResponse is always pre-adjudicated, future work may require checking what
+		//kind of backing data to pull from
 	case "Claim":
 		bundleFunc = func(bene models.CCLFBeneficiary) (*fhirmodels.Bundle, error) {
 			cw := client.ClaimsWindow{
@@ -208,7 +211,8 @@ func writeBBDataToFile(ctx context.Context, r repository.Repository, bb client.A
 				return fmt.Sprintf("Error failed to convert %s to uint", beneID), fhircodes.IssueTypeCode_EXCEPTION, err
 			}
 
-			bene, err := getBeneficiary(ctx, r, uint(id), bb)
+			fetchBBId := jobArgs.DataType != constants.PreAdjudicated
+			bene, err := getBeneficiary(ctx, r, uint(id), bb, fetchBBId)
 			if err != nil {
 				return fmt.Sprintf("Error retrieving BlueButton ID for cclfBeneficiary MBI %s", bene.MBI), fhircodes.IssueTypeCode_NOT_FOUND, err
 			}
@@ -257,7 +261,7 @@ func writeBBDataToFile(ctx context.Context, r repository.Repository, bb client.A
 }
 
 // getBeneficiary returns the beneficiary. The bb ID value is retrieved and set in the model.
-func getBeneficiary(ctx context.Context, r repository.Repository, beneID uint, bb client.APIClient) (models.CCLFBeneficiary, error) {
+func getBeneficiary(ctx context.Context, r repository.Repository, beneID uint, bb client.APIClient, fetchBBId bool) (models.CCLFBeneficiary, error) {
 
 	bene, err := r.GetCCLFBeneficiaryByID(ctx, beneID)
 	if err != nil {
@@ -266,13 +270,17 @@ func getBeneficiary(ctx context.Context, r repository.Repository, beneID uint, b
 
 	cclfBeneficiary := *bene
 
-	bbID, err := getBlueButtonID(bb, cclfBeneficiary.MBI)
-	if err != nil {
-		err = fmt.Errorf("failed to get blue button id for ID %d: %w", beneID, err)
-		return cclfBeneficiary, err
+	if fetchBBId {
+		bbID, err := getBlueButtonID(bb, cclfBeneficiary.MBI)
+
+		if err != nil {
+			err = fmt.Errorf("failed to get blue button id for ID %d: %w", beneID, err)
+			return cclfBeneficiary, err
+		}
+
+		cclfBeneficiary.BlueButtonID = bbID
 	}
 
-	cclfBeneficiary.BlueButtonID = bbID
 	return cclfBeneficiary, nil
 }
 
