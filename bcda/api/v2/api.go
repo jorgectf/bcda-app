@@ -2,7 +2,6 @@ package v2
 
 import (
 	"fmt"
-	"github.com/CMSgov/bcda-app/bcda/service"
 	"net/http"
 	"time"
 
@@ -28,19 +27,14 @@ var (
 func init() {
 	var err error
 
-	resources, ok := service.GetDataTypes([]string{
-		"Patient",
-		"Coverage",
-		"ExplanationOfBenefit",
-		"Claim",
-		"ClaimResponse",
-	}...)
-
-	if ok {
-		h = api.NewHandler(resources, "/v2/fhir", "v2")
-	} else {
-		panic("Failed to configure resource DataTypes")
+	resources := map[string]api.DataType{
+		"Patient":              {Adjudicated: true},
+		"Coverage":             {Adjudicated: true},
+		"ExplanationOfBenefit": {Adjudicated: true},
+		"Claim":                {Adjudicated: false, PreAdjudicated: true},
+		"ClaimResponse":        {Adjudicated: false, PreAdjudicated: true},
 	}
+	h = api.NewHandler(resources, "/v2/fhir", "v2")
 
 	// Ensure that we write the serialized FHIR resources as a single line.
 	// Needed to comply with the NDJSON format that we are using.

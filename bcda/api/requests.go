@@ -36,6 +36,12 @@ import (
 	"github.com/CMSgov/bcda-app/log"
 )
 
+//DataType is used to identify the type of data returned by each resource
+type DataType struct {
+	Adjudicated    bool
+	PreAdjudicated bool
+}
+
 type Handler struct {
 	JobTimeout time.Duration
 
@@ -49,7 +55,7 @@ type Handler struct {
 	r  models.Repository
 	db *sql.DB
 
-	supportedDataTypes map[string]service.DataType
+	supportedDataTypes map[string]DataType
 
 	supportedResourceTypes []string
 
@@ -65,11 +71,11 @@ type fhirResponseWriter interface {
 	NotFound(http.ResponseWriter, int, string, string)
 }
 
-func NewHandler(dataTypes map[string]service.DataType, basePath string, apiVersion string) *Handler {
+func NewHandler(dataTypes map[string]DataType, basePath string, apiVersion string) *Handler {
 	return newHandler(dataTypes, basePath, apiVersion, database.Connection)
 }
 
-func newHandler(dataTypes map[string]service.DataType, basePath string, apiVersion string, db *sql.DB) *Handler {
+func newHandler(dataTypes map[string]DataType, basePath string, apiVersion string, db *sql.DB) *Handler {
 	h := &Handler{JobTimeout: time.Hour * time.Duration(utils.GetEnvInt("ARCHIVE_THRESHOLD_HR", 24))}
 
 	h.Enq = queueing.NewEnqueuer()
@@ -87,7 +93,6 @@ func newHandler(dataTypes map[string]service.DataType, basePath string, apiVersi
 
 	// Build string array of supported Resource types
 	h.supportedResourceTypes = make([]string, 0, len(h.supportedDataTypes))
-
 	for k := range h.supportedDataTypes {
 		h.supportedResourceTypes = append(h.supportedResourceTypes, k)
 	}
@@ -562,7 +567,7 @@ func (h *Handler) validateRequest(resourceTypes []string, cmsID string) error {
 	return nil
 }
 
-func (h *Handler) authorizedResourceAccess(dataType service.DataType, cmsID string) bool {
+func (h *Handler) authorizedResourceAccess(dataType DataType, cmsID string) bool {
 	if cfg, ok := h.Svc.GetACOConfigForID(cmsID); ok {
 		return (dataType.Adjudicated && utils.ContainsString(cfg.Data, constants.Adjudicated)) ||
 			(dataType.PreAdjudicated && utils.ContainsString(cfg.Data, constants.PreAdjudicated))

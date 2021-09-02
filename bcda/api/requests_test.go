@@ -10,6 +10,7 @@ import (
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
+	"regexp"
 	"testing"
 	"time"
 
@@ -104,7 +105,7 @@ func (s *RequestsTestSuite) TestRunoutEnabled() {
 				jobs = qj
 			}
 
-			resourceMap := map[string]service.DataType{
+			resourceMap := map[string]DataType{
 				"Patient":              {Adjudicated: true},
 				"Coverage":             {Adjudicated: true},
 				"ExplanationOfBenefit": {Adjudicated: true},
@@ -181,7 +182,7 @@ func (s *RequestsTestSuite) TestAttributionStatus() {
 				}
 			}
 
-			resourceMap := map[string]service.DataType{
+			resourceMap := map[string]DataType{
 				"Patient":              {Adjudicated: true},
 				"Coverage":             {Adjudicated: true},
 				"ExplanationOfBenefit": {Adjudicated: true},
@@ -230,40 +231,12 @@ func (s *RequestsTestSuite) TestRunoutDisabled() {
 }
 
 func (s *RequestsTestSuite) TestDataTypeAuthorization() {
-	acoA := &service.ACOConfig{
-		Model:              "Model A",
-		Pattern:            "A\\d{4}",
-		PerfYearTransition: "01/01",
-		LookbackYears:      10,
-		Disabled:           false,
-		Data:               []string{"adjudicated", "pre-adjudicated"},
-	}
-	acoB := &service.ACOConfig{
-		Model:              "Model B",
-		Pattern:            "B\\d{4}",
-		PerfYearTransition: "01/01",
-		LookbackYears:      10,
-		Disabled:           false,
-		Data:               []string{"adjudicated"},
-	}
-	acoC := &service.ACOConfig{
-		Model:              "Model C",
-		Pattern:            "C\\d{4}",
-		PerfYearTransition: "01/01",
-		LookbackYears:      10,
-		Disabled:           false,
-		Data:               []string{"pre-adjudicated"},
-	}
-	acoD := &service.ACOConfig{
-		Model:              "Model D",
-		Pattern:            "D\\d{4}",
-		PerfYearTransition: "01/01",
-		LookbackYears:      10,
-		Disabled:           false,
-		Data:               []string{},
-	}
+	acoA, _ := regexp.Compile(`A\d{4}`)
+	acoB, _ := regexp.Compile(`B\d{4}`)
+	acoC, _ := regexp.Compile(`C\d{4}`)
+	acoD, _ := regexp.Compile(`D\d{4}`)
 
-	dataTypeMap := map[string]service.DataType{
+	dataTypeMap := map[string]DataType{
 		"Coverage":             {Adjudicated: true},
 		"Patient":              {Adjudicated: true},
 		"ExplanationOfBenefit": {Adjudicated: true},
@@ -279,6 +252,43 @@ func (s *RequestsTestSuite) TestDataTypeAuthorization() {
 	h.Enq = enqueuer
 	h.supportedDataTypes = dataTypeMap
 
+	h.Svc = MockService{
+		acoConfig: map[*regexp.Regexp]*service.ACOConfig{
+			acoA: {
+				Model:              "Model A",
+				Pattern:            "A\\d{4}",
+				PerfYearTransition: "01/01",
+				LookbackYears:      10,
+				Disabled:           false,
+				Data:               []string{"adjudicated", "pre-adjudicated"},
+			},
+			acoB: {
+				Model:              "Model B",
+				Pattern:            "B\\d{4}",
+				PerfYearTransition: "01/01",
+				LookbackYears:      10,
+				Disabled:           false,
+				Data:               []string{"adjudicated"},
+			},
+			acoC: {
+				Model:              "Model C",
+				Pattern:            "C\\d{4}",
+				PerfYearTransition: "01/01",
+				LookbackYears:      10,
+				Disabled:           false,
+				Data:               []string{"pre-adjudicated"},
+			},
+			acoD: {
+				Model:              "Model D",
+				Pattern:            "D\\d{4}",
+				PerfYearTransition: "01/01",
+				LookbackYears:      10,
+				Disabled:           false,
+				Data:               []string{},
+			},
+		},
+	}
+
 	client.SetLogger(log.API) // Set logger so we don't get errors later
 
 	jsonBytes, _ := json.Marshal("{}")
@@ -288,26 +298,18 @@ func (s *RequestsTestSuite) TestDataTypeAuthorization() {
 		cmsId        string
 		resources    []string
 		expectedCode int
-		acoConfig    *service.ACOConfig
 	}{
-		{"Auth Adj/Pre-Adj, Request Adj/Pre-Adj", "A0000", []string{"Claim", "Patient"}, http.StatusAccepted, acoA},
-		{"Auth Adj, Request Adj", "B0000", []string{"Patient"}, http.StatusAccepted, acoB},
-		{"Auth Adj, Request Pre-Adj", "B0000", []string{"Claim"}, http.StatusBadRequest, acoB},
-		{"Auth Pre-Adj, Request Adj", "C0000", []string{"Patient"}, http.StatusBadRequest, acoC},
-		{"Auth Pre-Adj, Request Pre-Adj", "C0000", []string{"Claim"}, http.StatusAccepted, acoC},
-		{"Auth None, Request Adj", "D0000", []string{"Patient"}, http.StatusBadRequest, acoD},
-		{"Auth None, Request Pre-Adj", "D0000", []string{"Claim"}, http.StatusBadRequest, acoD},
+		{"Auth Adj/Pre-Adj, Request Adj/Pre-Adj", "A0000", []string{"Claim", "Patient"}, http.StatusAccepted},
+		{"Auth Adj, Request Adj", "B0000", []string{"Patient"}, http.StatusAccepted},
+		{"Auth Adj, Request Pre-Adj", "B0000", []string{"Claim"}, http.StatusBadRequest},
+		{"Auth Pre-Adj, Request Adj", "C0000", []string{"Patient"}, http.StatusBadRequest},
+		{"Auth Pre-Adj, Request Pre-Adj", "C0000", []string{"Claim"}, http.StatusAccepted},
+		{"Auth None, Request Adj", "D0000", []string{"Patient"}, http.StatusBadRequest},
+		{"Auth None, Request Pre-Adj", "D0000", []string{"Claim"}, http.StatusBadRequest},
 	}
 
 	for _, test := range tests {
 		s.T().Run(test.name, func(t *testing.T) {
-			mockSvc := service.MockService{}
-
-			mockSvc.On("GetQueJobs", mock.Anything, mock.Anything).Return([]*models.JobEnqueueArgs{}, nil)
-			mockSvc.On("GetACOConfigForID", mock.Anything, mock.Anything).Return(test.acoConfig, true)
-
-			h.Svc = &mockSvc
-
 			w := httptest.NewRecorder()
 			r, _ := http.NewRequest("GET", "http://bcda.ms.gov/api/v2/Group/$export", bytes.NewReader(jsonBytes))
 
@@ -332,7 +334,7 @@ func (s *RequestsTestSuite) TestDataTypeAuthorization() {
 // TestRequests verifies that we can initiate an export job for all resource types using all the different handlers
 func (s *RequestsTestSuite) TestRequests() {
 
-	resourceMap := map[string]service.DataType{
+	resourceMap := map[string]DataType{
 		"Patient":              {Adjudicated: true},
 		"Coverage":             {Adjudicated: true},
 		"ExplanationOfBenefit": {Adjudicated: true},
@@ -431,3 +433,47 @@ func (s *RequestsTestSuite) genASRequest() *http.Request {
 
 	return req.WithContext(ctx)
 }
+
+type MockService struct {
+	acoConfig map[*regexp.Regexp]*service.ACOConfig
+}
+
+func (m MockService) GetQueJobs(ctx context.Context, conditions service.RequestConditions) (queJobs []*models.JobEnqueueArgs, err error) {
+	queJobs = append(queJobs, &models.JobEnqueueArgs{
+		ResourceType: "Claim",
+	})
+
+	return queJobs, nil
+}
+
+func (m MockService) GetAlrJobs(ctx context.Context, cmsID string, reqType service.AlrRequestType, window service.AlrRequestWindow) ([]*models.JobAlrEnqueueArgs, error) {
+	panic("not implement")
+}
+
+func (m MockService) GetJobAndKeys(ctx context.Context, jobID uint) (*models.Job, []*models.JobKey, error) {
+	panic("not implement")
+}
+
+func (m MockService) CancelJob(ctx context.Context, jobID uint) (uint, error) {
+	panic("not implement")
+}
+
+func (m MockService) GetJobPriority(acoID string, resourceType string, sinceParam bool) int16 {
+	return 0
+}
+
+func (m MockService) GetLatestCCLFFile(ctx context.Context, cmsID string, fileType models.CCLFFileType) (*models.CCLFFile, error) {
+	panic("not implement")
+}
+
+func (m MockService) GetACOConfigForID(cmsID string) (*service.ACOConfig, bool) {
+	for pattern, cfg := range m.acoConfig {
+		if pattern.MatchString(cmsID) {
+			return cfg, true
+		}
+	}
+
+	return nil, false
+}
+
+var _ service.Service = &MockService{}

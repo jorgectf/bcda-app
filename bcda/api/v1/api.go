@@ -4,7 +4,6 @@ import (
 	"compress/gzip"
 	"encoding/json"
 	"fmt"
-	"github.com/CMSgov/bcda-app/bcda/service"
 	"io"
 	"net/http"
 	"time"
@@ -24,18 +23,13 @@ import (
 var h *api.Handler
 
 func init() {
-	resources, ok := service.GetDataTypes([]string{
-		"Patient",
-		"Coverage",
-		"ExplanationOfBenefit",
-		"Observation",
-	}...)
-
-	if ok {
-		h = api.NewHandler(resources, "/v1/fhir", "v1")
-	} else {
-		panic("Failed to configure resource DataTypes")
+	resources := map[string]api.DataType{
+		"Patient":              {Adjudicated: true},
+		"Coverage":             {Adjudicated: true},
+		"ExplanationOfBenefit": {Adjudicated: true},
+		"Observation":          {Adjudicated: true},
 	}
+	h = api.NewHandler(resources, "/v1/fhir", "v1")
 }
 
 /*
