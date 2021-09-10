@@ -152,9 +152,9 @@ This section describes how fields in the current CSV based ALR report are mapped
     </td>
     <td>
         <ul>
-        <li>Group, Patient</li>
-        <li>Group (Extensions)</li>
+        <li>Patient</li>
         </ul>
+        NOTE: Assignable (but not assigned) beneficiaries appear as Patient resources in the payload but are not members of the Group resource.
     </td>
 </tr>
 <tr>
