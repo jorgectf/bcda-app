@@ -10,7 +10,7 @@
   "name": "AssignmentListIG",
   "title": "CMS Assignment List Report FHIR IG",
   "status": "draft",
-  "date": "2021-09-10T08:47:35-06:00",
+  "date": "2021-09-16T14:23:59-06:00",
   "description": "Implementation Guide for the FHIR version of the CMS Assignment List Report",
   "packageId": "cms.gov.us.alr",
   "license": "CC0-1.0",

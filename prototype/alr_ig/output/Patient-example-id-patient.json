@@ -43,6 +43,30 @@
             "type": {
               "coding": [
                 {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "TAX",
+                  "display": "Tax ID number"
+                }
+              ]
+            },
+            "value": "example-TIN-2"
+          }
+        },
+        {
+          "url": "serviceCount",
+          "valueInteger": 3
+        }
+      ],
+      "url": "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCountTIN"
+    },
+    {
+      "extension": [
+        {
+          "url": "participant",
+          "valueIdentifier": {
+            "type": {
+              "coding": [
+                {
                   "system": "https://bluebutton.cms.gov/resources/variables/prvdr_num",
                   "code": "CCN",
                   "display": "CCN number"

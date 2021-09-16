@@ -25,6 +25,23 @@
       <valueInteger value="5"/>
     </extension>
   </extension>
+  <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-serviceCountTIN">
+    <extension url="participant">
+      <valueIdentifier>
+        <type>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+            <code value="TAX"/>
+            <display value="Tax ID number"/>
+          </coding>
+        </type>
+        <value value="example-TIN-2"/>
+      </valueIdentifier>
+    </extension>
+    <extension url="serviceCount">
+      <valueInteger value="3"/>
+    </extension>
+  </extension>
   <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-serviceCountCCN">
     <extension url="participant">
       <valueIdentifier>

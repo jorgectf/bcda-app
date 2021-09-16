@@ -10,7 +10,7 @@
   "name": "PrevAssignedBeneficiaryFlag",
   "title": "ALR Previously Assigned Beneficiary Flag",
   "status": "active",
-  "date": "2021-09-10T08:47:35-06:00",
+  "date": "2021-09-16T14:23:59-06:00",
   "description": "ALR Previously Assigned Beneficiary Flag",
   "fhirVersion": "4.0.1",
   "mapping": [

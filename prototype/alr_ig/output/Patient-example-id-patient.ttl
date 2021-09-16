@@ -50,6 +50,28 @@
          fhir:Identifier.type [
            fhir:CodeableConcept.coding [
              fhir:index 0;
+             fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0203" ];
+             fhir:Coding.code [ fhir:value "TAX" ];
+             fhir:Coding.display [ fhir:value "Tax ID number" ]
+           ]
+         ];
+         fhir:Identifier.value [ fhir:value "example-TIN-2" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "serviceCount" ];
+       fhir:Extension.valueInteger [ fhir:value "3"^^xsd:integer ]
+     ];
+     fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCountTIN" ]
+  ], [
+     fhir:index 2;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "participant" ];
+       fhir:Extension.valueIdentifier [
+         fhir:Identifier.type [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
              fhir:Coding.system [ fhir:value "https://bluebutton.cms.gov/resources/variables/prvdr_num" ];
              fhir:Coding.code [ fhir:value "CCN" ];
              fhir:Coding.display [ fhir:value "CCN number" ]
@@ -64,7 +86,7 @@
      ];
      fhir:Extension.url [ fhir:value "http://alr.cms.gov/ig/StructureDefinition/ext-serviceCountCCN" ]
   ], [
-     fhir:index 2;
+     fhir:index 3;
      fhir:Element.extension [
        fhir:index 0;
        fhir:Extension.url [ fhir:value "participant" ];

@@ -32,20 +32,60 @@
     {
       "extension": [
         {
+          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentProvider",
+          "valueIdentifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "TAX",
+                  "display": "Tax ID number"
+                }
+              ]
+            },
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "value": "example-TIN"
+          }
+        },
+        {
+          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentProvider",
+          "valueIdentifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/sid/us-npi",
+                  "code": "NPI",
+                  "display": "NPI number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "example-NPI"
+          }
+        },
+        {
+          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentFlag",
+          "valueBoolean": true
+        },
+        {
+          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentStep",
+          "valueInteger": 1
+        },
+        {
+          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-prevAssignedBeneficiaryFlag",
+          "valueBoolean": true
+        },
+        {
+          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-newlyAssignedBeneficiaryFlag",
+          "valueBoolean": false
+        },
+        {
           "url": "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-changeType",
           "valueCode": "excluded"
-        },
-        {
-          "url": "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-coverageReference",
-          "valueReference": {
-            "reference": "Coverage/example-id-coverage"
-          }
-        },
-        {
-          "url": "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-attributedProvider",
-          "valueReference": {
-            "reference": "Practitioner/example-id-prac"
-          }
         },
         {
           "extension": [
@@ -69,55 +109,15 @@
           "url": "http://alr.cms.gov/ig/StructureDefinition/ext-changeReason"
         },
         {
-          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentFlag",
-          "valueBoolean": true
-        },
-        {
-          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentStep",
-          "valueInteger": 3
-        },
-        {
-          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-prevAssignedBeneficiaryFlag",
-          "valueBoolean": true
-        },
-        {
-          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-newlyAssignedBeneficiaryFlag",
-          "valueBoolean": false
-        },
-        {
-          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag",
-          "valueBoolean": false
-        },
-        {
-          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentProvider",
-          "valueIdentifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://hl7.org/fhir/sid/us-npi",
-                  "code": "NPI",
-                  "display": "NPI number"
-                }
-              ]
-            },
-            "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "example-NPI"
+          "url": "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-coverageReference",
+          "valueReference": {
+            "reference": "Coverage/example-id-coverage"
           }
         },
         {
-          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentProvider",
-          "valueIdentifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-                  "code": "TAX",
-                  "display": "Tax ID number"
-                }
-              ]
-            },
-            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-            "value": "example-TIN"
+          "url": "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-attributedProvider",
+          "valueReference": {
+            "reference": "Practitioner/example-id-prac"
           }
         }
       ],
@@ -127,6 +127,10 @@
     },
     {
       "extension": [
+        {
+          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag",
+          "valueBoolean": true
+        },
         {
           "url": "http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-changeType",
           "valueCode": "nochange"
@@ -149,7 +153,7 @@
         },
         {
           "url": "http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentStep",
-          "valueInteger": 2
+          "valueInteger": 0
         },
         {
           "url": "http://alr.cms.gov/ig/StructureDefinition/ext-prevAssignedBeneficiaryFlag",
@@ -157,10 +161,6 @@
         },
         {
           "url": "http://alr.cms.gov/ig/StructureDefinition/ext-newlyAssignedBeneficiaryFlag",
-          "valueBoolean": true
-        },
-        {
-          "url": "http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag",
           "valueBoolean": true
         }
       ],
@@ -252,11 +252,11 @@
         },
         {
           "url": "http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentFlag",
-          "valueBoolean": false
+          "valueBoolean": true
         },
         {
           "url": "http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentStep",
-          "valueInteger": 0
+          "valueInteger": 2
         },
         {
           "url": "http://alr.cms.gov/ig/StructureDefinition/ext-prevAssignedBeneficiaryFlag",

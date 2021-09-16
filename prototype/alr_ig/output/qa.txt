@@ -3,7 +3,7 @@
 
 err = 13, warn = 13, info = 17
 IG Publisher Version: 1.1.76 Out of date - current version is 1.1.80
-Generated Fri Sep 10 08:49:19 MDT 2021. FHIR version 4.0.1 for cms.gov.us.alr#0.0.1 (canonical = http://alr.cms.gov/ig)
+Generated Thu Sep 16 14:24:46 MDT 2021. FHIR version 4.0.1 for cms.gov.us.alr#0.0.1 (canonical = http://alr.cms.gov/ig)
 
  Build Errors : 218 / 9 / 0
  C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\ImplementationGuide-cms.gov.us.alr : 0 / 1 / 1
@@ -72,9 +72,9 @@ ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Observation
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Observation-example-id-hcc-risk-flags.xml.html#/html/body/div/div/div/p/a at Line 269, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Patient-example-id-patient.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Patient-example-id-patient.html#/html/body/div/div/div/p/a at Line 192, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Patient-example-id-patient.json.html#/html/body/div/div/div/p/a at Line 332, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Patient-example-id-patient.ttl.html#/html/body/div/div/div/p/a at Line 318, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Patient-example-id-patient.xml.html#/html/body/div/div/div/p/a at Line 296, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Patient-example-id-patient.json.html#/html/body/div/div/div/p/a at Line 356, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Patient-example-id-patient.ttl.html#/html/body/div/div/div/p/a at Line 335, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Patient-example-id-patient.xml.html#/html/body/div/div/div/p/a at Line 313, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-monthly-risk-score.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-monthly-risk-score.html#/html/body/div/div/div/p/a at Line 192, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-monthly-risk-score.json.html#/html/body/div/div/div/p/a at Line 311, column 28: The link '' for "" cannot be resolved
@@ -276,11 +276,11 @@ ERROR: Coverage/example-id-coverage: Coverage.payor[0]: Unable to resolve resour
 ERROR: EpisodeOfCare/example-id-episode: EpisodeOfCare.patient: Unable to resolve resource 'patient/example-id-patient'
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\Group-example-id-group.json ==
 ERROR: Group/example-id-group: Group.managingEntity: Unable to resolve resource 'Organization/123'
-ERROR: Group/example-id-group: Group.member[0].extension[2].value.ofType(Reference): Unable to resolve resource 'Practitioner/example-id-prac'
-INFORMATION: Group/example-id-group: Group.member[0].extension[3].extension[0].value.ofType(Coding): Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/changeReason' is unknown so the code cannot be validated
-INFORMATION: Group/example-id-group: Group.member[0].extension[3].extension[1].value.ofType(Coding): Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/changeReason' is unknown so the code cannot be validated
-ERROR: Group/example-id-group: Group.member[0].extension[9].value.ofType(Identifier).type.coding[0]: Unknown Code System 'http://hl7.org/fhir/sid/us-npi'
-ERROR: Group/example-id-group: Group.member[1].extension[2].value.ofType(Reference): Unable to resolve resource 'Practitioner/example-id-prac'
+ERROR: Group/example-id-group: Group.member[0].extension[2].value.ofType(Identifier).type.coding[0]: Unknown Code System 'http://hl7.org/fhir/sid/us-npi'
+INFORMATION: Group/example-id-group: Group.member[0].extension[8].extension[0].value.ofType(Coding): Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/changeReason' is unknown so the code cannot be validated
+INFORMATION: Group/example-id-group: Group.member[0].extension[8].extension[1].value.ofType(Coding): Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/changeReason' is unknown so the code cannot be validated
+ERROR: Group/example-id-group: Group.member[0].extension[10].value.ofType(Reference): Unable to resolve resource 'Practitioner/example-id-prac'
+ERROR: Group/example-id-group: Group.member[1].extension[3].value.ofType(Reference): Unable to resolve resource 'Practitioner/example-id-prac'
 ERROR: Group/example-id-group: Group.member[1].entity: Unable to resolve resource 'Patient/example-id-2-patient'
 ERROR: Group/example-id-group: Group.member[2].extension[2].value.ofType(Reference): Unable to resolve resource 'Practitioner/example-id-prac'
 ERROR: Group/example-id-group: Group.member[2].entity: Unable to resolve resource 'Patient/example-id-3-patient'
@@ -297,8 +297,8 @@ INFORMATION: Observation/example-id-hcc-risk-flags: Observation.component[3].cod
 INFORMATION: Patient/example-id-patient: Patient.identifier[0]: This element does not match any known slice defined in the profile http://alr.cms.gov/ig/StructureDefinition/alr-Patient
 INFORMATION: Patient/example-id-patient: Patient.identifier[1]: This element does not match any known slice defined in the profile http://alr.cms.gov/ig/StructureDefinition/alr-Patient
 INFORMATION: Patient/example-id-patient: Patient.identifier[2]: This element does not match any known slice defined in the profile http://alr.cms.gov/ig/StructureDefinition/alr-Patient
-INFORMATION: Patient/example-id-patient: Patient.extension[1].extension[0].value.ofType(Identifier).type.coding[0]: Code System URI 'https://bluebutton.cms.gov/resources/variables/prvdr_num' is unknown so the code cannot be validated
-ERROR: Patient/example-id-patient: Patient.extension[2].extension[1].value.ofType(Identifier).type.coding[0]: Unknown Code System 'http://hl7.org/fhir/sid/us-npi'
+INFORMATION: Patient/example-id-patient: Patient.extension[2].extension[0].value.ofType(Identifier).type.coding[0]: Code System URI 'https://bluebutton.cms.gov/resources/variables/prvdr_num' is unknown so the code cannot be validated
+ERROR: Patient/example-id-patient: Patient.extension[3].extension[1].value.ofType(Identifier).type.coding[0]: Unknown Code System 'http://hl7.org/fhir/sid/us-npi'
 ERROR: Patient/example-id-patient: Patient.identifier[2].system: URL value 'http://hl7.org/fhir/sid/us-mbi' does not resolve
 == C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\RiskAssessment-example-id-monthly-risk-score.json ==
 INFORMATION: RiskAssessment/example-id-monthly-risk-score: RiskAssessment.code.coding[0]: Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/bene_rsk_r_scre' is unknown so the code cannot be validated

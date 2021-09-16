@@ -23,58 +23,6 @@ Usage:          #example
 * address.city = "Anytown"
 * address.state = "UT"
 * address.district = "SL County"
-/*
-// table 1-2
-* extension[ext-serviceCount][0].extension[serviceCountCode][0].valueCoding.system = "https://alr.cms.gov/resources/variables/service-count-codes"
-* extension[ext-serviceCount][0].extension[serviceCountCode][0].valueCoding.code = #B_EM_LINE_CNT_T
-* extension[ext-serviceCount][0].extension[serviceCountCode][0].valueCoding.display = "Count of Primary Care Services - ACO Participant TIN"
-* extension[ext-serviceCount][0].extension[participant][0].valueIdentifier.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
-* extension[ext-serviceCount][0].extension[participant][0].valueIdentifier.value = "example-TIN"
-* extension[ext-serviceCount][0].extension[participant][0].valueIdentifier.type.coding.code = #TAX
-* extension[ext-serviceCount][0].extension[participant][0].valueIdentifier.type.coding.display = "Tax ID number"
-* extension[ext-serviceCount][0].extension[participant][0].valueIdentifier.type.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
-* extension[ext-serviceCount][0].extension[serviceCount].valueInteger = 5
-// table 1-3
-* extension[ext-serviceCount][1].extension[serviceCountCode][0].valueCoding.system = "https://alr.cms.gov/resources/variables/service-count-codes"
-* extension[ext-serviceCount][1].extension[serviceCountCode][0].valueCoding.code = #REV_LINE_CNT
-* extension[ext-serviceCount][1].extension[serviceCountCode][0].valueCoding.display = "Count of Primary Care Services - ACO Participant CCN"
-* extension[ext-serviceCount][1].extension[participant][0].valueIdentifier.system = "https://bluebutton.cms.gov/resources/variables/prvdr_num"
-* extension[ext-serviceCount][1].extension[participant][0].valueIdentifier.value = "example-CCN"
-* extension[ext-serviceCount][1].extension[participant][0].valueIdentifier.type.coding.code = #CCN
-* extension[ext-serviceCount][1].extension[participant][0].valueIdentifier.type.coding.display = "CCN Number"
-* extension[ext-serviceCount][1].extension[participant][0].valueIdentifier.type.coding.system = "https://bluebutton.cms.gov/resources/variables/prvdr_num"
-* extension[ext-serviceCount][1].extension[serviceCount].valueInteger = 15
-// table 1-4
-* extension[ext-serviceCount][2].extension[serviceCountCode][0].valueCoding.system = "https://alr.cms.gov/resources/variables/service-count-codes"
-* extension[ext-serviceCount][2].extension[serviceCountCode][0].valueCoding.code = #PCS_COUNT
-* extension[ext-serviceCount][2].extension[serviceCountCode][0].valueCoding.display = "Top ACO Participant TIN-Individual NPI"
-* extension[ext-serviceCount][2].extension[participant][0].valueIdentifier.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
-* extension[ext-serviceCount][2].extension[participant][0].valueIdentifier.value = "example-TIN"
-* extension[ext-serviceCount][2].extension[participant][0].valueIdentifier.type.coding.code = #TAX
-* extension[ext-serviceCount][2].extension[participant][0].valueIdentifier.type.coding.display = "Tax ID number"
-* extension[ext-serviceCount][2].extension[participant][0].valueIdentifier.type.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
-* extension[ext-serviceCount][2].extension[participant][1].valueIdentifier.system = "http://hl7.org/fhir/sid/us-npi"
-* extension[ext-serviceCount][2].extension[participant][1].valueIdentifier.value = "example-NPI"
-* extension[ext-serviceCount][2].extension[participant][1].valueIdentifier.type.coding.code = #NPI
-* extension[ext-serviceCount][2].extension[participant][1].valueIdentifier.type.coding.display = "NPI Number"
-* extension[ext-serviceCount][2].extension[participant][1].valueIdentifier.type.coding.system = "http://hl7.org/fhir/sid/us-npi"
-* extension[ext-serviceCount][2].extension[serviceCount].valueInteger = 7
-// table 1-6
-// TODO: table 1-5 and table 1-6 may be "different" in that they may be a patient population "not currently assigned"
-* extension[ext-voluntaryAlignmentFlag].valueBoolean = false
-*/
-/*
-// table 1-2
-* extension[ext-serviceCount2][0].extension[participant][0].valueIdentifier.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
-* extension[ext-serviceCount2][0].extension[participant][0].valueIdentifier.value = "example-TIN"
-* extension[ext-serviceCount2][0].extension[participant][0].valueIdentifier.type.coding.code = #TAX
-* extension[ext-serviceCount2][0].extension[participant][0].valueIdentifier.type.coding.display = "Tax ID number"
-* extension[ext-serviceCount2][0].extension[participant][0].valueIdentifier.type.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
-* extension[ext-serviceCount2][0].extension[serviceCount].valueQuantity.value = 5
-* extension[ext-serviceCount2][0].extension[serviceCount].valueQuantity.system = "https://alr.cms.gov/resources/variables/service-count-codes"
-* extension[ext-serviceCount2][0].extension[serviceCount].valueQuantity.code = #B_EM_LINE_CNT_T
-* extension[ext-serviceCount2][0].extension[serviceCount].valueQuantity.unit = "Count of Primary Care Services by ACO Participant TIN"
-*/
 
 // table 1-2
 * extension[ext-serviceCountTIN][0].extension[participant][0].valueIdentifier.value = "example-TIN"
@@ -82,6 +30,11 @@ Usage:          #example
 * extension[ext-serviceCountTIN][0].extension[participant][0].valueIdentifier.type.coding.display = "Tax ID number"
 * extension[ext-serviceCountTIN][0].extension[participant][0].valueIdentifier.type.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
 * extension[ext-serviceCountTIN][0].extension[serviceCount].valueInteger = 5
+* extension[ext-serviceCountTIN][1].extension[participant][0].valueIdentifier.value = "example-TIN-2"
+* extension[ext-serviceCountTIN][1].extension[participant][0].valueIdentifier.type.coding.code = #TAX
+* extension[ext-serviceCountTIN][1].extension[participant][0].valueIdentifier.type.coding.display = "Tax ID number"
+* extension[ext-serviceCountTIN][1].extension[participant][0].valueIdentifier.type.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
+* extension[ext-serviceCountTIN][1].extension[serviceCount].valueInteger = 3
 
 // table 1-3
 * extension[ext-serviceCountCCN][0].extension[participant][0].valueIdentifier.value = "example-CCN"

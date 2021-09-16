@@ -24,18 +24,49 @@
     <display value="Sample Organization"/>
   </managingEntity>
   <member>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentProvider">
+      <valueIdentifier>
+        <type>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+            <code value="TAX"/>
+            <display value="Tax ID number"/>
+          </coding>
+        </type>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <value value="example-TIN"/>
+      </valueIdentifier>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentProvider">
+      <valueIdentifier>
+        <type>
+          <coding>
+            <system value="http://hl7.org/fhir/sid/us-npi"/>
+            <code value="NPI"/>
+            <display value="NPI number"/>
+          </coding>
+        </type>
+        <system value="http://hl7.org/fhir/sid/us-npi"/>
+        <value value="example-NPI"/>
+      </valueIdentifier>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentFlag">
+      <valueBoolean value="true"/>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentStep">
+      <valueInteger value="1"/>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-prevAssignedBeneficiaryFlag">
+      <valueBoolean value="true"/>
+    </extension>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-newlyAssignedBeneficiaryFlag">
+      <valueBoolean value="false"/>
+    </extension>
     <extension url="http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-changeType">
       <valueCode value="excluded"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-coverageReference">
-      <valueReference>
-        <reference value="Coverage/example-id-coverage"/>
-      </valueReference>
-    </extension>
-    <extension url="http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-attributedProvider">
-      <valueReference>
-        <reference value="Practitioner/example-id-prac"/>
-      </valueReference>
     </extension>
     <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-changeReason">
       <extension url="reasonCode">
@@ -53,52 +84,24 @@
         </valueCoding>
       </extension>
     </extension>
-    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentFlag">
-      <valueBoolean value="true"/>
+    <extension url="http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-coverageReference">
+      <valueReference>
+        <reference value="Coverage/example-id-coverage"/>
+      </valueReference>
     </extension>
-    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentStep">
-      <valueInteger value="3"/>
-    </extension>
-    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-prevAssignedBeneficiaryFlag">
-      <valueBoolean value="true"/>
-    </extension>
-    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-newlyAssignedBeneficiaryFlag">
-      <valueBoolean value="false"/>
-    </extension>
-    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag">
-      <valueBoolean value="false"/>
-    </extension>
-    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentProvider">
-      <valueIdentifier>
-        <type>
-          <coding>
-            <system value="http://hl7.org/fhir/sid/us-npi"/>
-            <code value="NPI"/>
-            <display value="NPI number"/>
-          </coding>
-        </type>
-        <system value="http://hl7.org/fhir/sid/us-npi"/>
-        <value value="example-NPI"/>
-      </valueIdentifier>
-    </extension>
-    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentProvider">
-      <valueIdentifier>
-        <type>
-          <coding>
-            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
-            <code value="TAX"/>
-            <display value="Tax ID number"/>
-          </coding>
-        </type>
-        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
-        <value value="example-TIN"/>
-      </valueIdentifier>
+    <extension url="http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-attributedProvider">
+      <valueReference>
+        <reference value="Practitioner/example-id-prac"/>
+      </valueReference>
     </extension>
     <entity>
       <reference value="Patient/example-id-patient"/>
     </entity>
   </member>
   <member>
+    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag">
+      <valueBoolean value="true"/>
+    </extension>
     <extension url="http://hl7.org/fhir/us/davinci-atr/StructureDefinition/ext-changeType">
       <valueCode value="nochange"/>
     </extension>
@@ -116,15 +119,12 @@
       <valueBoolean value="false"/>
     </extension>
     <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentStep">
-      <valueInteger value="2"/>
+      <valueInteger value="0"/>
     </extension>
     <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-prevAssignedBeneficiaryFlag">
       <valueBoolean value="false"/>
     </extension>
     <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-newlyAssignedBeneficiaryFlag">
-      <valueBoolean value="true"/>
-    </extension>
-    <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-voluntaryAlignmentFlag">
       <valueBoolean value="true"/>
     </extension>
     <entity>
@@ -195,10 +195,10 @@
       </extension>
     </extension>
     <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentFlag">
-      <valueBoolean value="false"/>
+      <valueBoolean value="true"/>
     </extension>
     <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-claimsBasedAssignmentStep">
-      <valueInteger value="0"/>
+      <valueInteger value="2"/>
     </extension>
     <extension url="http://alr.cms.gov/ig/StructureDefinition/ext-prevAssignedBeneficiaryFlag">
       <valueBoolean value="true"/>
