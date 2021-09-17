@@ -21,7 +21,7 @@
   <name value="ServiceCountTIN"/>
   <title value="Service Count by ACO Participant TIN level"/>
   <status value="active"/>
-  <date value="2021-09-16T14:23:59-06:00"/>
+  <date value="2021-09-17T09:29:34-06:00"/>
   <description value="Assigned Beneficiaries and Number of Primary Care Services at the ACO Participant TIN Level "/>
   <fhirVersion value="4.0.1"/>
   <mapping>

@@ -1,5 +1,5 @@
 {
-  "package": "cms.gov.us.alr",
+  "package": "hl7.fhir.us.cms-alr",
   "version": "0.0.1",
   "fhirVersion": "4.0.1",
   "extensions": [

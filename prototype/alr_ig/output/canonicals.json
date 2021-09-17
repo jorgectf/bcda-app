@@ -1,8 +1,8 @@
 [
   {
-    "id": "cms.gov.us.alr",
+    "id": "hl7.fhir.us.cms-alr",
     "type": "ImplementationGuide",
-    "url": "http://alr.cms.gov/ig/ImplementationGuide/cms.gov.us.alr",
+    "url": "http://alr.cms.gov/ig/ImplementationGuide/hl7.fhir.us.cms-alr",
     "version": "0.0.1",
     "name": "AssignmentListIG"
   },

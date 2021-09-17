@@ -52,6 +52,7 @@ This section describes how fields in the current CSV based ALR report are mapped
     <th>Description</th>
     <th>Data Element Category</th>
     <th>FHIR Resource</th>
+    <th>Notes</th>
 </tr>
 <tr>
     <td>Table 1-1</td>
@@ -76,6 +77,9 @@ This section describes how fields in the current CSV based ALR report are mapped
         <li>Risk Asessment</li>
         </ul>
     </td>
+    <td>
+        Assigned patients from ALR table 1-1 appear in FHIR as members of the Group resource (e.g. Group.member), which is a reference to the corresponding Patient resource.
+    </td>
 </tr>
 <tr>
     <td>Table 1-2</td>
@@ -91,6 +95,9 @@ This section describes how fields in the current CSV based ALR report are mapped
         <li>Patient</li>
         <li>Patient (Extensions)</li>
         </ul>
+    </td>
+    <td>
+        This count appears as an extension in the corresponding patient resource
     </td>
 </tr>
 <tr>
@@ -108,6 +115,9 @@ This section describes how fields in the current CSV based ALR report are mapped
         <li>Patient (Extensions)</li>
         </ul>
     </td>
+    <td>
+        This count appears as an extension in the corresponding patient resource
+    </td>
 </tr>
 <tr>
     <td>Table 1-4</td>
@@ -124,6 +134,9 @@ This section describes how fields in the current CSV based ALR report are mapped
         <li>Patient (Extensions)</li>
         </ul>
     </td>
+    <td>
+        This count appears as an extension in the corresponding patient resource
+    </td>
 </tr>
 <tr>
     <td>Table 1-5</td>
@@ -136,9 +149,12 @@ This section describes how fields in the current CSV based ALR report are mapped
     </td>
     <td>
         <ul>
-        <li>Group, Patient</li>
+        <li>Patient</li>
         <li>Patient (Extensions)</li>
         </ul>
+    </td>
+    <td>
+        Patients no longer assigned (ALR table 1-5) will appear in FHIR as Patient resources but are NOT members of the Group resource.  Extensions in the Patient resource list provide the reason the beneficiary is no longer assigned.
     </td>
 </tr>
 <tr>
@@ -154,7 +170,9 @@ This section describes how fields in the current CSV based ALR report are mapped
         <ul>
         <li>Patient</li>
         </ul>
-        NOTE: Assignable (but not assigned) beneficiaries appear as Patient resources in the payload but are not members of the Group resource.
+    </td>
+    <td>
+        Assignable (but not assigned) beneficiaries appear as Patient resources in the payload but are not members of the Group resource.
     </td>
 </tr>
 <tr>

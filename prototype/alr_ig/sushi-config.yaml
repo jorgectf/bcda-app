@@ -2,7 +2,8 @@
 # │  The properties below are used to create the ImplementationGuide resource. For a list of       │
 # │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: cms.gov.us.alr
+#id: cms.gov.us.alr
+id: hl7.fhir.us.cms-alr
 canonical: http://alr.cms.gov/ig
 name: AssignmentListIG
 status: draft

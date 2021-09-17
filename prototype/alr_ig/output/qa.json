@@ -1,11 +1,11 @@
 {
-  "url": "http://alr.cms.gov/ig/ImplementationGuide/cms.gov.us.alr",
+  "url": "http://alr.cms.gov/ig/ImplementationGuide/hl7.fhir.us.cms-alr",
   "name": "AssignmentListIG",
-  "package-id": "cms.gov.us.alr",
+  "package-id": "hl7.fhir.us.cms-alr",
   "ig-ver": "0.0.1",
-  "date": "Thu, 16 Sep, 2021 14:23:59 -0600",
-  "errs": 13,
-  "warnings": 13,
+  "date": "Fri, 17 Sep, 2021 09:29:34 -0600",
+  "errs": 37,
+  "warnings": 15,
   "hints": 17,
   "version": "4.0.1",
   "tool": "4.6.0 (3)"

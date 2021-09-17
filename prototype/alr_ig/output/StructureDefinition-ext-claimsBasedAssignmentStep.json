@@ -10,7 +10,7 @@
   "name": "ClaimsBasedAssignmentStep",
   "title": "ALR Claims Based Assignment",
   "status": "active",
-  "date": "2021-09-16T14:23:59-06:00",
+  "date": "2021-09-17T09:29:34-06:00",
   "description": "ALR Claims Based Assignment Desc",
   "fhirVersion": "4.0.1",
   "mapping": [
