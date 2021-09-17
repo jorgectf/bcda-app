@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "ChangeReason"];
   fhir:StructureDefinition.title [ fhir:value "ALR Change Reason"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-09-17T09:56:04-06:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-09-17T10:10:28-06:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "ALR Change Reason Description"];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [

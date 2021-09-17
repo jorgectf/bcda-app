@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "ed0034b7-bcd6-4da8-8130-74a3981154df-53",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ed0034b7-bcd6-4da8-8130-74a3981154df-53",
+  "id" : "fc0e3661-ebd6-404f-a135-b104d216b12a-53",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/fc0e3661-ebd6-404f-a135-b104d216b12a-53",
   "name" : "UnionUSCoreVitalSignsProfileAndALRHccRiskFlag",
   "title" : "Union of US Core Vital Signs Profile And ALR HCC Flag Profile",
   "status" : "active",
-  "date" : "2021-09-17T09:56:10-06:00",
+  "date" : "2021-09-17T10:10:32-06:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -566,7 +566,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/ed0034b7-bcd6-4da8-8130-74a3981154df-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/fc0e3661-ebd6-404f-a135-b104d216b12a-5"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1775,7 +1775,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/ed0034b7-bcd6-4da8-8130-74a3981154df-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/fc0e3661-ebd6-404f-a135-b104d216b12a-5"
       },
       "mapping" : [{
         "identity" : "w5",

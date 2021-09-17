@@ -78,8 +78,7 @@ This section describes how fields in the current CSV based ALR report are mapped
         </ul>
     </td>
     <td>
-        Assigned patients from ALR table 1-1 appear in FHIR as members of the Group resource (e.g. Group.member), which is a reference to the corresponding Patient resource.
-        Note that patients who are no longer assigned (table 1-5) are also members of the group, but have a changeType of "dropped".  See Table 1-5 below.
+        Assigned patients from ALR table 1-1 appear in FHIR as members of the Group resource (e.g. Group.member).  Each Group.member is a reference to the corresponding Patient resource along with some relevant extensions to clarify their membership.  Patients in ALR table 1-1 can have a status of assigned but excluded (see EXCLUDED in the ALR data dictionary, table 1-1).  In such cases, the changeType extension will indicate "excluded" and the changeReason extension will indicate the reason for exclusion (e.g. deceased, missing id, ghp).  Similarly, patients who are no longer assigned (table 1-5, turnover) are also members of the group, but have a changeType of "dropped" and the changeReason extension will indicate the reason (e.g. plurality, AB, HMO).  See Table 1-5 in the ALR data dictionary.
     </td>
 </tr>
 <tr>

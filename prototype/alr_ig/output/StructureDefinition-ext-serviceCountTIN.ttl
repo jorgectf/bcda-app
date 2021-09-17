@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "ServiceCountTIN"];
   fhir:StructureDefinition.title [ fhir:value "Service Count by ACO Participant TIN level"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-09-17T09:56:04-06:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-09-17T10:10:28-06:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "Assigned Beneficiaries and Number of Primary Care Services at the ACO Participant TIN Level "];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [

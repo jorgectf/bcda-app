@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "ed0034b7-bcd6-4da8-8130-74a3981154df-33",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ed0034b7-bcd6-4da8-8130-74a3981154df-33",
+  "id" : "fc0e3661-ebd6-404f-a135-b104d216b12a-33",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/fc0e3661-ebd6-404f-a135-b104d216b12a-33",
   "name" : "IntersectionUSCoreHeartRateProfileAndALRHccRiskFlag",
   "title" : "Intersection of US Core Heart Rate Profile And ALR HCC Flag Profile",
   "status" : "active",
-  "date" : "2021-09-17T09:56:10-06:00",
+  "date" : "2021-09-17T10:10:32-06:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",
