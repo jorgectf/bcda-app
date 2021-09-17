@@ -3,7 +3,7 @@
   "name": "AssignmentListIG",
   "package-id": "hl7.fhir.us.cms-alr",
   "ig-ver": "0.0.1",
-  "date": "Fri, 17 Sep, 2021 09:29:34 -0600",
+  "date": "Fri, 17 Sep, 2021 09:56:04 -0600",
   "errs": 37,
   "warnings": 15,
   "hints": 17,

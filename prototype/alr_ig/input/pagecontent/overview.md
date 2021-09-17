@@ -79,6 +79,7 @@ This section describes how fields in the current CSV based ALR report are mapped
     </td>
     <td>
         Assigned patients from ALR table 1-1 appear in FHIR as members of the Group resource (e.g. Group.member), which is a reference to the corresponding Patient resource.
+        Note that patients who are no longer assigned (table 1-5) are also members of the group, but have a changeType of "dropped".  See Table 1-5 below.
     </td>
 </tr>
 <tr>
@@ -154,7 +155,7 @@ This section describes how fields in the current CSV based ALR report are mapped
         </ul>
     </td>
     <td>
-        Patients no longer assigned (ALR table 1-5) will appear in FHIR as Patient resources but are NOT members of the Group resource.  Extensions in the Patient resource list provide the reason the beneficiary is no longer assigned.
+        Patients no longer assigned (ALR table 1-5) will appear in FHIR as members of the Group, similar to Table 1-1, but with a change type of "dropped".  The changeReason extension provides the reason they are no longer assigned.
     </td>
 </tr>
 <tr>
@@ -196,9 +197,4 @@ This section describes how fields in the current CSV based ALR report are mapped
 
 The Group resource is the focal point of the payload.  The member list element in the Group resource contains a reference to each assigned patient, along with various assignment flags that apply to that group member.  The Patient resource contains the demographics found in all ALR tables, along with a few extensions to handle things such as service counts (tables 1-2, 1-3 and 1-4) and turnover (table 1-5).  The HCC risk flags and scores are handled using a combination of the Observation resource and the RiskAssessment resource.  HCC Risk Flags for a given patient are delivered in a single Observation resource, with all flags contained in the Observation.component[] list.  This approach was chosen to streamline payload size, given that a single patient typically has approximately 90 risk flags (each with a value of 0, 1 or empty).  In contrast, using a single observation resource per flag would significantly increase payload size and processing overhead.
 
-Click on the link below to access a spreadsheet that contains a detailed listing of categories and FHIR mappings for each ALR data element
-
-*** TODO *** Put correct link below when it becomes available
-
-[Category and Mapping Spreadsheet](https://bcda.cms.gov/)
 

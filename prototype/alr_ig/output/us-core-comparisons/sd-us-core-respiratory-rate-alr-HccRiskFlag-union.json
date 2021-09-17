@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "84018f59-ab9b-4cee-b2d3-d32f91b3affe-41",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/84018f59-ab9b-4cee-b2d3-d32f91b3affe-41",
+  "id" : "ed0034b7-bcd6-4da8-8130-74a3981154df-41",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ed0034b7-bcd6-4da8-8130-74a3981154df-41",
   "name" : "UnionUSCoreRespiratoryRateProfileAndALRHccRiskFlag",
   "title" : "Union of US Core Respiratory Rate Profile And ALR HCC Flag Profile",
   "status" : "active",
-  "date" : "2021-09-17T09:29:38-06:00",
+  "date" : "2021-09-17T09:56:10-06:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -566,7 +566,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/84018f59-ab9b-4cee-b2d3-d32f91b3affe-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/ed0034b7-bcd6-4da8-8130-74a3981154df-5"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1771,7 +1771,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/84018f59-ab9b-4cee-b2d3-d32f91b3affe-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/ed0034b7-bcd6-4da8-8130-74a3981154df-5"
       },
       "mapping" : [{
         "identity" : "w5",
