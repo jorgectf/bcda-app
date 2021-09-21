@@ -74,7 +74,7 @@ create table suppressions (
     samhsa_source_code varchar(5),
     samhsa_effective_date timestamp with time zone,
     samhsa_preference_indicator char(1),
-    aco_cms_id char(5),
+    aco_cms_id character varying(8),
     beneficiary_link_key integer,
     created_at timestamp with time zone not null default now(),
     updated_at timestamp with time zone not null default now(),

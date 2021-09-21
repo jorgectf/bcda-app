@@ -85,8 +85,8 @@ load-fixtures:
 
 	docker-compose up -d db queue
 	echo "Wait for databases to be ready..."
-	docker run --rm --network bcda-app-net willwill/wait-for-it db:5432 -t 75
-	docker run --rm --network bcda-app-net willwill/wait-for-it queue:5432 -t 75
+	docker run --rm --network bcda-app-net willwill/wait-for-it db:5432 -t 100
+	docker run --rm --network bcda-app-net willwill/wait-for-it queue:5432 -t 100
 
 	# Initialize schemas
 	docker run --rm -v ${PWD}/db/migrations:/migrations --network bcda-app-net migrate/migrate -path=/migrations/bcda/ -database 'postgres://postgres:toor@db:5432/bcda?sslmode=disable&x-migrations-table=schema_migrations_bcda' up
@@ -97,14 +97,16 @@ load-fixtures:
 	$(MAKE) load-synthetic-suppression-data
 	$(MAKE) load-fixtures-ssas
 	
-	# Add ALR data for ACO under test. Must have attribution already set.
-	$(eval ACO_CMS_ID = A9994)
-	docker-compose run api sh -c 'bcda generate-synthetic-alr-data --cms-id=$(ACO_CMS_ID) --alr-template-file ./alr/gen/testdata/PY21ALRTemplatePrelimProspTable1.csv'
+	# Add ALR data for ACOs under test. Must have attribution already set.
+	$(eval ACO_CMS_IDS := A9994 A9996) 
+	for acoId in $(ACO_CMS_IDS) ; do \
+		docker-compose run api sh -c 'bcda generate-synthetic-alr-data --cms-id='$$acoId' --alr-template-file ./alr/gen/testdata/PY21ALRTemplatePrelimProspTable1.csv' ; \
+	done
 
 	# Ensure components are started as expected
 	docker-compose up -d api worker ssas
-	docker run --rm --network bcda-app-net willwill/wait-for-it api:3000 -t 75
-	docker run --rm --network bcda-app-net willwill/wait-for-it ssas:3003 -t 75
+	docker run --rm --network bcda-app-net willwill/wait-for-it api:3000 -t 100
+	docker run --rm --network bcda-app-net willwill/wait-for-it ssas:3003 -t 100
 
 	# Additional fixtures for postman+ssas
 	docker-compose run db psql -v ON_ERROR_STOP=1 "postgres://postgres:toor@db:5432/bcda?sslmode=disable" -f /var/db/postman_fixtures.sql
