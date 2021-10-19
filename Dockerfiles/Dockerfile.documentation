@@ -1,4 +1,4 @@
-FROM golang:1.17.1-alpine3.14
+FROM golang:1.17-alpine3.14
 
 ARG swaggerVersion=3.38.0
 # Ensure swaggerVersion is available in the CMD
