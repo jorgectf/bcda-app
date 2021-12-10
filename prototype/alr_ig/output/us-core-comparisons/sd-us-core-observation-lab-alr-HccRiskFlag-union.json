@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "fc0e3661-ebd6-404f-a135-b104d216b12a-35",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/fc0e3661-ebd6-404f-a135-b104d216b12a-35",
+  "id" : "5f682b09-9b53-42b6-b462-95fa7db3df52-44",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/5f682b09-9b53-42b6-b462-95fa7db3df52-44",
   "name" : "UnionUSCoreLaboratoryResultObservationProfileAndALRHccRiskFlag",
   "title" : "Union of US Core Laboratory Result Observation Profile And ALR HCC Flag Profile",
   "status" : "active",
-  "date" : "2021-09-17T10:10:32-06:00",
+  "date" : "2021-12-10T11:55:54-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -778,7 +778,7 @@
         "key" : "us-core-1",
         "severity" : "error",
         "human" : "Datetime must be at least to day.",
-        "expression" : "Observation.effectiveDateTime.exists() implies Observation.effectiveDateTime.toString().length() >= 8",
+        "expression" : "$this is DateTime implies $this.toString().length() >= 10",
         "xpath" : "f:matches(effectiveDateTime,/\\d{4}-[01]\\d-[0-3]\\dT[0-2]\\d:[0-5]\\d([+-][0-2]\\d:[0-5]\\d|Z)/)"
       }],
       "mustSupport" : true,

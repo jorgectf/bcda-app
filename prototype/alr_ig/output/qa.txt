@@ -2,43 +2,42 @@
 =========================================
 
 err = 37, warn = 15, info = 17
-IG Publisher Version: 1.1.76 Out of date - current version is 1.1.80
-Generated Fri Sep 17 10:11:20 MDT 2021. FHIR version 4.0.1 for hl7.fhir.us.cms-alr#0.0.1 (canonical = http://alr.cms.gov/ig)
-
+IG Publisher Version: 1.1.90
+Generated Fri Dec 10 11:56:51 MST 2021. FHIR version 4.0.1 for hl7.fhir.us.cms-alr#0.0.1 (canonical = http://alr.cms.gov/ig)
  Build Errors : 219 / 9 / 0
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\ImplementationGuide-hl7.fhir.us.cms-alr : 0 / 2 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\coverage-example-id-coverage : 1 / 0 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\episodeofcare-example-id-episode : 1 / 0 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\group-example-id-group : 8 / 0 / 5
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\observation-example-id-hcc-risk-flags : 0 / 0 / 6
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\patient-example-id-patient : 2 / 0 / 5
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\riskassessment-example-id-monthly-risk-score : 0 / 0 / 2
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\riskassessment-example-id-risk-score-aged-dual : 0 / 0 / 2
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\riskassessment-example-id-risk-score-disabled : 0 / 0 / 2
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\riskassessment-example-id-risk-score-esrd : 0 / 0 / 2
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-alr-Coverage : 1 / 0 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-alr-Group : 1 / 0 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-alr-HccRiskFlag : 1 / 1 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-alr-Patient : 1 / 0 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-alr-RiskAssessment : 1 / 0 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-alr-covidEpisode : 1 / 0 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-changeReason : 1 / 0 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-claimsBasedAssignmentFlag : 1 / 0 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-claimsBasedAssignmentStep : 1 / 0 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-covidEpisode : 1 / 0 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-covidFlag : 1 / 0 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-enrollmentFlag : 1 / 0 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-newlyAssignedBeneficiaryFlag : 1 / 0 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-partDMonths : 1 / 0 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-prevAssignedBeneficiaryFlag : 1 / 0 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-serviceCount : 1 / 1 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-serviceCount2 : 1 / 1 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-serviceCountCCN : 1 / 0 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-serviceCountTIN : 1 / 0 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-serviceCountTIN-NPI : 1 / 0 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-vaSelectionOnlyFlag : 1 / 1 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-voluntaryAlignmentFlag : 1 / 0 / 1
- C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-voluntaryAlignmentProvider : 1 / 0 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\ImplementationGuide-hl7.fhir.us.cms-alr : 0 / 2 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\coverage-example-id-coverage : 1 / 0 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\episodeofcare-example-id-episode : 1 / 0 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\group-example-id-group : 8 / 0 / 5
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\observation-example-id-hcc-risk-flags : 0 / 0 / 6
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\patient-example-id-patient : 2 / 0 / 5
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\riskassessment-example-id-monthly-risk-score : 0 / 0 / 2
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\riskassessment-example-id-risk-score-aged-dual : 0 / 0 / 2
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\riskassessment-example-id-risk-score-disabled : 0 / 0 / 2
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\riskassessment-example-id-risk-score-esrd : 0 / 0 / 2
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-alr-Coverage : 1 / 0 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-alr-Group : 1 / 0 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-alr-HccRiskFlag : 1 / 1 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-alr-Patient : 1 / 0 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-alr-RiskAssessment : 1 / 0 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-alr-covidEpisode : 1 / 0 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-changeReason : 1 / 0 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-claimsBasedAssignmentFlag : 1 / 0 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-claimsBasedAssignmentStep : 1 / 0 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-covidEpisode : 1 / 0 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-covidFlag : 1 / 0 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-enrollmentFlag : 1 / 0 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-newlyAssignedBeneficiaryFlag : 1 / 0 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-partDMonths : 1 / 0 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-prevAssignedBeneficiaryFlag : 1 / 0 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-serviceCount : 1 / 1 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-serviceCount2 : 1 / 1 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-serviceCountCCN : 1 / 0 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-serviceCountTIN : 1 / 0 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-serviceCountTIN-NPI : 1 / 0 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-vaSelectionOnlyFlag : 1 / 1 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-voluntaryAlignmentFlag : 1 / 0 / 1
+ C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\fsh-generated\resources\structuredefinition-ext-voluntaryAlignmentProvider : 1 / 0 / 1
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Coverage/example-id-coverage.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -51,232 +50,232 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource RiskAssessment/example-id-risk-score-disabled.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource RiskAssessment/example-id-risk-score-esrd.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: There is no jira specification file defined with the expected name of FHIR-us-cms-alr in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication.
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Coverage-example-id-coverage.change.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Coverage-example-id-coverage.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Coverage-example-id-coverage.json.html#/html/body/div/div/div/p/a at Line 281, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Coverage-example-id-coverage.ttl.html#/html/body/div/div/div/p/a at Line 285, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Coverage-example-id-coverage.xml.html#/html/body/div/div/div/p/a at Line 259, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\EpisodeOfCare-example-id-episode.change.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\EpisodeOfCare-example-id-episode.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\EpisodeOfCare-example-id-episode.json.html#/html/body/div/div/div/p/a at Line 324, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\EpisodeOfCare-example-id-episode.ttl.html#/html/body/div/div/div/p/a at Line 317, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\EpisodeOfCare-example-id-episode.xml.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Group-example-id-group.change.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Group-example-id-group.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Group-example-id-group.json.html#/html/body/div/div/div/p/a at Line 488, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Group-example-id-group.ttl.html#/html/body/div/div/div/p/a at Line 430, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Group-example-id-group.xml.html#/html/body/div/div/div/p/a at Line 466, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Observation-example-id-hcc-risk-flags.change.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Observation-example-id-hcc-risk-flags.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Observation-example-id-hcc-risk-flags.json.html#/html/body/div/div/div/p/a at Line 293, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Observation-example-id-hcc-risk-flags.ttl.html#/html/body/div/div/div/p/a at Line 292, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Observation-example-id-hcc-risk-flags.xml.html#/html/body/div/div/div/p/a at Line 284, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Patient-example-id-patient.change.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Patient-example-id-patient.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Patient-example-id-patient.json.html#/html/body/div/div/div/p/a at Line 371, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Patient-example-id-patient.ttl.html#/html/body/div/div/div/p/a at Line 350, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\Patient-example-id-patient.xml.html#/html/body/div/div/div/p/a at Line 328, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-monthly-risk-score.change.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-monthly-risk-score.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-monthly-risk-score.json.html#/html/body/div/div/div/p/a at Line 326, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-monthly-risk-score.ttl.html#/html/body/div/div/div/p/a at Line 325, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-monthly-risk-score.xml.html#/html/body/div/div/div/p/a at Line 320, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-aged-dual.change.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-aged-dual.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-aged-dual.json.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-aged-dual.ttl.html#/html/body/div/div/div/p/a at Line 259, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-aged-dual.xml.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-disabled.change.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-disabled.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-disabled.json.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-disabled.ttl.html#/html/body/div/div/div/p/a at Line 259, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-disabled.xml.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-esrd.change.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-esrd.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-esrd.json.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-esrd.ttl.html#/html/body/div/div/div/p/a at Line 259, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-esrd.xml.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage-definitions.html#/html/body/div/div/div/p/a at Line 1150, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage-examples.html#/html/body/div/div/div/p/a at Line 275, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage-mappings.html#/html/body/div/div/div/p/a at Line 408, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage.html#/html/body/div/div/div/p/a at Line 935, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage.profile.history.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage.profile.json.html#/html/body/div/div/div/p/a at Line 4392, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage.profile.ttl.html#/html/body/div/div/div/p/a at Line 3819, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage.profile.xml.html#/html/body/div/div/div/p/a at Line 3936, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Group-definitions.html#/html/body/div/div/div/p/a at Line 1243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Group-examples.html#/html/body/div/div/div/p/a at Line 275, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Group-mappings.html#/html/body/div/div/div/p/a at Line 356, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Group.html#/html/body/div/div/div/p/a at Line 1146, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Group.profile.history.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Group.profile.json.html#/html/body/div/div/div/p/a at Line 5050, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Group.profile.ttl.html#/html/body/div/div/div/p/a at Line 4373, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Group.profile.xml.html#/html/body/div/div/div/p/a at Line 4479, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-HccRiskFlag-definitions.html#/html/body/div/div/div/p/a at Line 810, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-HccRiskFlag-examples.html#/html/body/div/div/div/p/a at Line 275, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-HccRiskFlag-mappings.html#/html/body/div/div/div/p/a at Line 427, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-HccRiskFlag.html#/html/body/div/div/div/p/a at Line 877, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-HccRiskFlag.profile.history.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-HccRiskFlag.profile.json.html#/html/body/div/div/div/p/a at Line 2999, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-HccRiskFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 2679, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-HccRiskFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 2756, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Patient-definitions.html#/html/body/div/div/div/p/a at Line 2506, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Patient-examples.html#/html/body/div/div/div/p/a at Line 275, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Patient-mappings.html#/html/body/div/div/div/p/a at Line 759, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Patient.html#/html/body/div/div/div/p/a at Line 1808, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Patient.profile.history.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Patient.profile.json.html#/html/body/div/div/div/p/a at Line 11934, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Patient.profile.ttl.html#/html/body/div/div/div/p/a at Line 9974, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Patient.profile.xml.html#/html/body/div/div/div/p/a at Line 10603, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-RiskAssessment-definitions.html#/html/body/div/div/div/p/a at Line 568, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-RiskAssessment-examples.html#/html/body/div/div/div/p/a at Line 293, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-RiskAssessment-mappings.html#/html/body/div/div/div/p/a at Line 330, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-RiskAssessment.html#/html/body/div/div/div/p/a at Line 685, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-RiskAssessment.profile.history.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-RiskAssessment.profile.json.html#/html/body/div/div/div/p/a at Line 2110, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-RiskAssessment.profile.ttl.html#/html/body/div/div/div/p/a at Line 1865, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-RiskAssessment.profile.xml.html#/html/body/div/div/div/p/a at Line 1906, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode-definitions.html#/html/body/div/div/div/p/a at Line 563, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode-examples.html#/html/body/div/div/div/p/a at Line 275, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode-mappings.html#/html/body/div/div/div/p/a at Line 294, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode.html#/html/body/div/div/div/p/a at Line 671, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode.profile.history.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode.profile.json.html#/html/body/div/div/div/p/a at Line 1849, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode.profile.ttl.html#/html/body/div/div/div/p/a at Line 1678, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode.profile.xml.html#/html/body/div/div/div/p/a at Line 1651, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-changeReason-definitions.html#/html/body/div/div/div/p/a at Line 330, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-changeReason-mappings.html#/html/body/div/div/div/p/a at Line 264, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-changeReason.html#/html/body/div/div/div/p/a at Line 513, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-changeReason.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-changeReason.profile.json.html#/html/body/div/div/div/p/a at Line 888, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-changeReason.profile.ttl.html#/html/body/div/div/div/p/a at Line 782, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-changeReason.profile.xml.html#/html/body/div/div/div/p/a at Line 816, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentFlag-definitions.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentFlag-mappings.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentFlag.html#/html/body/div/div/div/p/a at Line 485, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentFlag.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentFlag.profile.json.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 496, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentStep-definitions.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentStep-mappings.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentStep.html#/html/body/div/div/div/p/a at Line 485, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentStep.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentStep.profile.json.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentStep.profile.ttl.html#/html/body/div/div/div/p/a at Line 496, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentStep.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidEpisode-definitions.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidEpisode-mappings.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidEpisode.html#/html/body/div/div/div/p/a at Line 485, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidEpisode.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidEpisode.profile.json.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidEpisode.profile.ttl.html#/html/body/div/div/div/p/a at Line 496, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidEpisode.profile.xml.html#/html/body/div/div/div/p/a at Line 479, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidFlag-definitions.html#/html/body/div/div/div/p/a at Line 367, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidFlag-mappings.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidFlag.html#/html/body/div/div/div/p/a at Line 542, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidFlag.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidFlag.profile.json.html#/html/body/div/div/div/p/a at Line 1109, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 966, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 1002, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-enrollmentFlag-definitions.html#/html/body/div/div/div/p/a at Line 367, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-enrollmentFlag-mappings.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-enrollmentFlag.html#/html/body/div/div/div/p/a at Line 542, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-enrollmentFlag.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-enrollmentFlag.profile.json.html#/html/body/div/div/div/p/a at Line 1109, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-enrollmentFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 966, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-enrollmentFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 1004, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-newlyAssignedBeneficiaryFlag-definitions.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-newlyAssignedBeneficiaryFlag-mappings.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-newlyAssignedBeneficiaryFlag.html#/html/body/div/div/div/p/a at Line 485, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-newlyAssignedBeneficiaryFlag.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-newlyAssignedBeneficiaryFlag.profile.json.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-newlyAssignedBeneficiaryFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 496, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-newlyAssignedBeneficiaryFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-partDMonths-definitions.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-partDMonths-mappings.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-partDMonths.html#/html/body/div/div/div/p/a at Line 485, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-partDMonths.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-partDMonths.profile.json.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-partDMonths.profile.ttl.html#/html/body/div/div/div/p/a at Line 496, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-partDMonths.profile.xml.html#/html/body/div/div/div/p/a at Line 479, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-prevAssignedBeneficiaryFlag-definitions.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-prevAssignedBeneficiaryFlag-mappings.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-prevAssignedBeneficiaryFlag.html#/html/body/div/div/div/p/a at Line 485, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-prevAssignedBeneficiaryFlag.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-prevAssignedBeneficiaryFlag.profile.json.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-prevAssignedBeneficiaryFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 496, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-prevAssignedBeneficiaryFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount-definitions.html#/html/body/div/div/div/p/a at Line 404, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount-mappings.html#/html/body/div/div/div/p/a at Line 272, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount.html#/html/body/div/div/div/p/a at Line 571, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount.profile.json.html#/html/body/div/div/div/p/a at Line 1330, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount.profile.ttl.html#/html/body/div/div/div/p/a at Line 1150, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount.profile.xml.html#/html/body/div/div/div/p/a at Line 1192, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount2-definitions.html#/html/body/div/div/div/p/a at Line 367, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount2-mappings.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount2.html#/html/body/div/div/div/p/a at Line 542, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount2.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount2.profile.json.html#/html/body/div/div/div/p/a at Line 1109, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount2.profile.ttl.html#/html/body/div/div/div/p/a at Line 966, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount2.profile.xml.html#/html/body/div/div/div/p/a at Line 1004, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountCCN-definitions.html#/html/body/div/div/div/p/a at Line 367, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountCCN-mappings.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountCCN.html#/html/body/div/div/div/p/a at Line 542, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountCCN.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountCCN.profile.json.html#/html/body/div/div/div/p/a at Line 1109, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountCCN.profile.ttl.html#/html/body/div/div/div/p/a at Line 966, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountCCN.profile.xml.html#/html/body/div/div/div/p/a at Line 1007, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN-NPI-definitions.html#/html/body/div/div/div/p/a at Line 367, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN-NPI-mappings.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN-NPI.html#/html/body/div/div/div/p/a at Line 542, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN-NPI.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN-NPI.profile.json.html#/html/body/div/div/div/p/a at Line 1109, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN-NPI.profile.ttl.html#/html/body/div/div/div/p/a at Line 966, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN-NPI.profile.xml.html#/html/body/div/div/div/p/a at Line 1007, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN-definitions.html#/html/body/div/div/div/p/a at Line 367, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN-mappings.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN.html#/html/body/div/div/div/p/a at Line 542, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN.profile.json.html#/html/body/div/div/div/p/a at Line 1109, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN.profile.ttl.html#/html/body/div/div/div/p/a at Line 966, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN.profile.xml.html#/html/body/div/div/div/p/a at Line 1007, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-vaSelectionOnlyFlag-definitions.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-vaSelectionOnlyFlag-mappings.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-vaSelectionOnlyFlag.html#/html/body/div/div/div/p/a at Line 485, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-vaSelectionOnlyFlag.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-vaSelectionOnlyFlag.profile.json.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-vaSelectionOnlyFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 496, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-vaSelectionOnlyFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 479, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentFlag-definitions.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentFlag-mappings.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentFlag.html#/html/body/div/div/div/p/a at Line 485, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentFlag.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentFlag.profile.json.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 496, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentProvider-definitions.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentProvider-mappings.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentProvider.html#/html/body/div/div/div/p/a at Line 485, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentProvider.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentProvider.profile.json.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentProvider.profile.ttl.html#/html/body/div/div/div/p/a at Line 496, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentProvider.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\artifacts.html#/html/body/div/div/div/p/a at Line 476, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\index.html#/html/body/div/div/div/p/a at Line 189, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\overview.html#/html/body/div/div/div/p/a at Line 371, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\overview_old.html#/html/body/div/div/div/div/div/div/p/img at Line 142, column 4: The image source 'anImage.png' cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\overview_old.html#/html/body/div/div/div/p/a at Line 167, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\output\toc.html#/html/body/div/div/div/p/a at Line 158, column 28: The link '' for "" cannot be resolved
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\ImplementationGuide-hl7.fhir.us.cms-alr.json ==
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\Coverage-example-id-coverage.change.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\Coverage-example-id-coverage.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\Coverage-example-id-coverage.json.html#/html/body/div/div/div/p/a at Line 281, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\Coverage-example-id-coverage.ttl.html#/html/body/div/div/div/p/a at Line 285, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\Coverage-example-id-coverage.xml.html#/html/body/div/div/div/p/a at Line 259, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\EpisodeOfCare-example-id-episode.change.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\EpisodeOfCare-example-id-episode.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\EpisodeOfCare-example-id-episode.json.html#/html/body/div/div/div/p/a at Line 324, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\EpisodeOfCare-example-id-episode.ttl.html#/html/body/div/div/div/p/a at Line 317, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\EpisodeOfCare-example-id-episode.xml.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\Group-example-id-group.change.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\Group-example-id-group.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\Group-example-id-group.json.html#/html/body/div/div/div/p/a at Line 488, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\Group-example-id-group.ttl.html#/html/body/div/div/div/p/a at Line 430, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\Group-example-id-group.xml.html#/html/body/div/div/div/p/a at Line 466, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\Observation-example-id-hcc-risk-flags.change.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\Observation-example-id-hcc-risk-flags.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\Observation-example-id-hcc-risk-flags.json.html#/html/body/div/div/div/p/a at Line 293, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\Observation-example-id-hcc-risk-flags.ttl.html#/html/body/div/div/div/p/a at Line 292, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\Observation-example-id-hcc-risk-flags.xml.html#/html/body/div/div/div/p/a at Line 284, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\Patient-example-id-patient.change.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\Patient-example-id-patient.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\Patient-example-id-patient.json.html#/html/body/div/div/div/p/a at Line 371, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\Patient-example-id-patient.ttl.html#/html/body/div/div/div/p/a at Line 350, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\Patient-example-id-patient.xml.html#/html/body/div/div/div/p/a at Line 328, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-monthly-risk-score.change.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-monthly-risk-score.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-monthly-risk-score.json.html#/html/body/div/div/div/p/a at Line 326, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-monthly-risk-score.ttl.html#/html/body/div/div/div/p/a at Line 325, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-monthly-risk-score.xml.html#/html/body/div/div/div/p/a at Line 320, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-aged-dual.change.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-aged-dual.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-aged-dual.json.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-aged-dual.ttl.html#/html/body/div/div/div/p/a at Line 259, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-aged-dual.xml.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-disabled.change.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-disabled.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-disabled.json.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-disabled.ttl.html#/html/body/div/div/div/p/a at Line 259, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-disabled.xml.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-esrd.change.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-esrd.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-esrd.json.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-esrd.ttl.html#/html/body/div/div/div/p/a at Line 259, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\RiskAssessment-example-id-risk-score-esrd.xml.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage-definitions.html#/html/body/div/div/div/p/a at Line 1150, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage-examples.html#/html/body/div/div/div/p/a at Line 275, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage-mappings.html#/html/body/div/div/div/p/a at Line 408, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage.html#/html/body/div/div/div/p/a at Line 935, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage.profile.history.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage.profile.json.html#/html/body/div/div/div/p/a at Line 4392, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage.profile.ttl.html#/html/body/div/div/div/p/a at Line 3819, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Coverage.profile.xml.html#/html/body/div/div/div/p/a at Line 3936, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Group-definitions.html#/html/body/div/div/div/p/a at Line 1243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Group-examples.html#/html/body/div/div/div/p/a at Line 275, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Group-mappings.html#/html/body/div/div/div/p/a at Line 356, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Group.html#/html/body/div/div/div/p/a at Line 1146, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Group.profile.history.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Group.profile.json.html#/html/body/div/div/div/p/a at Line 5050, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Group.profile.ttl.html#/html/body/div/div/div/p/a at Line 4373, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Group.profile.xml.html#/html/body/div/div/div/p/a at Line 4479, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-HccRiskFlag-definitions.html#/html/body/div/div/div/p/a at Line 810, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-HccRiskFlag-examples.html#/html/body/div/div/div/p/a at Line 275, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-HccRiskFlag-mappings.html#/html/body/div/div/div/p/a at Line 427, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-HccRiskFlag.html#/html/body/div/div/div/p/a at Line 877, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-HccRiskFlag.profile.history.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-HccRiskFlag.profile.json.html#/html/body/div/div/div/p/a at Line 2999, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-HccRiskFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 2679, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-HccRiskFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 2756, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Patient-definitions.html#/html/body/div/div/div/p/a at Line 2506, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Patient-examples.html#/html/body/div/div/div/p/a at Line 275, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Patient-mappings.html#/html/body/div/div/div/p/a at Line 759, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Patient.html#/html/body/div/div/div/p/a at Line 1808, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Patient.profile.history.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Patient.profile.json.html#/html/body/div/div/div/p/a at Line 11934, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Patient.profile.ttl.html#/html/body/div/div/div/p/a at Line 9974, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-Patient.profile.xml.html#/html/body/div/div/div/p/a at Line 10603, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-RiskAssessment-definitions.html#/html/body/div/div/div/p/a at Line 568, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-RiskAssessment-examples.html#/html/body/div/div/div/p/a at Line 293, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-RiskAssessment-mappings.html#/html/body/div/div/div/p/a at Line 330, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-RiskAssessment.html#/html/body/div/div/div/p/a at Line 685, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-RiskAssessment.profile.history.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-RiskAssessment.profile.json.html#/html/body/div/div/div/p/a at Line 2110, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-RiskAssessment.profile.ttl.html#/html/body/div/div/div/p/a at Line 1865, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-RiskAssessment.profile.xml.html#/html/body/div/div/div/p/a at Line 1906, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode-definitions.html#/html/body/div/div/div/p/a at Line 563, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode-examples.html#/html/body/div/div/div/p/a at Line 275, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode-mappings.html#/html/body/div/div/div/p/a at Line 294, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode.html#/html/body/div/div/div/p/a at Line 671, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode.profile.history.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode.profile.json.html#/html/body/div/div/div/p/a at Line 1849, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode.profile.ttl.html#/html/body/div/div/div/p/a at Line 1678, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-alr-covidEpisode.profile.xml.html#/html/body/div/div/div/p/a at Line 1651, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-changeReason-definitions.html#/html/body/div/div/div/p/a at Line 330, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-changeReason-mappings.html#/html/body/div/div/div/p/a at Line 264, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-changeReason.html#/html/body/div/div/div/p/a at Line 514, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-changeReason.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-changeReason.profile.json.html#/html/body/div/div/div/p/a at Line 888, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-changeReason.profile.ttl.html#/html/body/div/div/div/p/a at Line 782, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-changeReason.profile.xml.html#/html/body/div/div/div/p/a at Line 816, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentFlag-definitions.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentFlag-mappings.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentFlag.html#/html/body/div/div/div/p/a at Line 486, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentFlag.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentFlag.profile.json.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 496, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentStep-definitions.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentStep-mappings.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentStep.html#/html/body/div/div/div/p/a at Line 486, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentStep.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentStep.profile.json.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentStep.profile.ttl.html#/html/body/div/div/div/p/a at Line 496, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-claimsBasedAssignmentStep.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidEpisode-definitions.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidEpisode-mappings.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidEpisode.html#/html/body/div/div/div/p/a at Line 486, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidEpisode.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidEpisode.profile.json.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidEpisode.profile.ttl.html#/html/body/div/div/div/p/a at Line 496, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidEpisode.profile.xml.html#/html/body/div/div/div/p/a at Line 479, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidFlag-definitions.html#/html/body/div/div/div/p/a at Line 367, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidFlag-mappings.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidFlag.html#/html/body/div/div/div/p/a at Line 543, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidFlag.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidFlag.profile.json.html#/html/body/div/div/div/p/a at Line 1109, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 966, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-covidFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 1002, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-enrollmentFlag-definitions.html#/html/body/div/div/div/p/a at Line 367, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-enrollmentFlag-mappings.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-enrollmentFlag.html#/html/body/div/div/div/p/a at Line 543, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-enrollmentFlag.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-enrollmentFlag.profile.json.html#/html/body/div/div/div/p/a at Line 1109, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-enrollmentFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 966, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-enrollmentFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 1004, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-newlyAssignedBeneficiaryFlag-definitions.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-newlyAssignedBeneficiaryFlag-mappings.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-newlyAssignedBeneficiaryFlag.html#/html/body/div/div/div/p/a at Line 486, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-newlyAssignedBeneficiaryFlag.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-newlyAssignedBeneficiaryFlag.profile.json.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-newlyAssignedBeneficiaryFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 496, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-newlyAssignedBeneficiaryFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-partDMonths-definitions.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-partDMonths-mappings.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-partDMonths.html#/html/body/div/div/div/p/a at Line 486, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-partDMonths.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-partDMonths.profile.json.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-partDMonths.profile.ttl.html#/html/body/div/div/div/p/a at Line 496, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-partDMonths.profile.xml.html#/html/body/div/div/div/p/a at Line 479, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-prevAssignedBeneficiaryFlag-definitions.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-prevAssignedBeneficiaryFlag-mappings.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-prevAssignedBeneficiaryFlag.html#/html/body/div/div/div/p/a at Line 486, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-prevAssignedBeneficiaryFlag.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-prevAssignedBeneficiaryFlag.profile.json.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-prevAssignedBeneficiaryFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 496, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-prevAssignedBeneficiaryFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount-definitions.html#/html/body/div/div/div/p/a at Line 404, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount-mappings.html#/html/body/div/div/div/p/a at Line 272, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount.html#/html/body/div/div/div/p/a at Line 571, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount.profile.json.html#/html/body/div/div/div/p/a at Line 1330, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount.profile.ttl.html#/html/body/div/div/div/p/a at Line 1150, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount.profile.xml.html#/html/body/div/div/div/p/a at Line 1192, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount2-definitions.html#/html/body/div/div/div/p/a at Line 367, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount2-mappings.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount2.html#/html/body/div/div/div/p/a at Line 542, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount2.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount2.profile.json.html#/html/body/div/div/div/p/a at Line 1109, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount2.profile.ttl.html#/html/body/div/div/div/p/a at Line 966, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCount2.profile.xml.html#/html/body/div/div/div/p/a at Line 1004, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountCCN-definitions.html#/html/body/div/div/div/p/a at Line 367, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountCCN-mappings.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountCCN.html#/html/body/div/div/div/p/a at Line 543, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountCCN.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountCCN.profile.json.html#/html/body/div/div/div/p/a at Line 1109, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountCCN.profile.ttl.html#/html/body/div/div/div/p/a at Line 966, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountCCN.profile.xml.html#/html/body/div/div/div/p/a at Line 1007, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN-NPI-definitions.html#/html/body/div/div/div/p/a at Line 367, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN-NPI-mappings.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN-NPI.html#/html/body/div/div/div/p/a at Line 543, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN-NPI.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN-NPI.profile.json.html#/html/body/div/div/div/p/a at Line 1109, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN-NPI.profile.ttl.html#/html/body/div/div/div/p/a at Line 966, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN-NPI.profile.xml.html#/html/body/div/div/div/p/a at Line 1007, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN-definitions.html#/html/body/div/div/div/p/a at Line 367, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN-mappings.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN.html#/html/body/div/div/div/p/a at Line 543, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN.profile.json.html#/html/body/div/div/div/p/a at Line 1109, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN.profile.ttl.html#/html/body/div/div/div/p/a at Line 966, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-serviceCountTIN.profile.xml.html#/html/body/div/div/div/p/a at Line 1007, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-vaSelectionOnlyFlag-definitions.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-vaSelectionOnlyFlag-mappings.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-vaSelectionOnlyFlag.html#/html/body/div/div/div/p/a at Line 485, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-vaSelectionOnlyFlag.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-vaSelectionOnlyFlag.profile.json.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-vaSelectionOnlyFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 496, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-vaSelectionOnlyFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 479, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentFlag-definitions.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentFlag-mappings.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentFlag.html#/html/body/div/div/div/p/a at Line 486, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentFlag.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentFlag.profile.json.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentFlag.profile.ttl.html#/html/body/div/div/div/p/a at Line 496, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentFlag.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentProvider-definitions.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentProvider-mappings.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentProvider.html#/html/body/div/div/div/p/a at Line 486, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentProvider.profile.history.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentProvider.profile.json.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentProvider.profile.ttl.html#/html/body/div/div/div/p/a at Line 496, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\StructureDefinition-ext-voluntaryAlignmentProvider.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\artifacts.html#/html/body/div/div/div/p/a at Line 476, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\index.html#/html/body/div/div/div/p/a at Line 189, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\overview.html#/html/body/div/div/div/p/a at Line 371, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\overview_old.html#/html/body/div/div/div/div/div/div/p/img at Line 142, column 4: The image source 'anImage.png' cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\overview_old.html#/html/body/div/div/div/p/a at Line 167, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\WilliamHarty\dev\projects\bcda-app\prototype\alr_ig\output\toc.html#/html/body/div/div/div/p/a at Line 158, column 28: The link '' for "" cannot be resolved
+== fsh-generated\resources\ImplementationGuide-hl7.fhir.us.cms-alr.json ==
 WARNING: ImplementationGuide/hl7.fhir.us.cms-alr: ImplementationGuide.definition.resource[18].description: value should not start or finish with whitespace
 WARNING: ImplementationGuide.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\Coverage-example-id-coverage.json ==
+== fsh-generated\resources\Coverage-example-id-coverage.json ==
 ERROR: Coverage/example-id-coverage: Coverage.payor[0]: Unable to resolve resource 'Organization/123'
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\EpisodeOfCare-example-id-episode.json ==
+== fsh-generated\resources\EpisodeOfCare-example-id-episode.json ==
 ERROR: EpisodeOfCare/example-id-episode: EpisodeOfCare.patient: Unable to resolve resource 'patient/example-id-patient'
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\Group-example-id-group.json ==
+== fsh-generated\resources\Group-example-id-group.json ==
 ERROR: Group/example-id-group: Group.managingEntity: Unable to resolve resource 'Organization/123'
 ERROR: Group/example-id-group: Group.member[0].extension[2].value.ofType(Identifier).type.coding[0]: Unknown Code System 'http://hl7.org/fhir/sid/us-npi'
 INFORMATION: Group/example-id-group: Group.member[0].extension[8].extension[0].value.ofType(Coding): Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/changeReason' is unknown so the code cannot be validated
@@ -289,74 +288,74 @@ ERROR: Group/example-id-group: Group.member[2].entity: Unable to resolve resourc
 ERROR: Group/example-id-group: Group.member[3].extension[2].value.ofType(Reference): Unable to resolve resource 'Practitioner/example-id-prac'
 INFORMATION: Group/example-id-group: Group.member[3].extension[3].extension[0].value.ofType(Coding): Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/changeReason' is unknown so the code cannot be validated
 INFORMATION: Group/example-id-group: Group.member[3].extension[3].extension[1].value.ofType(Coding): Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/changeReason' is unknown so the code cannot be validated
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\Observation-example-id-hcc-risk-flags.json ==
+== fsh-generated\resources\Observation-example-id-hcc-risk-flags.json ==
 INFORMATION: Observation/example-id-hcc-risk-flags: Observation.code.coding[0]: Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags' is unknown so the code cannot be validated
 INFORMATION: Observation/example-id-hcc-risk-flags: Observation.component[0].code.coding[0]: Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags' is unknown so the code cannot be validated
 INFORMATION: Observation/example-id-hcc-risk-flags: Observation.component[1].code.coding[0]: Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags' is unknown so the code cannot be validated
 INFORMATION: Observation/example-id-hcc-risk-flags: Observation.component[2].code.coding[0]: Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags' is unknown so the code cannot be validated
 INFORMATION: Observation/example-id-hcc-risk-flags: Observation.component[3].code.coding[0]: Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/hcc-risk-flags' is unknown so the code cannot be validated
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\Patient-example-id-patient.json ==
+== fsh-generated\resources\Patient-example-id-patient.json ==
 INFORMATION: Patient/example-id-patient: Patient.identifier[0]: This element does not match any known slice defined in the profile http://alr.cms.gov/ig/StructureDefinition/alr-Patient
 INFORMATION: Patient/example-id-patient: Patient.identifier[1]: This element does not match any known slice defined in the profile http://alr.cms.gov/ig/StructureDefinition/alr-Patient
 INFORMATION: Patient/example-id-patient: Patient.identifier[2]: This element does not match any known slice defined in the profile http://alr.cms.gov/ig/StructureDefinition/alr-Patient
 INFORMATION: Patient/example-id-patient: Patient.extension[2].extension[0].value.ofType(Identifier).type.coding[0]: Code System URI 'https://bluebutton.cms.gov/resources/variables/prvdr_num' is unknown so the code cannot be validated
 ERROR: Patient/example-id-patient: Patient.extension[3].extension[1].value.ofType(Identifier).type.coding[0]: Unknown Code System 'http://hl7.org/fhir/sid/us-npi'
 ERROR: Patient/example-id-patient: Patient.identifier[2].system: URL value 'http://hl7.org/fhir/sid/us-mbi' does not resolve
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\RiskAssessment-example-id-monthly-risk-score.json ==
+== fsh-generated\resources\RiskAssessment-example-id-monthly-risk-score.json ==
 INFORMATION: RiskAssessment/example-id-monthly-risk-score: RiskAssessment.code.coding[0]: Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/bene_rsk_r_scre' is unknown so the code cannot be validated
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\RiskAssessment-example-id-risk-score-aged-dual.json ==
+== fsh-generated\resources\RiskAssessment-example-id-risk-score-aged-dual.json ==
 INFORMATION: RiskAssessment/example-id-risk-score-aged-dual: RiskAssessment.code.coding[0]: Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/aged-dual-score' is unknown so the code cannot be validated
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\RiskAssessment-example-id-risk-score-disabled.json ==
+== fsh-generated\resources\RiskAssessment-example-id-risk-score-disabled.json ==
 INFORMATION: RiskAssessment/example-id-risk-score-disabled: RiskAssessment.code.coding[0]: Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/disabled-score' is unknown so the code cannot be validated
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\RiskAssessment-example-id-risk-score-esrd.json ==
+== fsh-generated\resources\RiskAssessment-example-id-risk-score-esrd.json ==
 INFORMATION: RiskAssessment/example-id-risk-score-esrd: RiskAssessment.code.coding[0]: Code System URI 'https://bluebutton.cms.gov/resources/variables/alr/esrd-score' is unknown so the code cannot be validated
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-alr-Coverage.json ==
+== fsh-generated\resources\StructureDefinition-alr-Coverage.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-alr-Group.json ==
+== fsh-generated\resources\StructureDefinition-alr-Group.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-alr-HccRiskFlag.json ==
+== fsh-generated\resources\StructureDefinition-alr-HccRiskFlag.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
 WARNING: StructureDefinition.where(url = 'http://alr.cms.gov/ig/StructureDefinition/alr-HccRiskFlag').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-alr-Patient.json ==
+== fsh-generated\resources\StructureDefinition-alr-Patient.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-alr-RiskAssessment.json ==
+== fsh-generated\resources\StructureDefinition-alr-RiskAssessment.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-alr-covidEpisode.json ==
+== fsh-generated\resources\StructureDefinition-alr-covidEpisode.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-changeReason.json ==
+== fsh-generated\resources\StructureDefinition-ext-changeReason.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-claimsBasedAssignmentFlag.json ==
+== fsh-generated\resources\StructureDefinition-ext-claimsBasedAssignmentFlag.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-claimsBasedAssignmentStep.json ==
+== fsh-generated\resources\StructureDefinition-ext-claimsBasedAssignmentStep.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-covidEpisode.json ==
+== fsh-generated\resources\StructureDefinition-ext-covidEpisode.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-covidFlag.json ==
+== fsh-generated\resources\StructureDefinition-ext-covidFlag.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-enrollmentFlag.json ==
+== fsh-generated\resources\StructureDefinition-ext-enrollmentFlag.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-newlyAssignedBeneficiaryFlag.json ==
+== fsh-generated\resources\StructureDefinition-ext-newlyAssignedBeneficiaryFlag.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-partDMonths.json ==
+== fsh-generated\resources\StructureDefinition-ext-partDMonths.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-prevAssignedBeneficiaryFlag.json ==
+== fsh-generated\resources\StructureDefinition-ext-prevAssignedBeneficiaryFlag.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-serviceCount.json ==
+== fsh-generated\resources\StructureDefinition-ext-serviceCount.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
 WARNING: StructureDefinition.where(url = 'http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount'): The Implementation Guide contains no examples for this extension
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-serviceCount2.json ==
+== fsh-generated\resources\StructureDefinition-ext-serviceCount2.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
 WARNING: StructureDefinition.where(url = 'http://alr.cms.gov/ig/StructureDefinition/ext-serviceCount2'): The Implementation Guide contains no examples for this extension
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-serviceCountCCN.json ==
+== fsh-generated\resources\StructureDefinition-ext-serviceCountCCN.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-serviceCountTIN.json ==
+== fsh-generated\resources\StructureDefinition-ext-serviceCountTIN.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-serviceCountTIN-NPI.json ==
+== fsh-generated\resources\StructureDefinition-ext-serviceCountTIN-NPI.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-vaSelectionOnlyFlag.json ==
+== fsh-generated\resources\StructureDefinition-ext-vaSelectionOnlyFlag.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
 WARNING: StructureDefinition.where(url = 'http://alr.cms.gov/ig/StructureDefinition/ext-vaSelectionOnlyFlag'): The Implementation Guide contains no examples for this extension
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-voluntaryAlignmentFlag.json ==
+== fsh-generated\resources\StructureDefinition-ext-voluntaryAlignmentFlag.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-== C:\Users\WilliamHarty\GitHub\bcda-app\prototype\alr_ig\fsh-generated\resources\StructureDefinition-ext-voluntaryAlignmentProvider.json ==
+== fsh-generated\resources\StructureDefinition-ext-voluntaryAlignmentProvider.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.cms-alr, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')

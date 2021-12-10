@@ -11,7 +11,7 @@
   <name value="AssignmentListIG"/>
   <title value="CMS Assignment List Report FHIR IG"/>
   <status value="draft"/>
-  <date value="2021-09-17T10:10:28-06:00"/>
+  <date value="2021-12-10T11:55:44-07:00"/>
   <description value="Implementation Guide for the FHIR version of the CMS Assignment List Report"/>
   <packageId value="hl7.fhir.us.cms-alr"/>
   <license value="CC0-1.0"/>

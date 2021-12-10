@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "VoluntaryAlignmentFlag"];
   fhir:StructureDefinition.title [ fhir:value "ALR Voluntary Alignment"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-09-17T10:10:28-06:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-12-10T11:55:44-07:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "ALR Voluntary Alignment Desc"];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [

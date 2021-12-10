@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "fc0e3661-ebd6-404f-a135-b104d216b12a-12",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/fc0e3661-ebd6-404f-a135-b104d216b12a-12",
+  "id" : "5f682b09-9b53-42b6-b462-95fa7db3df52-12",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/5f682b09-9b53-42b6-b462-95fa7db3df52-12",
   "name" : "IntersectionUSCorePediatricWeightForHeightObservationProfileAndALRHccRiskFlag",
   "title" : "Intersection of US Core Pediatric Weight for Height Observation Profile And ALR HCC Flag Profile",
   "status" : "active",
-  "date" : "2021-09-17T10:10:31-06:00",
+  "date" : "2021-12-10T11:55:54-07:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",

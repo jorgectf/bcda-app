@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "fc0e3661-ebd6-404f-a135-b104d216b12a-24",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/fc0e3661-ebd6-404f-a135-b104d216b12a-24",
+  "id" : "5f682b09-9b53-42b6-b462-95fa7db3df52-24",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/5f682b09-9b53-42b6-b462-95fa7db3df52-24",
   "name" : "IntersectionUSCoreBodyTemperatureProfileAndALRHccRiskFlag",
   "title" : "Intersection of US Core Body Temperature Profile And ALR HCC Flag Profile",
   "status" : "active",
-  "date" : "2021-09-17T10:10:31-06:00",
+  "date" : "2021-12-10T11:55:54-07:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",

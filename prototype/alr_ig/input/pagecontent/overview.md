@@ -35,7 +35,10 @@ This implementation guide uses terminology, notations and design principles that
 
 
 
-### Data Model
+### Understanding the Data Model
+
+The Group resource serves as the container for assigned beneficiaries and is the focal point of the payload.  The member list element in the Group resource contains a reference to each assigned patient, along with various assignment and exclusion flags that apply to that member.  The Patient resource contains the demographics for each beneficiary, along with a few extensions to handle things such as aggregate service counts.  Turnover beneficiaries (e.g. beneficiaries who were assigned in a previous quarter but are no longer assigned) are not members of the Group, but are included in the Patient extract.  The HCC risk flags and scores are handled using a combination of the Observation resource and the RiskAssessment resource.  HCC Risk Flags for a given patient are delivered in a single Observation resource, with all flags contained in the Observation.component[] list.  Enrollment flags are supplied in the Coverage resource, and COVID episode information is populated in the EpisodeOfCare resource.  
+
 
 ![data model diagram](diagram.png)
 
@@ -194,6 +197,5 @@ This section describes how fields in the current CSV based ALR report are mapped
 
 
 
-The Group resource is the focal point of the payload.  The member list element in the Group resource contains a reference to each assigned patient, along with various assignment flags that apply to that group member.  The Patient resource contains the demographics found in all ALR tables, along with a few extensions to handle things such as service counts (tables 1-2, 1-3 and 1-4) and turnover (table 1-5).  The HCC risk flags and scores are handled using a combination of the Observation resource and the RiskAssessment resource.  HCC Risk Flags for a given patient are delivered in a single Observation resource, with all flags contained in the Observation.component[] list.  This approach was chosen to streamline payload size, given that a single patient typically has approximately 90 risk flags (each with a value of 0, 1 or empty).  In contrast, using a single observation resource per flag would significantly increase payload size and processing overhead.
 
 

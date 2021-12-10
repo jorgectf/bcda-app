@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "AssignmentListIG"];
   fhir:ImplementationGuide.title [ fhir:value "CMS Assignment List Report FHIR IG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-09-17T10:10:28-06:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-12-10T11:55:44-07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.description [ fhir:value "Implementation Guide for the FHIR version of the CMS Assignment List Report"];
   fhir:ImplementationGuide.packageId [ fhir:value "hl7.fhir.us.cms-alr"];
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
