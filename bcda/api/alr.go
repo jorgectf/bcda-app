@@ -117,6 +117,7 @@ func (h *Handler) alrRequest(w http.ResponseWriter, r *http.Request) {
 	// Commit handled in defer
 }
 
+//nolint:all
 func (h *Handler) alrRequestDuplicate01(w http.ResponseWriter, r *http.Request) {
 	ctx := r.Context()
 
@@ -219,6 +220,7 @@ func (h *Handler) alrRequestDuplicate01(w http.ResponseWriter, r *http.Request) 
 	// Commit handled in defer
 }
 
+//nolint:all
 func (h *Handler) alrRequestDuplicate02(w http.ResponseWriter, r *http.Request) {
 	ctx := r.Context()
 
