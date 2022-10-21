@@ -19,7 +19,7 @@ EOF
 }
 
 MANUAL_TAGS=
-while getopts ":chtp" opt; do
+while getopts ":ht" opt; do
     case "$opt" in
         t)
             MANUAL_TAGS=1
@@ -62,8 +62,9 @@ then
 fi
 
 # initialize git configuration if env vars are set
-if [ ! -z "$GITHUB_USER" ] && [ ! -z "$GITHUB_EMAIL" ] && [ ! -z "$GITHUB_GPG_KEY_FILE" ]
+if [ ! -z "$GITHUB_USER" ] && [ ! -z "$GITHUB_EMAIL" ] && [ ! -z "$GITHUB_GPG_KEY_FILE" ] && [ ! -z "$WORKSPACE_REPO_PATH" ]
 then
+  git config --global --add safe.directory "$WORKSPACE_REPO_PATH" # resolves git error 'fatal: detected dubious ownership in repository'
   git config user.name "$GITHUB_USER"
   git config user.email "$GITHUB_EMAIL"
   gpg --import $GITHUB_GPG_KEY_FILE
@@ -92,7 +93,7 @@ fi
 
 TMPFILE=$(mktemp /tmp/$(basename $0).XXXXXX) || exit 1
 
-if [ -n $PREVTAG ]
+if [ -n "$PREVTAG" ]
 then
   commits=$(git log --pretty=format:"- %s" $PREVTAG..HEAD)
 else
@@ -104,8 +105,6 @@ echo "================" >> $TMPFILE
 echo "" >> $TMPFILE
 echo "$commits" >> $TMPFILE
 echo "" >> $TMPFILE
-
-#git tag -a -m"$PROJECT_NAME release $NEWTAG" -s "$NEWTAG"
 
 RELEASE_PATH="/repos$GITHUB_REPO_PATH/releases"
 python github_release.py --release $NEWTAG --release-file $TMPFILE --repo $RELEASE_PATH
